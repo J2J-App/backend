@@ -7,181 +7,111 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model dtu_2022 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
+model User {
+  id         String      @id @default(uuid())
+  email      String      @unique
+  name       String
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+  client     Client?
+  freelancer Freelancer?
+  disputes   Dispute[]
+  refreshToken String?  @unique
+  accessToken  String?  @unique
 }
 
-model dtu_2023 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+model Client {
+  id       String  @id @default(uuid())
+  userId   String  @unique
+  purpose  String?
+  projects Job[]   @relation("ClientJobs")
+  user     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-model dtu_2024 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+model Freelancer {
+  id             String           @id @default(uuid())
+  userId         String           @unique
+  skills         String[]
+  portfolioUrl   String?
+  jobs           Job[]            @relation("FreelancerJobs")
+  user           User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  WorkSubmission WorkSubmission[]
 }
 
-model igdtuw_2022 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+model Job {
+  id           String      @id @default(uuid())
+  title        String
+  description  String
+  clientId     String
+  freelancerId String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  milestones   Milestone[]
+  client       Client      @relation("ClientJobs", fields: [clientId], references: [id])
+  freelancer   Freelancer? @relation("FreelancerJobs", fields: [freelancerId], references: [id])
+  Dispute      Dispute[]
+  completedAt  DateTime?
+  isRejected   Boolean     @default(false)
 }
 
-model igdtuw_2023 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+model Milestone {
+  id              String           @id @default(uuid())
+  title           String
+  dueDate         DateTime
+  jobId           String
+  amount          Float
+  status          MilestoneStatus  @default(PENDING)
+  description     String
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  job             Job              @relation(fields: [jobId], references: [id])
+  workSubmissions WorkSubmission[]
+  Dispute         Dispute[]
 }
 
-model igdtuw_2024 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+enum MilestoneStatus {
+  PENDING
+  IN_REVIEW
+  APPROVED
+  RELEASED
+  DISPUTED
 }
 
-model iiitd_2022 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+model WorkSubmission {
+  id           String           @id @default(uuid())
+  milestoneId  String
+  freelancerId String
+  status       SubmissionStatus @default(PENDING)
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+  files        Json?
+  comments     String?
+  milestone    Milestone        @relation(fields: [milestoneId], references: [id])
+  freelancer   Freelancer       @relation(fields: [freelancerId], references: [id])
 }
 
-model iiitd_2023 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+enum SubmissionStatus {
+  PENDING
+  REJECTED
+  APPROVED
 }
 
-model iiitd_2024 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+model Dispute {
+  id          String        @id @default(uuid())
+  jobId       String
+  milestoneId String?
+  raisedById  String
+  status      DisputeStatus @default(OPEN)
+  messages    Json?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  job         Job           @relation(fields: [jobId], references: [id])
+  milestone   Milestone?    @relation(fields: [milestoneId], references: [id])
+  raisedBy    User          @relation(fields: [raisedById], references: [id])
 }
 
-model nsut_2022 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_2023 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_2024 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_e_2022 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_e_2023 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_e_2024 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_w_2022 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_w_2023 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
-}
-
-model nsut_w_2024 {
-  id       Int     @default(autoincrement()) @id
-  branch   String? @db.VarChar(180)
-  category String? @db.VarChar(10)
-  jee_rank Int?
-  region   String? @db.VarChar(4)
-  round    String? @db.VarChar(4)
-
+enum DisputeStatus {
+  OPEN
+  IN_REVIEW
+  RESOLVED
 }

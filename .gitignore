@@ -1,3 +1,3 @@
 node_modules
 .env
-j2j-backup-1.dump
+package-lock.json
