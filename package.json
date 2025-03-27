@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The backend server for j2j",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
