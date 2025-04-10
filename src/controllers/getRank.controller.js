@@ -6,8 +6,21 @@ import sql from '../db/db03.js';
 const getRank = asyncHandler(async (req, res) => {
     const { percentile, year } = req.body;
 
-    if (!percentile || !year) {
-        throw new ApiError(400, "Percentile and year are required");
+    if (!year || isNaN(year)) {
+        throw new ApiError(400, 'Invalid year. Year must be a number.');
+    }
+
+    if (year < 2022 || year > 2024) {
+        throw new ApiError(400, 'Invalid year. Year must be between 2022 and 2024.');
+    }
+
+    // percentile validation percentile can be 0 to 100 can be float or int
+    if (!percentile || isNaN(percentile)) {
+        throw new ApiError(400, 'Invalid percentile. Percentile must be a number between 0 and 100.');
+    }
+
+    if (percentile < 0 || percentile > 100) {
+        throw new ApiError(400, 'Invalid percentile. Percentile must be between 0 and 100.');
     }
 
     const parsedPercentile = parseFloat(percentile);

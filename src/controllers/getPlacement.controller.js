@@ -7,10 +7,15 @@ const getPlacement = asyncHandler(async (req, res) => {
     try {
         const { year } = req.body;
 
+        // adding year validation year can be 2022 , 2023, 2024
         if (!year || isNaN(year)) {
             throw new ApiError(400, 'Invalid year. Year must be a number.');
         }
 
+        if (year < 2022 || year > 2024) {
+            throw new ApiError(400, 'Invalid year. Year must be between 2022 and 2024.');
+        }
+        
         const query_nsut = `SELECT * FROM nsut_${year}`;
         const query_dtu = `SELECT * FROM dtu_${year}`;
         const query_iiitd = `SELECT * FROM iiitd_${year}`;

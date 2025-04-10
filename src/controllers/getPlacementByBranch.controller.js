@@ -10,12 +10,23 @@ const getPlacementByBranch = asyncHandler(async (req, res) => {
         throw new ApiError(400, 'Invalid year. Year must be a number.');
     }
 
+    if (year < 2022 || year > 2024) {
+        throw new ApiError(400, 'Invalid year. Year must be between 2022 and 2024.');
+    }
+
     if (!branch) {
         throw new ApiError(400, 'Branch is required.');
     }
 
+    // college validation college can be nsut , dtu , iiitd , igdtuw , nsutw , nsute
     if (!college) {
         throw new ApiError(400, 'College is required.');
+    }
+
+    const validColleges = ['nsut', 'dtu', 'iiitd', 'igdtuw', 'nsutw', 'nsute'];
+
+    if (!validColleges.includes(college.toLowerCase())) {
+        throw new ApiError(400, 'Invalid college. College must be one of nsut, dtu, iiitd, igdtuw, nsutw, nsute.');
     }
 
     const branchInUpperCase = branch.toUpperCase();

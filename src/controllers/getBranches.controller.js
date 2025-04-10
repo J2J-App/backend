@@ -22,6 +22,14 @@ const getBranches = asyncHandler(async (req, res) => {
             throw new ApiError(400, 'Rank should be a number');
         }
 
+        if(rank < 0){
+            throw new ApiError(400, 'Rank should be a positive number');
+        }
+
+        if(domicile !== 'Delhi' && domicile !== 'Outside Delhi'){
+            throw new ApiError(400, 'Domicile should be either Delhi or Outside Delhi');
+        }
+
         const domicileInAbreviation = domicile === 'Delhi' ? 'D' : 'OD';
 
         const categoryMap = {
