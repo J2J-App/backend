@@ -43,12 +43,16 @@ const getBranches = asyncHandler(async (req, res) => {
             'SC Defence': 'SC-DEF',
             'ST Defence': 'ST-DEF',
             'EWS Defence': 'EWS-DEF',
+            "General PWD": "GEN-PWD",
+            "OBC PWD": "OBC-PWD",
+            "SC PWD": "SC-PWD",
+            "ST PWD": "ST-PWD",
+            "EWS PWD": "EWS-PWD",
             'General Girl Candidate': 'GEN-SGC',
             'OBC Girl Candidate': 'OBC-SGC',
             'SC Girl Candidate': 'SC-SGC',
             'ST Girl Candidate': 'ST-SGC',
             'EWS Girl Candidate': 'EWS-SGC',
-            'Single Girl Child': 'SGC',
             'Kashmiri Migrant': 'KM'
         };
 
@@ -58,7 +62,6 @@ const getBranches = asyncHandler(async (req, res) => {
         }
 
         const categoryInAbreviation = categoryMap[category];
-        console.log('Category Abbreviation:', categoryInAbreviation);
 
         const query_dtu_2024 = `
             SELECT branch, jee_rank , round
