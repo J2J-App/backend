@@ -3,6 +3,6 @@ import { storeRank } from "../controllers/postRank.controller.js"
 
 const getSeatMatrixRouter = Router();
 
-getSeatMatrixRouter.route('/').get(storeRank);
+getSeatMatrixRouter.route('/').post(storeRank);
 
 export default getSeatMatrixRouter
