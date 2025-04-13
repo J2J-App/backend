@@ -1,8 +1,8 @@
 import {Router} from "express"
 import { storeRank } from "../controllers/postRank.controller.js"
 
-const postRankRouter = Router();
+const getSeatMatrixRouter = Router();
 
-postRankRouter.route('/').post(storeRank);
+getSeatMatrixRouter.route('/').get(storeRank);
 
-export default postRankRouter
+export default getSeatMatrixRouter

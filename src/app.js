@@ -19,6 +19,8 @@ import getPlacementRouter from "./routes/getPlacement.routes.js"
 import getPlacementByBranchRouter from "./routes/getPlacementByBranch.routes.js"
 import getRankRouter from "./routes/getRank.routes.js"
 import postRankRouter from "./routes/postRank.routes.js"
+import getCollegeBranchesRouter from "./routes/getCollegeBranches.routes.js"
+import getSeatMatrixRouter from "./routes/getSeatMatrix.routes.js"
 
 // Routes declaration
 app.use("/api/v1/healthcheck", healthcheckRouter)
@@ -27,5 +29,7 @@ app.use("/api/v1/getPlacement", getPlacementRouter)
 app.use("/api/v1/getPlacementByBranch", getPlacementByBranchRouter)
 app.use("/api/v1/getRank", getRankRouter)
 app.use("/api/v1/postRank", postRankRouter)
+app.use("/api/v1/getCollegeBranches", getCollegeBranchesRouter)
+app.use("/api/v1/getSeatMatrix", getSeatMatrixRouter)
 
 export {app}

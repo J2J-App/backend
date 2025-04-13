@@ -1,0 +1,26 @@
+[
+    {
+        "uni": "NSUT",
+        "branches": ["CSE", "CSDS", "CSAI", "IT", "ITNS", "MAC", "ECE", "EVDT", "EE", "ICE", "ME", "BT"]
+    },
+    {
+        "uni": "DTU",
+        "branches": ["ECE", "CSE", "ME", "EE", "PIE", "CE", "ENE", "CHE", "IT", "BT", "SE", "MAM", "EP", "MCE"]
+    },
+    {
+        "uni": "IIITD",
+        "branches": ["CSE", "CSAI", "ECE", "ECE(VLSI)", "CSAM", "CSD", "EVE", "CSSS", "CSB"]
+    },
+    {
+        "uni": "IGDTUW",
+        "branches": ["CSE", "AI ML", "CSE(AI)", "ECE", "IT", "ECE(AI)", "MAE"]
+    },
+    {
+        "uni": "NSUT EAST",
+        "branches": ["CIOT", "ECAM", "CSDA"]
+    },
+    {
+        "uni": "NSUT WEST",
+        "branches": ["CE", "GI", "MEEV"]
+    }
+]
