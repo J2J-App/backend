@@ -18,19 +18,24 @@
     "NSUT": {
         "CSE": 216,
         "CSAI": 144,
-        "CSDS": 72,
-        "CSDA": 72,
         "IT": 144,
         "ITNS": 72,
         "ECE": 216,
         "EVDT": 72,
-        "ECAM": 144,
         "EE": 180,
         "ICE": 180,
         "ME": 216,
-        "MEEV": 72,
-        "BT": 90,
-        "CE": 72
+        "BT": 90
+    },
+    "NSUT EAST": {
+        "CIOT": 72,
+        "ECAM": 144,
+        "CSDA": 72
+    },
+    "NSUT WEST": {
+        "CE": 72,
+        "GI": 72,
+        "MEEV": 72
     },
     "IGDTUW": {
         "CSE-AI": 227,
