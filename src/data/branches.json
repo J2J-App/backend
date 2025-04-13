@@ -1,26 +1,152 @@
 [
-    {
-        "uni": "NSUT",
-        "branches": ["CSE", "CSDS", "CSAI", "IT", "ITNS", "MAC", "ECE", "EVDT", "EE", "ICE", "ME", "BT"]
-    },
-    {
+  {
+    "year": 2022,
+    "data": [
+      {
         "uni": "DTU",
-        "branches": ["ECE", "CSE", "ME", "EE", "PIE", "CE", "ENE", "CHE", "IT", "BT", "SE", "MAM", "EP", "MCE"]
-    },
-    {
-        "uni": "IIITD",
-        "branches": ["CSE", "CSAI", "ECE", "ECE(VLSI)", "CSAM", "CSD", "EVE", "CSSS", "CSB"]
-    },
-    {
+        "branches": [
+          "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
+        ]
+      },
+      {
         "uni": "IGDTUW",
-        "branches": ["CSE", "AI ML", "CSE(AI)", "ECE", "IT", "ECE(AI)", "MAE"]
-    },
-    {
-        "uni": "NSUT EAST",
-        "branches": ["CIOT", "ECAM", "CSDA"]
-    },
-    {
-        "uni": "NSUT WEST",
-        "branches": ["CE", "GI", "MEEV"]
-    }
+        "branches": [
+          "CSE",
+          "ECE",
+          "IT",
+          "MAE"
+        ]
+      },
+      {
+        "uni": "IIITD",
+        "branches": [
+          "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
+        ]
+      },
+      {
+        "uni": "NSUT",
+        "branches": [
+          "BT",
+          "CSE",
+          "ECE",
+          "ICE",
+          "IT",
+          "ME"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "data": [
+      {
+        "uni": "DTU",
+        "branches": [
+          "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
+        ]
+      },
+      {
+        "uni": "IGDTUW",
+        "branches": [
+          "CSE",
+          "ECE",
+          "IT",
+          "MAE"
+        ]
+      },
+      {
+        "uni": "IIITD",
+        "branches": [
+          "CSAI",
+          "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
+        ]
+      },
+      {
+        "uni": "NSUT",
+        "branches": [
+          "BT",
+          "CSE",
+          "ECE",
+          "ICE",
+          "IT",
+          "ME"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "data": [
+      {
+        "uni": "IGDTUW",
+        "branches": [
+          "CSAI",
+          "CSE",
+          "ECE",
+          "IT",
+          "MAE"
+        ]
+      },
+      {
+        "uni": "IIITD",
+        "branches": [
+          "CSAI",
+          "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
+        ]
+      },
+      {
+        "uni": "NSUT",
+        "branches": [
+          "CSAI",
+          "CSE",
+          "ECE",
+          "EE",
+          "ICE",
+          "IT",
+          "MAC"
+        ]
+      }
+    ]
+  }
 ]
