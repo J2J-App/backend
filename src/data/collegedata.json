@@ -1,5 +1,5 @@
 {
-    "IGDTUW": {
+    "igdtuw": {
         "full_name": "Indira Gandhi Delhi Technical University for Women",
         "mode_of_admission": "JAC Delhi (JEE Main Required)",
         "eligibility": {
@@ -11,7 +11,7 @@
         "fees": 144500,
         "hostel_fees": 146500
     },
-    "NSUT": {
+    "nsut": {
         "full_name": "Netaji Subhas University of Technology, Delhi",
         "mode_of_admission": "JAC Delhi (JEE Main Required)",
         "eligibility": {
@@ -29,7 +29,7 @@
             "mess_advance": 23000
         }
     },
-    "IIITD": {
+    "iiitd": {
         "full_name": "Indraprastha Institute of Information Technology, Delhi",
         "mode_of_admission": "JAC Delhi (JEE Main Required)",
         "eligibility": {
@@ -41,7 +41,7 @@
         "fees": 237000,
         "hostel_fees": 54000
     },
-    "DTU": {
+    "dtu": {
         "full_name": "Delhi Technological University",
         "mode_of_admission": "JAC Delhi (JEE Main Required)",
         "eligibility": {
@@ -59,7 +59,7 @@
             "mess_charges": 34800
         }
     },
-    "NSUT East": {
+    "nsute": {
         "full_name": "Netaji Subhas University of Technology (East Campus)",
         "mode_of_admission": "JAC Delhi (JEE Main Required)",
         "eligibility": {
@@ -71,7 +71,7 @@
         "fees": 240000,
         "hostel_fees": null
     },
-    "NSUT West": {
+    "nsutw": {
         "full_name": "Netaji Subhas University of Technology (West Campus)",
         "mode_of_admission": "JAC Delhi (JEE Main Required)",
         "eligibility": {
