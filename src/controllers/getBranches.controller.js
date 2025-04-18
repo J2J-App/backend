@@ -53,6 +53,11 @@ const getBranches = asyncHandler(async (req, res) => {
             'SC Girl Candidate': 'SC-SGC',
             'ST Girl Candidate': 'ST-SGC',
             'EWS Girl Candidate': 'EWS-SGC',
+            "General SGC": "GEN-SGC",
+            "OBC SGC": "GEN-SGC",
+            "SC SGC": "GEN-SGC",
+            "ST SGC": "GEN-SGC",
+            "EWS SGC": "GEN-SGC",
             'Kashmiri Migrant': 'KM'
         };
 
@@ -452,6 +457,7 @@ const getBranches = asyncHandler(async (req, res) => {
         );
 
     } catch (error) {
+        console.error(error)
         throw new ApiError(500, 'Error fetching branches', error.message);
     }
 });
