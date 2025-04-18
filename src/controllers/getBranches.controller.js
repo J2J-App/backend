@@ -112,7 +112,7 @@ const getBranches = asyncHandler(async (req, res) => {
         `;
 
         const query_iiitd_2024 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank , round , is_bonus
             FROM iiitd_2024
             WHERE jee_rank >= $1
             AND region = $2
@@ -120,7 +120,7 @@ const getBranches = asyncHandler(async (req, res) => {
         `;
 
         const query_iiitd_2023 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank , round , is_bonus
             FROM iiitd_2023
             WHERE jee_rank >= $1
             AND region = $2
@@ -128,7 +128,7 @@ const getBranches = asyncHandler(async (req, res) => {
         `;
 
         const query_iiitd_2022 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank , round , is_bonus
             FROM iiitd_2022
             WHERE jee_rank >= $1
             AND region = $2
