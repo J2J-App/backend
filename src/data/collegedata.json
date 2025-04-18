@@ -1,143 +1,142 @@
 {
-    "DTU": {
-      "full_name": "Delhi Technological University",
-      "mode_of_admission": "JAC Delhi (JEE Main Required)",
-      "eligibility": {
-        "general": "60% in PCM",
-        "obc_ncl": "55% in PCM",
-        "defence": "55% in PCM",
-        "sc_st_pwd": "50% in PCM"
-      },
-      "fees": {
-        "B.Tech": {
-          "1st Year": 236700,
-          "2nd Year": 246700,
-          "3rd Year": 266700,
-          "4th Year": 286700,
-          "Total (4 Years)": 1036800
-        }
-      },
-      "hostel_fees": {
-        "3_seater_non_ac": 52000,
-        "2_seater_non_ac": 56000,
-        "1_seater_non_ac": 60000,
-        "3_seater_ac": 72000,
-        "mess_charges": 34800
+  "dtu": {
+    "Full Name": "Delhi Technological University",
+    "Mode Of Admission": "JAC Delhi (JEE Main Required)",
+    "Eligibility": {
+      "General": "60% in PCM",
+      "OBC NCL": "55% in PCM",
+      "Defence": "55% in PCM",
+      "SC/ST/PwD": "50% in PCM"
+    },
+    "Fees": {
+      "B.Tech": {
+        "1st Year": 236700,
+        "2nd Year": 246700,
+        "3rd Year": 266700,
+        "4th Year": 286700,
+        "Total (4 Years)": 1036800
       }
     },
-    "NSUT": {
-      "full_name": "Netaji Subhas University of Technology, Delhi",
-      "mode_of_admission": "JAC Delhi (JEE Main Required)",
-      "eligibility": {
-        "general": "60% in PCM",
-        "obc_ncl": "55% in PCM",
-        "defence": "55% in PCM",
-        "sc_st_pwd": "50% in PCM"
-      },
-      "fees": {
-        "B.Tech": {
-          "1st Year": 240000,
-          "2nd Year": 250000,
-          "3rd Year": 270000,
-          "4th Year": 290000,
-          "Total (4 Years)": 1050000
-        }
-      },
-      "hostel_fees": {
-        "boys_1_seater_non_ac": 36000,
-        "boys_2_seater_non_ac": 34000,
-        "girls_3_seater_non_ac": 33000,
-        "girls_4_seater_ac": 38000,
-        "mess_advance": 23000
-      }
-    },
-    "IGDTUW": {
-      "full_name": "Indira Gandhi Delhi Technical University for Women",
-      "mode_of_admission": "JAC Delhi (JEE Main Required)",
-      "eligibility": {
-        "general": "60% in PCM",
-        "obc_ncl": "55% in PCM",
-        "defence": "55% in PCM",
-        "sc_st_pwd": "50% in PCM"
-      },
-      "fees": {
-        "B.Tech": {
-          "1st Year": 137500,
-          "2nd Year": 145500,
-          "3rd Year": 155000,
-          "4th Year": 170500,
-          "Total (4 Years)": 608500,
-          "Additional Fees": {
-            "Refundable Security Fee": 5000,
-            "Non-Refundable Alumni Fee": 2000
-          }
-        }
-      },
-      "hostel_fees": 146500
-    },
-    "IIIT-D": {
-      "full_name": "Indraprastha Institute of Information Technology, Delhi",
-      "mode_of_admission": "JAC Delhi (JEE Main Required)",
-      "eligibility": {
-        "general": "70% aggregate, 70% in Mathematics",
-        "obc_ncl": "65% aggregate, 70% in Mathematics",
-        "defence_pwd": "65% aggregate, 70% in Mathematics",
-        "sc_st": "60% aggregate, 70% in Mathematics"
-      },
-      "fees": {
-        "B.Tech": {
-          "1st Year": 450000,
-          "2nd Year": 475000,
-          "3rd Year": 500000,
-          "4th Year": 530000,
-          "Total (4 Years)": 1955000,
-          "Additional Fees (1st Year)": {
-            "Alumni Fee": 2000,
-            "Refundable Security Deposit": 10000
-          }
-        }
-      },
-      "hostel_fees": 54000
-    },
-    "NSUT East Campus": {
-      "full_name": "Netaji Subhas University of Technology (East Campus)",
-      "mode_of_admission": "JAC Delhi (JEE Main Required)",
-      "eligibility": {
-        "general": "60% in PCM",
-        "obc_ncl": "55% in PCM",
-        "defence": "55% in PCM",
-        "sc_st_pwd": "50% in PCM"
-      },
-      "fees": {
-        "B.Tech": {
-          "1st Year": 240000,
-          "2nd Year": 250000,
-          "3rd Year": 270000,
-          "4th Year": 290000,
-          "Total (4 Years)": 1050000
-        }
-      },
-      "hostel_fees": null
-    },
-    "NSUT West Campus": {
-      "full_name": "Netaji Subhas University of Technology (West Campus)",
-      "mode_of_admission": "JAC Delhi (JEE Main Required)",
-      "eligibility": {
-        "general": "60% in PCM",
-        "obc_ncl": "55% in PCM",
-        "defence": "55% in PCM",
-        "sc_st_pwd": "50% in PCM"
-      },
-      "fees": {
-        "B.Tech": {
-          "1st Year": 240000,
-          "2nd Year": 250000,
-          "3rd Year": 270000,
-          "4th Year": 290000,
-          "Total (4 Years)": 1050000
-        }
-      },
-      "hostel_fees": null
+    "Hostel Fees": {
+      "3 Seater (Non AC)": 52000,
+      "2 Seater (Non AC)": 56000,
+      "1 Seater (Non AC)": 60000,
+      "3 Seater (AC)": 72000,
+      "Mess Charges": 34800
     }
+  },
+  "nsut": {
+    "Full Name": "Netaji Subhas University of Technology, Delhi",
+    "Mode Of Admission": "JAC Delhi (JEE Main Required)",
+    "Eligibility": {
+      "General": "60% in PCM",
+      "OBC NCL": "55% in PCM",
+      "Defence": "55% in PCM",
+      "SC/ST/PwD": "50% in PCM"
+    },
+    "Fees": {
+      "B.Tech": {
+        "1st Year": 240000,
+        "2nd Year": 250000,
+        "3rd Year": 270000,
+        "4th Year": 290000,
+        "Total (4 Years)": 1050000
+      }
+    },
+    "Hostel Fees": {
+      "Boys 1 Seater (Non AC)": 36000,
+      "Boys 2 Seater (Non AC)": 34000,
+      "Girls 3 Seater (Non AC)": 33000,
+      "Girls 4 Seater (AC)": 38000,
+      "Mess Advance": 23000
+    }
+  },
+  "igdtuw": {
+    "Full Name": "Indira Gandhi Delhi Technical University for Women",
+    "Mode Of Admission": "JAC Delhi (JEE Main Required)",
+    "Eligibility": {
+      "General": "60% in PCM",
+      "OBC NCL": "55% in PCM",
+      "Defence": "55% in PCM",
+      "SC/ST/PwD": "50% in PCM"
+    },
+    "Fees": {
+      "B.Tech": {
+        "1st Year": 137500,
+        "2nd Year": 145500,
+        "3rd Year": 155000,
+        "4th Year": 170500,
+        "Total (4 Years)": 608500,
+        "Additional Fees": {
+          "Refundable Security Fee": 5000,
+          "Non-Refundable Alumni Fee": 2000
+        }
+      }
+    },
+    "Hostel Fees": 146500
+  },
+  "iiit-d": {
+    "Full Name": "Indraprastha Institute of Information Technology, Delhi",
+    "Mode Of Admission": "JAC Delhi (JEE Main Required)",
+    "Eligibility": {
+      "General": "70% Aggregate, 70% in Mathematics",
+      "OBC NCL": "65% Aggregate, 70% in Mathematics",
+      "Defence PwD": "65% Aggregate, 70% in Mathematics",
+      "SC/ST": "60% Aggregate, 70% in Mathematics"
+    },
+    "Fees": {
+      "B.Tech": {
+        "1st Year": 450000,
+        "2nd Year": 475000,
+        "3rd Year": 500000,
+        "4th Year": 530000,
+        "Total (4 Years)": 1955000,
+        "Additional Fees (1st Year)": {
+          "Alumni Fee": 2000,
+          "Refundable Security Deposit": 10000
+        }
+      }
+    },
+    "Hostel Fees": 54000
+  },
+  "nsute": {
+    "Full Name": "Netaji Subhas University of Technology (East Campus)",
+    "Mode Of Admission": "JAC Delhi (JEE Main Required)",
+    "Eligibility": {
+      "General": "60% in PCM",
+      "OBC NCL": "55% in PCM",
+      "Defence": "55% in PCM",
+      "SC/ST/PwD": "50% in PCM"
+    },
+    "Fees": {
+      "B.Tech": {
+        "1st Year": 240000,
+        "2nd Year": 250000,
+        "3rd Year": 270000,
+        "4th Year": 290000,
+        "Total (4 Years)": 1050000
+      }
+    },
+    "Hostel Fees": null
+  },
+  "nsutw": {
+    "Full Name": "Netaji Subhas University of Technology (West Campus)",
+    "Mode Of Admission": "JAC Delhi (JEE Main Required)",
+    "Eligibility": {
+      "General": "60% in PCM",
+      "OBC NCL": "55% in PCM",
+      "Defence": "55% in PCM",
+      "SC/ST/PwD": "50% in PCM"
+    },
+    "Fees": {
+      "B.Tech": {
+        "1st Year": 240000,
+        "2nd Year": 250000,
+        "3rd Year": 270000,
+        "4th Year": 290000,
+        "Total (4 Years)": 1050000
+      }
+    },
+    "Hostel Fees": null
   }
-  
+}
