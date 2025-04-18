@@ -25,30 +25,31 @@
         "EE": 180,
         "ICE": 180,
         "ME": 216,
-        "BT": 90
+        "BT": 90,
+        "CSDS": 72,
+        "MAC" : 90
     },
-    "NSUT EAST": {
+    "NSUTE": {
         "CIOT": 72,
         "ECAM": 144,
         "CSDA": 72
     },
-    "NSUT WEST": {
+    "NSUTW": {
         "CE": 72,
         "GI": 72,
         "MEEV": 72
     },
     "IGDTUW": {
-        "CSE-AI": 227,
+        "CSAI": 227,
         "CSE": 227,
         "ECE-AI": 152,
         "ECE": 152,
         "IT": 152,
         "AI & ML": 77,
         "MAE": 97,
-        "DMAM": 32,
-        "BArch": 50
+        "DMAM": 32
     },
-    "IIIT-Delhi": {
+    "IIITD": {
         "CSAM": 64,
         "CSAI": 64,
         "CSB": 64,
