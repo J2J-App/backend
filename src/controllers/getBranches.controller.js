@@ -445,8 +445,10 @@ const getBranches = asyncHandler(async (req, res) => {
             ...result_nsut_w_2022
         ];
 
+        const sortedResults = results.sort((a, b) => a.jee_rank - b.jee_rank);
+
         return res.status(200).json(
-            new ApiResponse(200, results, 'Branches fetched successfully')
+            new ApiResponse(200, sortedResults, 'Branches fetched successfully')
         );
 
     } catch (error) {
@@ -454,4 +456,4 @@ const getBranches = asyncHandler(async (req, res) => {
     }
 });
 
-export { getBranches };
+export { getBranches }
