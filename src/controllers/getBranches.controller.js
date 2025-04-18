@@ -53,11 +53,11 @@ const getBranches = asyncHandler(async (req, res) => {
             'SC Girl Candidate': 'SC-SGC',
             'ST Girl Candidate': 'ST-SGC',
             'EWS Girl Candidate': 'EWS-SGC',
-            "General SGC": "GEN-SGC",
-            "OBC SGC": "GEN-SGC",
-            "SC SGC": "GEN-SGC",
-            "ST SGC": "GEN-SGC",
-            "EWS SGC": "GEN-SGC",
+            "General SGC": "SGC",
+            "OBC SGC": "SGC",
+            "SC SGC": "SGC",
+            "ST SGC": "SGC",
+            "EWS SGC": "SGC",
             'Kashmiri Migrant': 'KM'
         };
 
