@@ -1,5 +1,5 @@
 {
-    "DTU": {
+    "dtu": {
         "ECE": {
             "EWGND": 18,
             "EWCWD": 1,
@@ -463,7 +463,7 @@
             "GNSGD": 1
         }
     },
-    "NSUT": {
+    "nsut": {
         "CSE": {
             "GNGND": 56,
             "GNPDD": 3,
@@ -969,7 +969,7 @@
             "OBGLO": 0
         }
     },
-    "IGDTUW": {
+    "igdtuw": {
         "CSE": {
             "GNGND": 70,
             "GNCWD": 4,
@@ -1235,7 +1235,7 @@
             "EWPDO": 0
         }
     },
-    "IIIT-Delhi": {
+    "iiitd": {
         "CSE": {
             "GNGND": 38,
             "GNCWD": 2,
@@ -1493,7 +1493,7 @@
             "EWPDO": 0
         }
     },
-    "NSUT-EAST": {
+    "nsute": {
         "CIOT": {
             "GNGND": 19,
             "GNPDD": 1,
@@ -1621,7 +1621,7 @@
             "OBGLO": 1
         }
     },
-    "NSUT-WEST": {
+    "nsutw": {
         "CE": {
             "GNGND": 19,
             "GNPDD": 1,
