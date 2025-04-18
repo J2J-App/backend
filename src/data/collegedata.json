@@ -18,10 +18,10 @@
       }
     },
     "hostel_fees": {
-      "3_seater_non_ac": 52000,
-      "2_seater_non_ac": 56000,
-      "1_seater_non_ac": 60000,
-      "3_seater_ac": 72000,
+      "3 Seater (Non AC)": 52000,
+      "2 Seater (Non AC)": 56000,
+      "1 Seater (Non AC)": 60000,
+      "3 Seater (AC)": 72000,
       "mess_charges": 34800
     }
   },
@@ -44,11 +44,11 @@
       }
     },
     "hostel_fees": {
-      "boys_1_seater_non_ac": 36000,
-      "boys_2_seater_non_ac": 34000,
-      "girls_3_seater_non_ac": 33000,
-      "girls_4_seater_ac": 38000,
-      "mess_advance": 23000
+      "3 Seater (Non AC)": 33000,
+      "2 Seater (Non AC)": 34000,
+      "1 Seater (Non AC)": 36000,
+      "3 Seater (AC)": 38000,
+      "mess_charges": 23000
     }
   },
   "igdtuw": {
@@ -73,7 +73,13 @@
         }
       }
     },
-    "hostel_fees": 146500
+    "hostel_fees": {
+      "3 Seater (Non AC)": 48000,
+      "2 Seater (Non AC)": 52000,
+      "1 Seater (Non AC)": 56000,
+      "3 Seater (AC)": 62000,
+      "mess_charges": 34600
+    }
   },
   "iiitd": {
     "full_name": "Indraprastha Institute of Information Technology, Delhi",
@@ -97,7 +103,13 @@
         }
       }
     },
-    "hostel_fees": 54000
+    "hostel_fees": {
+      "3 Seater (Non AC)": 52000,
+      "2 Seater (Non AC)": 54000,
+      "1 Seater (Non AC)": 58000,
+      "3 Seater (AC)": 62000,
+      "mess_charges": 32000
+    }
   },
   "nsute": {
     "full_name": "Netaji Subhas University of Technology (East Campus)",
@@ -117,7 +129,13 @@
         "Total (4 Years)": 1050000
       }
     },
-    "hostel_fees": null
+    "hostel_fees": {
+      "3 Seater (Non AC)": 33000,
+      "2 Seater (Non AC)": 34000,
+      "1 Seater (Non AC)": 36000,
+      "3 Seater (AC)": 38000,
+      "mess_charges": 23000
+    }
   },
   "nsutw": {
     "full_name": "Netaji Subhas University of Technology (West Campus)",
@@ -137,6 +155,12 @@
         "Total (4 Years)": 1050000
       }
     },
-    "hostel_fees": null
+    "hostel_fees": {
+      "3 Seater (Non AC)": 33000,
+      "2 Seater (Non AC)": 34000,
+      "1 Seater (Non AC)": 36000,
+      "3 Seater (AC)": 38000,
+      "mess_charges": 23000
+    }
   }
 }
