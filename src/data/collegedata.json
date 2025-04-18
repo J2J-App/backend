@@ -22,7 +22,7 @@
       "2 Seater (Non AC)": 56000,
       "1 Seater (Non AC)": 60000,
       "3 Seater (AC)": 72000,
-      "mess_charges": 34800
+      "Mess Charges": 34800
     }
   },
   "nsut": {
@@ -48,7 +48,7 @@
       "2 Seater (Non AC)": 34000,
       "1 Seater (Non AC)": 36000,
       "3 Seater (AC)": 38000,
-      "mess_charges": 23000
+      "Mess Charges": 23000
     }
   },
   "igdtuw": {
@@ -78,7 +78,7 @@
       "2 Seater (Non AC)": 52000,
       "1 Seater (Non AC)": 56000,
       "3 Seater (AC)": 62000,
-      "mess_charges": 34600
+      "Mess Charges": 34600
     }
   },
   "iiitd": {
@@ -108,7 +108,7 @@
       "2 Seater (Non AC)": 54000,
       "1 Seater (Non AC)": 58000,
       "3 Seater (AC)": 62000,
-      "mess_charges": 32000
+      "Mess Charges": 32000
     }
   },
   "nsute": {
@@ -134,7 +134,7 @@
       "2 Seater (Non AC)": 34000,
       "1 Seater (Non AC)": 36000,
       "3 Seater (AC)": 38000,
-      "mess_charges": 23000
+      "Mess Charges": 23000
     }
   },
   "nsutw": {
