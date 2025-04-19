@@ -129,13 +129,7 @@
         "Total (4 Years)": 1050000
       }
     },
-    "hostel_fees": {
-      "3 Seater (Non AC)": 33000,
-      "2 Seater (Non AC)": 34000,
-      "1 Seater (Non AC)": 36000,
-      "3 Seater (AC)": 38000,
-      "Mess Charges": 23000
-    }
+    "hostel_fees": null
   },
   "nsutw": {
     "full_name": "Netaji Subhas University of Technology (West Campus)",
@@ -155,12 +149,6 @@
         "Total (4 Years)": 1050000
       }
     },
-    "hostel_fees": {
-      "3 Seater (Non AC)": 33000,
-      "2 Seater (Non AC)": 34000,
-      "1 Seater (Non AC)": 36000,
-      "3 Seater (AC)": 38000,
-      "Mess Charges": 23000
-    }
+    "hostel_fees": null
   }
 }
