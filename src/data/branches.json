@@ -146,6 +146,25 @@
           "IT",
           "MAC"
         ]
+      },
+      {
+        "uni": "DTU",
+        "branches": [
+          "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
+        ]
       }
     ]
   }
