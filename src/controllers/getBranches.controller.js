@@ -67,20 +67,33 @@ const getBranches = asyncHandler(async (req, res) => {
         }
 
         const categoryInAbreviation = categoryMap[category];
-
-        // build list of categories to include
         const girlCandidateCodes = ['GEN-SGC','OBC-SGC','SC-SGC','ST-SGC','EWS-SGC','SGC'];
-        const singleGirlCodes     = ['GEN-SG','OBC-SG','SC-SG','ST-SG','EWS-SG','SG'];
-        let categoriesToQuery     = [categoryInAbreviation];
-
+        const singleGirlCodes = ['GEN-SG','OBC-SG','SC-SG','ST-SG','EWS-SG','SG'];
+        
+        let baseCategoriesToQuery = [categoryInAbreviation];
+        
+        let dtuIgdtuwCategories = [...baseCategoriesToQuery];
         if (girlCandidateCodes.includes(categoryInAbreviation) && categoryInAbreviation.endsWith('-SGC')) {
-            // include base category alongside girl‑candidate
-            categoriesToQuery.push(categoryInAbreviation.replace('-SGC',''));
+            dtuIgdtuwCategories.push(categoryInAbreviation.replace('-SGC',''));
         }
         if (singleGirlCodes.includes(categoryInAbreviation)) {
-            categoriesToQuery.pop();
-            categoriesToQuery.push(categoryInAbreviation.replace('-SG',''));
-            categoriesToQuery.push("SGC");
+            dtuIgdtuwCategories = [
+                categoryInAbreviation.replace('-SG',''),
+                categoryInAbreviation.replace('-SG','-SGC')
+            ];
+        }
+        
+        let nsutCategories = [...baseCategoriesToQuery];
+        if (girlCandidateCodes.includes(categoryInAbreviation) && categoryInAbreviation.endsWith('-SGC')) {
+            nsutCategories = [categoryInAbreviation];
+        }
+        if (singleGirlCodes.includes(categoryInAbreviation)) {
+            nsutCategories = [categoryInAbreviation.replace('-SG','')];
+        }
+        
+        let iiitdCategories = [categoryInAbreviation];
+        if (girlCandidateCodes.includes(categoryInAbreviation) || singleGirlCodes.includes(categoryInAbreviation)) {
+            iiitdCategories = [categoryInAbreviation.replace('-SGC','').replace('-SG','')];
         }
 
         const query_dtu_2024 = `
@@ -231,109 +244,109 @@ const getBranches = asyncHandler(async (req, res) => {
         let result_dtu_2024 = await sql.query(query_dtu_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            dtuIgdtuwCategories
         ]);
 
         let result_dtu_2023 = await sql.query(query_dtu_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            dtuIgdtuwCategories
         ]);
 
         let result_dtu_2022 = await sql.query(query_dtu_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            dtuIgdtuwCategories
         ]);
 
         let result_nsut_2024 = await sql.query(query_nsut_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_nsut_2023 = await sql.query(query_nsut_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_nsut_2022 = await sql.query(query_nsut_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_iiitd_2024 = await sql.query(query_iiitd_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            iiitdCategories
         ]);
 
         let result_iiitd_2023 = await sql.query(query_iiitd_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            iiitdCategories
         ]);
 
         let result_iiitd_2022 = await sql.query(query_iiitd_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            iiitdCategories
         ]);
 
         let result_igdtuw_2024 = await sql.query(query_igdtuw_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            dtuIgdtuwCategories
         ]);
 
         let result_igdtuw_2023 = await sql.query(query_igdtuw_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            dtuIgdtuwCategories
         ]);
 
         let result_igdtuw_2022 = await sql.query(query_igdtuw_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            dtuIgdtuwCategories
         ]);
 
         let result_nsut_e_2024 = await sql.query(query_nsut_e_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_nsut_e_2023 = await sql.query(query_nsut_e_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_nsut_e_2022 = await sql.query(query_nsut_e_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_nsut_w_2024 = await sql.query(query_nsut_w_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_nsut_w_2023 = await sql.query(query_nsut_w_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         let result_nsut_w_2022 = await sql.query(query_nsut_w_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoriesToQuery
+            nsutCategories
         ]);
 
         result_dtu_2024 = result_dtu_2024.map((row) => ({
