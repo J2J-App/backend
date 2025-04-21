@@ -53,11 +53,11 @@ const getBranches = asyncHandler(async (req, res) => {
             'SC Girl Candidate': 'SC-SGC',
             'ST Girl Candidate': 'ST-SGC',
             'EWS Girl Candidate': 'EWS-SGC',
-            "General SGC": "SGC",
-            "OBC SGC": "SGC",
-            "SC SGC": "SGC",
-            "ST SGC": "SGC",
-            "EWS SGC": "SGC",
+            "General SGC": "GEN-SG",
+            "OBC SGC": "OBC-SG",
+            "SC SGC": "SC-SG",
+            "ST SGC": "ST-SG",
+            "EWS SGC": "EWS-SG",
             'Kashmiri Migrant': 'KM'
         };
 
@@ -68,257 +68,272 @@ const getBranches = asyncHandler(async (req, res) => {
 
         const categoryInAbreviation = categoryMap[category];
 
+        // build list of categories to include
+        const girlCandidateCodes = ['GEN-SGC','OBC-SGC','SC-SGC','ST-SGC','EWS-SGC','SGC'];
+        const singleGirlCodes     = ['GEN-SG','OBC-SG','SC-SG','ST-SG','EWS-SG','SG'];
+        let categoriesToQuery     = [categoryInAbreviation];
+
+        if (girlCandidateCodes.includes(categoryInAbreviation) && categoryInAbreviation.endsWith('-SGC')) {
+            // include base category alongside girl‑candidate
+            categoriesToQuery.push(categoryInAbreviation.replace('-SGC',''));
+        }
+        if (singleGirlCodes.includes(categoryInAbreviation)) {
+            categoriesToQuery.pop();
+            categoriesToQuery.push(categoryInAbreviation.replace('-SG',''));
+            categoriesToQuery.push("SGC");
+        }
+
         const query_dtu_2024 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM dtu_2024
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_dtu_2023 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM dtu_2023
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_dtu_2022 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM dtu_2022
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_2024 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_2024
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_2023 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_2023
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_2022 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_2022
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_iiitd_2024 = `
-            SELECT branch, jee_rank , round , is_bonus
+            SELECT branch, jee_rank, round, is_bonus
             FROM iiitd_2024
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_iiitd_2023 = `
-            SELECT branch, jee_rank , round , is_bonus
+            SELECT branch, jee_rank, round, is_bonus
             FROM iiitd_2023
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_iiitd_2022 = `
-            SELECT branch, jee_rank , round , is_bonus
+            SELECT branch, jee_rank, round, is_bonus
             FROM iiitd_2022
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_igdtuw_2024 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM igdtuw_2024
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_igdtuw_2023 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM igdtuw_2023
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_igdtuw_2022 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM igdtuw_2022
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_e_2024 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_e_2022
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_e_2023 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_e_2023
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_e_2022 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_e_2022
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_w_2024 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_w_2024
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_w_2023 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_w_2023
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3
+              AND region = $2
+              AND category = ANY($3)
         `;
 
         const query_nsut_w_2022 = `
-            SELECT branch, jee_rank , round
+            SELECT branch, jee_rank, round
             FROM nsut_w_2022
             WHERE jee_rank >= $1
-            AND region = $2
-            AND category = $3   
+              AND region = $2
+              AND category = ANY($3)   
         `;
       
 
         let result_dtu_2024 = await sql.query(query_dtu_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_dtu_2023 = await sql.query(query_dtu_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_dtu_2022 = await sql.query(query_dtu_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_2024 = await sql.query(query_nsut_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_2023 = await sql.query(query_nsut_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_2022 = await sql.query(query_nsut_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_iiitd_2024 = await sql.query(query_iiitd_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_iiitd_2023 = await sql.query(query_iiitd_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_iiitd_2022 = await sql.query(query_iiitd_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_igdtuw_2024 = await sql.query(query_igdtuw_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_igdtuw_2023 = await sql.query(query_igdtuw_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_igdtuw_2022 = await sql.query(query_igdtuw_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_e_2024 = await sql.query(query_nsut_e_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_e_2023 = await sql.query(query_nsut_e_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_e_2022 = await sql.query(query_nsut_e_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_w_2024 = await sql.query(query_nsut_w_2024, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_w_2023 = await sql.query(query_nsut_w_2023, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         let result_nsut_w_2022 = await sql.query(query_nsut_w_2022, [
             Number(rank), 
             domicileInAbreviation, 
-            categoryInAbreviation
+            categoriesToQuery
         ]);
 
         result_dtu_2024 = result_dtu_2024.map((row) => ({
