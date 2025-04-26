@@ -48,53 +48,80 @@ const getBranches = asyncHandler(async (req, res) => {
             "SC PWD": "SC-PWD",
             "ST PWD": "ST-PWD",
             "EWS PWD": "EWS-PWD",
-            'General Girl Candidate': 'GEN-SGC',
-            'OBC Girl Candidate': 'OBC-SGC',
-            'SC Girl Candidate': 'SC-SGC',
-            'ST Girl Candidate': 'ST-SGC',
-            'EWS Girl Candidate': 'EWS-SGC',
-            "General SGC": "GEN-SG",
-            "OBC SGC": "OBC-SG",
-            "SC SGC": "SC-SG",
-            "ST SGC": "ST-SG",
-            "EWS SGC": "EWS-SG",
-            'Kashmiri Migrant': 'KM'
+            'General Girl Candidate': 'GEN-GC',
+            'OBC Girl Candidate': 'OBC-GC',
+            'SC Girl Candidate': 'SC-GC',
+            'ST Girl Candidate': 'ST-GC',
+            'EWS Girl Candidate': 'EWS-GC',
+            "General SGC": "GEN-SGC",
+            "OBC SGC": "OBC-SGC",
+            "SC SGC": "SC-SGC",
+            "ST SGC": "ST-SGC",
+            "EWS SGC": "EWS-SGC",
         };
-
+        
         if (!(category in categoryMap)) {
             console.error('Validation Error: Invalid category');
             throw new ApiError(400, 'Invalid category');
         }
+        
+        const categoryInAbbreviation = categoryMap[category]; // user chosen category in abbreviation
+        
+        // Check if the category is an SGC category
+        const isSGC = categoryInAbbreviation.endsWith('-SGC');
+        // Check if the category is an SG category
+        const isGC = categoryInAbbreviation.endsWith('-GC');
+        
+        // Get the base category (without -SGC or -SG suffix)
+        const baseCategory = isSGC ? categoryInAbbreviation.replace('-SGC', '') : 
+                            isGC ? categoryInAbbreviation.replace('-GC', '') : 
+                            categoryInAbbreviation;
 
-        const categoryInAbreviation = categoryMap[category];
-        const girlCandidateCodes = ['GEN-SGC','OBC-SGC','SC-SGC','ST-SGC','EWS-SGC','SGC'];
-        const singleGirlCodes = ['GEN-SG','OBC-SG','SC-SG','ST-SG','EWS-SG','SG'];
+        const psydoCategory = isGC ? categoryInAbbreviation.replace('-GC', '-SGC') : 
+        categoryInAbbreviation
         
-        let baseCategoriesToQuery = [categoryInAbreviation];
-        
-        let dtuIgdtuwCategories = [...baseCategoriesToQuery];
-        if (girlCandidateCodes.includes(categoryInAbreviation) && categoryInAbreviation.endsWith('-SGC')) {
-            dtuIgdtuwCategories.push(categoryInAbreviation.replace('-SGC',''));
-        }
-        if (singleGirlCodes.includes(categoryInAbreviation)) {
-            dtuIgdtuwCategories = [
-                categoryInAbreviation.replace('-SG',''),
-                categoryInAbreviation.replace('-SG','-SGC')
-            ];
-        }
-        
-        let nsutCategories = [...baseCategoriesToQuery];
-        if (girlCandidateCodes.includes(categoryInAbreviation) && categoryInAbreviation.endsWith('-SGC')) {
-            nsutCategories = [categoryInAbreviation];
-        }
-        if (singleGirlCodes.includes(categoryInAbreviation)) {
-            nsutCategories = [categoryInAbreviation.replace('-SG','')];
+        // Set categories for DTU/IGDTUW
+        let dtuIgdtuwCategories = [];
+        if (isSGC) {
+            // If SGC category: add both SGC and base category
+            dtuIgdtuwCategories = ['SGC', baseCategory];
+        } else if (isGC) {
+            // If SG category: use just the base category
+            dtuIgdtuwCategories = [baseCategory];
+        } else {
+            // For all other categories, use as is
+            dtuIgdtuwCategories = [categoryInAbbreviation];
         }
         
-        let iiitdCategories = [categoryInAbreviation];
-        if (girlCandidateCodes.includes(categoryInAbreviation) || singleGirlCodes.includes(categoryInAbreviation)) {
-            iiitdCategories = [categoryInAbreviation.replace('-SGC','').replace('-SG','')];
+        // Set categories for NSUT
+        let nsutCategories = [];
+        if (isSGC) {
+            // If SGC category: use just SGC
+            nsutCategories = [psydoCategory,baseCategory];
+        } else if (isGC) {
+            // If SG category: use base category + SGC
+            nsutCategories = [baseCategory,psydoCategory];
+        } else {
+            // For all other categories, use as is
+            nsutCategories = [categoryInAbbreviation];
         }
+        
+        // Set categories for IIITD
+        let iiitdCategories = [];
+        if (isSGC || isGC) {
+            // For both SGC and SG categories: use just the base category
+            iiitdCategories = [baseCategory];
+        } else {
+            // For all other categories, use as is
+            iiitdCategories = [categoryInAbbreviation];
+        }
+        
+        console.log({
+            categoryInAbbreviation,
+            dtuIgdtuwCategories,
+            nsutCategories,
+            iiitdCategories
+        });
 
         const query_dtu_2024 = `
             SELECT branch, jee_rank, round
