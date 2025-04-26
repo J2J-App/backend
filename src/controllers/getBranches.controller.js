@@ -520,7 +520,7 @@ results.forEach(item => {
 const uniqueResults = Object.values(branchMap);
 
 // Sort by rank for the final output (lowest numerical rank first)
-const sortedResults = uniqueResults.sort((a, b) => a.jee_rank - b.jee_rank);
+const sortedResults = results.sort((a, b) => a.jee_rank - b.jee_rank);
 
 return res.status(200).json(
     new ApiResponse(200, sortedResults, 'Branches fetched successfully')
