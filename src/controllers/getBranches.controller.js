@@ -222,7 +222,7 @@ const getBranches = asyncHandler(async (req, res) => {
 
         const query_nsut_e_2024 = `
             SELECT branch, jee_rank, round
-            FROM nsut_e_2022
+            FROM nsut_e_2024
             WHERE jee_rank >= $1
               AND region = $2
               AND category = ANY($3)
