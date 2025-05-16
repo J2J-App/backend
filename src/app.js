@@ -23,6 +23,7 @@ import getCollegeBranchesRouter from "./routes/getCollegeBranches.routes.js"
 import getSeatMatrixRouter from "./routes/getSeatMatrix.routes.js"
 import getCollegeDataRouter from "./routes/getCollegeData.routes.js"
 import cutoffRouter from "./routes/cutoff.routes.js"
+import aboutRouter from "./routes/about.routes.js"
 
 // Routes declaration
 app.use("/api/v1/healthcheck", healthcheckRouter)
@@ -35,5 +36,6 @@ app.use("/api/v1/getCollegeBranches", getCollegeBranchesRouter)
 app.use("/api/v1/getSeatMatrix", getSeatMatrixRouter)
 app.use("/api/v1/getCollegeData", getCollegeDataRouter)
 app.use("/api/v2/cutoff", cutoffRouter)
+app.use("/api/v2/about", aboutRouter)
 
 export {app}
