@@ -1,0 +1,34 @@
+{
+    "iiitdm-kancheepuram": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology Design & Manufacturing, Kancheepuram",
+            "Also Known As": "IIITDM Chennai",
+            "Institute Type": "Government",
+            "Established": "2007",
+            "Location": "Chennai, Tamil Nadu",
+            "address": "Indian Institute of Information Technology Design & Manufacturing, Melakottaiyur Village, Off Vandalur-Kelambakkam Road, Nellikuppam Road, Chennai, Tamil Nadu - 600127"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "One-Time Fees": "₹5,000",
+                "Tuition Fee (per Semester)": "₹81,000",
+                "Other Fees (per Semester)": "₹4,800",
+                "Annual Fees": "₹600",
+                "Total": "₹91,400"
+            },
+            "hostel_fee": {
+                "One-Time Fees": "₹700",
+                "Hostel Seat Rent (per Semester)": "₹3,500",
+                "Other Fees (per Semester)": "₹17,000",
+                "Mess Advance (per Semester)": "₹17,000",
+                "Total": "₹38,200"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students."
+        }
+    }
+}

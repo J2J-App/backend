@@ -1,0 +1,38 @@
+{
+    "nit-jaipur": {
+        "overview": {
+            "Institute Name": "Malaviya National Institute of Technology, Jaipur",
+            "Also Known As": "MNIT",
+            "Institute Type": "Government",
+            "Established": "1963",
+            "Location": "Jaipur, Rajasthan",
+            "address": "Malaviya National Institute of Technology, Jawaharlal Nehru Marg, Malviya Nagar, Jaipur, Rajasthan – 302017"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹15,000",
+                "One-Time Fees": "₹1,600",
+                "Tuition Fee (per Semester)": "₹62,500",
+                "Other Fees (per Semester)": "₹22,450",
+                "Annual Fees": "₹765",
+                "Total": "₹1,02,315"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹12,000",
+                "One-Time Fees": "₹3,000",
+                "Hostel Seat Rent (per Semester)": "₹6,000",
+                "Electricity & Water Charges (per Semester)": "₹6,000",
+                "Mess Advance (per Semester)": "₹20,000",
+                "Total": "₹47,000"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "soe-tezpur": {
+        "overview": {
+            "Institute Name": "School of Engineering, Tezpur University",
+            "Also Known As": "SOE Tezu",
+            "Institute Type": "Government",
+            "Established": "2006",
+            "Location": "Tezpur, Assam",
+            "address": "School of Engineering, Tezpur University, Napaam, Tezpur, Assam - 784028"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹2,000",
+                "One-Time Fees": "₹2,300",
+                "Tuition Fee (per Semester)": "₹15,000",
+                "Other Fees (per Semester)": "₹9,743",
+                "Total": "₹29,043"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹3,000",
+                "Hostel Charges (per Semester)": "₹2,400",
+                "Mess Advance (per Month)": "₹1,500"
+            }
+        },
+        "fee_waiver": {}
+    }
+}

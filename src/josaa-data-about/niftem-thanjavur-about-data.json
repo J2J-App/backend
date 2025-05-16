@@ -1,0 +1,34 @@
+{
+    "niftem-thanjavur": {
+        "overview": {
+            "Institute Name": "National Institute of Food Technology, Entrepreneurship and Management, Thanjavur",
+            "Also Known As": "IIFPT Thanjavur",
+            "Institute Type": "Government",
+            "Established": "1967",
+            "Location": "Thanjavur, Tamil Nadu",
+            "address": "National Institute of Food Technology, Entrepreneurship and Management - Thanjavur, Pudukkottai Road, Thanjavur, Tamil Nadu - 613005"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹19,500",
+                "Tuition Fee (per Semester)": "₹46,170",
+                "Other Fees (per Semester)": "₹28,830",
+                "Total": "₹99,500"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹3,500",
+                "One-Time Fees": "₹1,500",
+                "Hostel Charges (per Semester)": "₹15,000",
+                "Mess Advance (per Semester)": "₹25,000",
+                "Total": "₹45,000"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST students."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "iiit-kota": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Kota",
+            "Also Known As": "IIITK",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2013",
+            "Location": "Kota, Rajasthan",
+            "address": "Indian Institute of Information Technology, SPL-269, RIICO Industrial Area, Kuber Extension, Ranpur, Kota, Rajasthan – 325003"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹13,625",
+                "Tuition Fee (per Semester)": "₹90,000",
+                "Other Fees (per Semester)": "₹21,000",
+                "Annual Fees": "₹800",
+                "Total": "₹1,35,425"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹7,500",
+                "One-Time Fees": "₹7,500",
+                "Hostel Seat Rent (per Semester)": "₹12,000",
+                "Electricity & Water charges (per Semester)": "₹6,000",
+                "Mess Advance (per Semester)": "₹20,000",
+                "Total": "₹53,000"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "20% Tuition Fee waiver for SC/ST/PwD students."
+        }
+    }
+}

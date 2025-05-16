@@ -1,0 +1,39 @@
+{
+    "nit-uttarakhand": {
+        "overview": {
+            "Institute Name": "National Institute of Technology, Uttarakhand",
+            "Also Known As": "NITUK",
+            "Institute Type": "Government",
+            "Established": "2010",
+            "Location": "Garhwal, Uttarakhand",
+            "address": "National Institute of Technology, Government Polytechnic, Srinagar (Garhwal), Uttarakhand - 246174"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹8,500",
+                "One-Time Fees": "₹11,730",
+                "Tuition Fee (per Semester)": "₹62,500",
+                "Other Fees (per Semester)": "₹7,800",
+                "Annual Fees": "₹1,150",
+                "Total": "₹91,680"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹3,400",
+                "Hostel Seat Rent (per Semester)": "₹5,669",
+                "Electricity & Water Charges (per Semester)": "₹3,543",
+                "Other Fees (per Semester)": "₹1,000",
+                "Mess Advance (per Semester)": "₹22,000",
+                "Total": "₹40,612"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

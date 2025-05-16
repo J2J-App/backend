@@ -1,0 +1,38 @@
+{
+    "nit-manipur": {
+        "overview": {
+            "Institute Name": "National Institute of Technology, Manipur",
+            "Also Known As": "NITMN",
+            "Institute Type": "Government",
+            "Established": "2010",
+            "Location": "Imphal, Manipur",
+            "address": "National Institute of Technology, Langol, Imphal, Manipur - 795004"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹1,300",
+                "Tuition Fee (per Semester)": "₹62,500",
+                "Other Fees (per Semester)": "₹7,500",
+                "Annual Fees": "₹1,400",
+                "Total": "₹77,700"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹500",
+                "Hostel Seat Rent (per Semester)": "₹2,500",
+                "Hostel Electricity & Water Charges (per Semester)": "₹1,000",
+                "Mess Advance (per Semester)": "₹23,400",
+                "Total": "₹32,400"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "iiit-sonepat": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Sonepat",
+            "Also Known As": "IIIT Sonepat",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2014",
+            "Location": "Sonepat, Haryana",
+            "address": "Indian Institute of Information Technology Sonepat, SBIT Campus, Meerut Road, Pallri, Sonipat, Haryana - 131001"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹9,225",
+                "One-Time Fees": "₹9,380",
+                "Tuition Fee (per Semester)": "₹90,000",
+                "Other Fees (per Semester)": "₹9,998",
+                "Annual Fees": "₹770",
+                "Total": "₹1,19,373"
+            },
+            "hostel_fee": {
+                "Hostel Charges (per Month)": "₹12,500 (Boys)₹13,900 (Girls)"
+            }
+        },
+        "fee_waiver": {}
+    }
+}

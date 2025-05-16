@@ -1,0 +1,35 @@
+{
+    "iiitm-gwalior": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology and Management, Gwalior",
+            "Also Known As": "ABV-IIITM",
+            "Institute Type": "Government",
+            "Established": "1997",
+            "Location": "Gwalior, Madhya Pradesh",
+            "address": "ABV – Indian Institute of Information Technology and Management, Morena Link Road, Gwalior, Madhya Pradesh – 474015"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹16,750",
+                "Tuition Fee (per Semester)": "₹79,000",
+                "Other Fees (per Semester)": "₹9,000",
+                "Total": "₹114,750"
+            },
+            "hostel_fee": {
+                "Mess Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹500",
+                "Hostel Charges (per Semester)": "₹12,000",
+                "Hostel Mess Fee (per Semester)": "₹18,000",
+                "Total": "₹35,500"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST students.",
+            "point 2": "100% Tuition Fee waiver for PwD students in B.Tech. courses only."
+        }
+    }
+}

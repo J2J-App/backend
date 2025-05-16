@@ -1,0 +1,29 @@
+{
+    "tssot-silchar": {
+        "overview": {
+            "Institute Name": "Triguna Sen School of Technology, Assam University, Silchar",
+            "Also Known As": "TSSOT AUS",
+            "Institute Type": "Government",
+            "Established": "2006",
+            "Location": "Silchar, Assam",
+            "address": "Triguna Sen School of Technology, Assam University, Silchar, Cachar District, Assam - 788011"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹3,000",
+                "One-Time Fees": "₹2,600",
+                "Course Fees (per Annum)": "₹30,000",
+                "Other Fees (per Semester)": "₹1,875",
+                "Annual Fees": "₹23,320",
+                "Total": "₹60,795"
+            },
+            "hostel_fee": {
+                "Hostel Charges (per Annum)": "₹25,000 (Approx.)"
+            }
+        },
+        "fee_waiver": {}
+    }
+}

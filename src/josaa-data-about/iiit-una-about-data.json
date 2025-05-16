@@ -1,0 +1,29 @@
+{
+    "iiit-una": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Una",
+            "Also Known As": "IIITU",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2014",
+            "Location": "Una, Himachal Pradesh",
+            "address": "Indian Institute of Information Technology, Saloh, Una, Himachal Pradesh - 177209"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹5,000",
+                "Tuition Fee (per Semester)": "₹1,00,000",
+                "Other Fees (per Semester)": "₹30,000",
+                "Total": "₹1,35,000"
+            },
+            "hostel_fee": {
+                "Hostel Charges (per Semester)": "₹20,390",
+                "Mess Advance (per Semester)": "₹22,800",
+                "Total": "₹43,190"
+            }
+        },
+        "fee_waiver": {}
+    }
+}

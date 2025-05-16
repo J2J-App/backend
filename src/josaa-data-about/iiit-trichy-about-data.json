@@ -1,0 +1,34 @@
+{
+    "iiit-trichy": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Tiruchirapalli",
+            "Also Known As": "IIITT",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2013",
+            "Location": "Tiruchirappalli, Tamil Nadu",
+            "address": "Indian Institute of Information Technology, Sethurapatti, Trichy-Madurai Highway, Tiruchirappalli, Tamil Nadu - 620012"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹7,200",
+                "One-Time Fees": "₹13,200",
+                "Tuition Fee (per Semester)": "₹1,15,200",
+                "Other Fees (per Semester)": "₹15,600",
+                "Total": "₹1,51,200"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹4,800",
+                "Hostel Charges (per Semester)": "₹13,200",
+                "Other Fees (per Semester)": "₹8,400",
+                "Mess Advance (per Semester)": "₹24,000",
+                "Total": "₹50,400"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST students."
+        }
+    }
+}

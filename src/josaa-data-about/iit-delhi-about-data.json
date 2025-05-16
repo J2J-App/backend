@@ -1,0 +1,37 @@
+{
+    "iit-delhi": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Delhi",
+            "Also Known As": "IITD",
+            "Institute Type": "Government",
+            "Established": "1961",
+            "Location": "New Delhi, Delhi",
+            "address": "Indian Institute of Technology, Hauz Khas, New Delhi, Delhi - 110016"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹8,000",
+                "One-Time Fees": "₹8,150",
+                "Tuition Fee (per Semester)": "₹1,00,000",
+                "Other Fees (per Semester)": "₹5,750",
+                "Annual Fees": "₹500",
+                "Total": "₹1,22,400"
+            },
+            "hostel_fee": {
+                "Caution Money (One-Time, Refundable)": "₹15,000",
+                "One-Time Fees": "₹7,000",
+                "Hostel Seat Rent (per Semester)": "₹8,600",
+                "Mess Charges (per Semester)": "₹35,000",
+                "Total": "₹65,600"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

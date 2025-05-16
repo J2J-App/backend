@@ -1,0 +1,33 @@
+{
+    "iiit-kalyani": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Kalyani",
+            "Also Known As": "IIIT Kalyani",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2014",
+            "Location": "Kalyani, West Bengal",
+            "address": "Indian Institute of Information Technology, Webel IT Park, Near Buddha Park, Kalyani, Nadia, West Bengal - 741235"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹3,000",
+                "One-Time Fees": "₹7,700",
+                "Tuition Fee (per Semester)": "₹1,10,000",
+                "Other Fees (per Semester)": "₹3,680",
+                "Total": "₹1,24,380"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹3,000",
+                "One-Time Fees": "₹1,000",
+                "Hostel Charges (per Semester)": "₹24,420",
+                "Other Fees (per Semester)": "₹13,200",
+                "Mess Advance (per Semester)": "₹20,000",
+                "Total": "₹61,620"
+            }
+        },
+        "fee_waiver": {}
+    }
+}

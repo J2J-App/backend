@@ -1,0 +1,37 @@
+{
+    "iit-palakkad": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Palakkad",
+            "Also Known As": "IIT-PKD",
+            "Institute Type": "Government",
+            "Established": "2015",
+            "Location": "Palakkad, Kerala",
+            "address": "Indian Institute of Technology Palakkad, Kanjikode, Kerala - 678623"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹2,000",
+                "One-Time Fees": "₹5,500",
+                "Tuition Fee (per Semester)": "₹1,00,000",
+                "Other Fees (per Semester)": "₹4,600",
+                "Total": "₹1,12,100"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹3,500",
+                "Hostel Seat Rent (per Semester)": "₹6,500",
+                "Electricity & Water Charges (per Semester)": "₹1,200",
+                "Other Charges (per Semester)": "₹7,200",
+                "Mess Advance (per Semester)": "₹20,000",
+                "Total": "₹38,400"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

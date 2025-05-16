@@ -1,0 +1,38 @@
+{
+    "nit-surathkal": {
+        "overview": {
+            "Institute Name": "National Institute of Technology Karnataka, Surathkal",
+            "Also Known As": "NITK",
+            "Institute Type": "Government",
+            "Established": "1960",
+            "Location": "Mangalore, Karnataka",
+            "address": "National Institute of Technology Karnataka, Srinivasnagar PO, Surathkal, Mangalore, Karnataka - 575025"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹6,390",
+                "One-Time Fees": "₹9,990",
+                "Tuition Fee (per Semester)": "₹62,500",
+                "Other Fees (per Semester)": "₹2,560",
+                "Annual Fees": "₹15,430",
+                "Total": "₹96,870"
+            },
+            "hostel_fee": {
+                "One-Time Fees": "₹1,000",
+                "Hostel Charges (per Semester)": "₹8,400",
+                "Other Fees (per Semester)": "₹11,790",
+                "Annual Fees": "₹520",
+                "Mess Advance (per Semester)": "₹22,000",
+                "Total": "₹43,710"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

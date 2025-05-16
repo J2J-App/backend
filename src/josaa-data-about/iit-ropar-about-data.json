@@ -1,0 +1,38 @@
+{
+    "iit-ropar": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Ropar",
+            "Also Known As": "IIT-RPR",
+            "Institute Type": "Government",
+            "Established": "2008",
+            "Location": "Ropar, Punjab",
+            "address": "Indian Institute of Technology, Nangal Road, Rupnagar, Punjab - 140001"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹5,800",
+                "Tuition Fee (per Semester)": "₹1,00,000",
+                "Other Fees (per Semester)": "₹7,300",
+                "Annual Fees": "₹750",
+                "Total": "₹1,23,850"
+            },
+            "hostel_fee": {
+                "Mess Caution Money (One-Time, Refundable)": "₹6,000",
+                "One-Time Fees": "₹5,000",
+                "Hostel Charges (per Semester)": "₹6,300",
+                "Other Fees (per Semester)": "₹3,000",
+                "Mess Advance (per Semester)": "₹22,260",
+                "Total": "₹42,560"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "bit-patna": {
+        "overview": {
+            "Institute Name": "Birla Institute of Technology Mesra, Off-Campus Patna",
+            "Also Known As": "BIT Patna",
+            "Institute Type": "Private",
+            "Established": "2006",
+            "Location": "Patna, Bihar",
+            "address": "Birla Institute of Technology Mesra, Off-Campus Patna, Samanpura, Patna, Bihar - 800014"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹85,000",
+                "Tuition Fee (per Semester)": "₹1,51,000",
+                "Other Fees (per Semester)": "₹18,500",
+                "Total": "₹2,64,500"
+            },
+            "hostel_fee": {
+                "Mess Caution Money (One-Time, Refundable)": "₹5,000",
+                "Hostel Charges (per Semester)": "₹15,500",
+                "Mess Advance (per Semester)": "₹18,000 (Boys), ₹13,000 (Girls)",
+                "Total": "₹38,500 (Boys), ₹33,500 (Girls)"
+            }
+        },
+        "fee_waiver": {}
+    }
+}

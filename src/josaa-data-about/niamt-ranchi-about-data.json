@@ -1,0 +1,32 @@
+{
+    "niamt-ranchi": {
+        "overview": {
+            "Institute Name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+            "Also Known As": "NIFFT Ranchi",
+            "Institute Type": "Government",
+            "Established": "1966",
+            "Location": "Ranchi, Jharkhand",
+            "address": "National Institute of Advanced Manufacturing Technology (formerly NIFFT), Khunti - Chaibasa Rd, Hatia, Ranchi, Jharkhand - 834003"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹2,000",
+                "Tuition Fee (per Semester)": "₹25,000",
+                "Other Fees (per Semester)": "₹10,000",
+                "Total": "₹42,000"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹4,000",
+                "Hostel Charges (per Semester)": "₹5,000",
+                "Other Fees (per Semester)": "₹9,000",
+                "Mess Advance (per Semester)": "₹18,750",
+                "Total": "₹36,750"
+            }
+        },
+        "fee_waiver": {}
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "nit-rourkela": {
+        "overview": {
+            "Institute Name": "National Institute of Technology, Rourkela",
+            "Also Known As": "NITRKL",
+            "Institute Type": "Government",
+            "Established": "1961",
+            "Location": "Rourkela, Odisha",
+            "address": "National Institute of Technology, Jagda, Rourkela, Orissa – 769008"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "Caution Money (One-Time, Refundable)": "₹10,000",
+            "One-Time Fees": "₹15,000",
+            "Tuition Fee (per Semester)": "₹62,500 (B.Tech/ B.Arch/ B.Tech+M.Tech), ₹7,500 (Int. MSc)",
+            "Hostel Seat Rent (per Semester)": "₹5,000",
+            "Other Fees (per Semester)": "₹14,000",
+            "Mess Advance (per Semester)": "₹30,000",
+            "Total": "₹1,36,500 (B.Tech/ B.Arch/ B.Tech+M.Tech), ₹81,500 (Int. MSc)"
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        }
+    }
+}

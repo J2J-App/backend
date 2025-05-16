@@ -436,7 +436,7 @@ const predictor =asyncHandler(async (req, res) => {
                 const query = `            
                 SELECT branch, opening, closing, round, college
                 FROM all_iit_${year}
-                WHERE opening >= $1
+                WHERE closing >= $1
                     and category = $2
                     and sub_category = $3`
 
@@ -522,15 +522,15 @@ const predictor =asyncHandler(async (req, res) => {
                 const query = `            
                 SELECT branch, opening, closing, round, college , quota
                 FROM all_nit_${year}
-                WHERE opening >= $1 and
-                    category = $2 
+                WHERE closing >= $1 
+                    and category = $2 
                     and quota = ANY($3)
                     and sub_category = $4
                     and round != 'S-1' and round != 'S-2'`
 
                 let result = await sql.query(query, [
                     Number(rank),
-                    category,
+                    categoryToPass,
                     domicileList,
                     genderToPass
                 ]);
@@ -599,7 +599,7 @@ const predictor =asyncHandler(async (req, res) => {
                 const query = `            
                 SELECT branch, opening, closing, round, college
                 FROM all_iiit_${year}
-                WHERE opening >= $1
+                WHERE closing >= $1
                     and category = $2
                     and sub_category = ANY($3)
                     and round != 'S-1' and round != 'S-2'`
@@ -680,7 +680,7 @@ const predictor =asyncHandler(async (req, res) => {
                 const query = `            
                 SELECT branch, opening, closing, round, college, quota
                 FROM all_gfti_${year}
-                WHERE opening >= $1
+                WHERE closing >= $1
                     and category = $2
                     and sub_category = $3
                     and quota = ANY($4)
@@ -1157,17 +1157,13 @@ const cutoff = asyncHandler(async (req, res) => {
             "EVE": "Electronics and VLSI Engineering",
         }
 
-        const allowed_Subcategories = ["NONE","PWD","SGC"];
-
-        const allowed_categories = ["GEN","OBC","SC","ST","OBC-NCL","EWS"];
-
         const allowed_college_types = ["IIT","NIT","IIIT","GFTI"];
 
         const allowed_years = ["2024","2023","2022"];
 
         const allowed_genders = ["M","F"];
 
-        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","ut"];
+        const allowed_domicile = ["true","false"];
 
         if(counselling == "JOSAA") {
 
@@ -1256,11 +1252,11 @@ const cutoff = asyncHandler(async (req, res) => {
                     throw new ApiError(400, 'Domicile is either not valid or given');
                 }
 
-                if (!category || !allowed_categories.includes(category)) {
+                if (!category) {
                     throw new ApiError(400, 'Category is either not valid or given');
                 }
 
-                if (!subcategory || !allowed_Subcategories.includes(subcategory)) {
+                if (!subcategory) {
                     throw new ApiError(400, 'Subcategory is required');
                 }
 
@@ -1282,24 +1278,22 @@ const cutoff = asyncHandler(async (req, res) => {
 
                 let query = ``
 
-                if(!domicile){
+                if(domicile !== "true"){
                     query = `            
                     SELECT branch, opening, closing, round, college , quota
                     FROM all_nit_${year}
-                    WHERE opening >= 1 and
-                        and college = $1
-                        category = $2 
+                    WHERE college = $1
+                        and category = $2 
                         and quota = 'OS'
                         and sub_category = $3`
                 }else{
                     query = `            
                     SELECT branch, opening, closing, round, college , quota
                     FROM all_nit_${year}
-                    WHERE opening >= 1 and
-                        and college = $1
-                        category = $2 
-                        and quota != 'OS'
-                        and sub_category = $3`
+                    WHERE college = $1
+                        and category = $2 
+                        and sub_category = $3
+                        and quota != 'OS'`
                 }
 
                 let result = await sql.query(query, [
@@ -1350,15 +1344,14 @@ const cutoff = asyncHandler(async (req, res) => {
                 const query = `            
                 SELECT branch, opening, closing, round, college
                 FROM all_iiit_${year}
-                WHERE opening >= 1
-                    and college = $1
+                WHERE college = $1
                     and category = $2
                     and sub_category = $3`
 
                 let result = await sql.query(query, [
                     college,
                     category,
-                    subcategory,
+                    genderToPass,
                 ]);
 
                 result = result.map(row => ({
@@ -1408,24 +1401,22 @@ const cutoff = asyncHandler(async (req, res) => {
 
                 let query = ``
 
-                if(!domicile){
+                if(domicile !== "true"){
                     query = `            
                     SELECT branch, opening, closing, round, college, quota
                     FROM all_gfti_${year}
-                    WHERE opening >= 1
-                        and college = $1
+                    WHERE college = $1
                         and category = $2
                         and sub_category = $3
-                        and quota = AI`
+                        and quota = 'AI'`
                 }else{
                     query = `
                     SELECT branch, opening, closing, round, college, quota
                     FROM all_gfti_${year}
-                    WHERE opening >= 1
-                        and college = $1
+                    WHERE college = $1
                         and category = $2
                         and sub_category = $3
-                        and quota != AI`
+                        and quota != 'AI'`
                 }
 
 
@@ -1433,7 +1424,6 @@ const cutoff = asyncHandler(async (req, res) => {
                     college,
                     category,
                     genderToPass,
-                    domicileToPass
                 ]);
 
                 result = result.map(row => ({
@@ -1484,16 +1474,14 @@ const cutoff = asyncHandler(async (req, res) => {
                 query = `
                 SELECT branch, rank, round, college, quota
                 FROM all_jac_${year}
-                WHERE rank >= 1
-                    and college = $1
+                WHERE college = $1
                     and category = $2
                     and quota = 'OD'`
             }else{
                 query = `
                 SELECT branch, rank, round, college
                 FROM all_jac_${year}
-                WHERE rank >= 1
-                    and college = $1
+                WHERE college = $1
                     and category = $2
                     and quota != 'OD'`
             }
