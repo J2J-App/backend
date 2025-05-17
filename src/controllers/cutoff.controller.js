@@ -734,6 +734,10 @@ const predictor =asyncHandler(async (req, res) => {
                 throw new ApiError(400, 'Rank should be a number');
             }
 
+            if(!gender){
+                throw new ApiError(400,"Gender is required")
+            }
+
             let categoryList = []
 
             if (subcategory === "SNG") {
@@ -752,13 +756,24 @@ const predictor =asyncHandler(async (req, res) => {
                 domicile = "OD"
             }
 
-            const query = `
-            SELECT branch, rank, round, college
-            FROM all_jac_${year}
-            WHERE rank >= $1
-                and category = ANY($2)
-                and quota = $3
-                and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+            let query = ``
+
+            if(gender === "M"){
+                query = `SELECT branch, rank, round, college
+                FROM all_jac_${year}
+                WHERE rank >= $1
+                and college_type != 'igdtuw'
+                    and category = ANY($2)
+                    and quota = $3
+                    and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+            }else{
+                query = `SELECT branch, rank, round, college
+                FROM all_jac_${year}
+                WHERE rank >= $1
+                    and category = ANY($2)
+                    and quota = $3
+                    and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+            }
 
             let result = await sql.query(query, [
                 Number(rank),
