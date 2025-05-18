@@ -382,8 +382,8 @@ const getPlacement = asyncHandler(async (req, res) => {
             "2h": "Material Sc. and Engineering"
         };
 
-        const query = `SELECT * FROM $1 WHERE year = $2`;
-        let result = await sql.query(query, [college, year]);
+        const query = `SELECT * FROM "${college}" WHERE year = $1`;
+        let result = await sql.query(query, [year]);
 
         result = result.map((item) => {
             return {
