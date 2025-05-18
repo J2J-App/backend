@@ -30,8 +30,9 @@
                 "Total": "₹69,940"
             }
         },
-        "fee_waiver": {
-            "point 1": "50% Tuition Fee waiver for SC/ST students."
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572170/download_y5fm5d.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566743/spa_delghi_pic_vekmcd.jpg"
         }
     }
 }
