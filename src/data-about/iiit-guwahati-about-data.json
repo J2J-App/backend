@@ -25,8 +25,8 @@
         },
         "fee_waiver": {},
         "photos":{
-            "logo":"",
-            "college-pic":""
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565064/iiit_guwhati_voibpz.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566763/iiit_guwhati_pic_tecjgg.webp"
         }
     }
 }

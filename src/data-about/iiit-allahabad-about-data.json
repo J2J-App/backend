@@ -32,8 +32,8 @@
             "point 1": "100% Tuition Fee waiver for SC/ST/PwD students."
         },
         "photos":{
-            "logo":"",
-            "college-pic":""
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565059/Indian_Institute_of_Information_Technology__Allahabad_Logo_swpvw8.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566757/iiit_allahabd_qxrpt6.jpg"
         }
     }
 }

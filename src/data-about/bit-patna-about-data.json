@@ -28,8 +28,8 @@
         },
         "fee_waiver": {},
         "photos":{
-            "logo":"",
-            "college-pic":""
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565049/Birla_Institute_of_Technology_Mesra_ghbcr9.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566747/bit_patna_pic_nfzinl.jpg"
         }
     }
 }
