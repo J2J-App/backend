@@ -17,6 +17,10 @@
             "Other Fees (per Semester)": "₹2,000",
             "Total": "₹89,000"
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

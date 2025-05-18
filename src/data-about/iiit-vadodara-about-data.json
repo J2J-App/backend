@@ -21,6 +21,10 @@
             "Mess Advance (per Semester)": "₹24,800",
             "Total": "₹2,12,342"
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

@@ -23,6 +23,10 @@
             "defence": "55% in PCM",
             "sc_st_pwd": "50% in PCM"
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

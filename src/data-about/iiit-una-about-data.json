@@ -24,6 +24,10 @@
                 "Total": "₹43,190"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

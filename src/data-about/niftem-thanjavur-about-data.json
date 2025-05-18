@@ -29,6 +29,10 @@
         },
         "fee_waiver": {
             "point 1": "100% Tuition Fee waiver for SC/ST students."
+        },
+        "photos":{
+            "logo":"",
+            "college-pic":""
         }
     }
 }

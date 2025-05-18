@@ -30,6 +30,10 @@
         "fee_waiver": {
             "point 1": "100% Tuition Fee waiver for SC/ST students.",
             "point 2": "100% Tuition Fee waiver for PwD students in B.Tech. courses only."
+        },
+        "photos":{
+            "logo":"",
+            "college-pic":""
         }
     }
 }

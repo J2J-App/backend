@@ -24,6 +24,10 @@
                 "Hostel Charges (per Month)": "₹12,500 (Boys)₹13,900 (Girls)"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

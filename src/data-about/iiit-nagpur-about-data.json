@@ -31,6 +31,10 @@
                 "Total": "₹81,250 (4-Seater),₹89,500 (2-Seater)"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

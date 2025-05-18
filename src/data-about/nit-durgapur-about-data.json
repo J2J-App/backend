@@ -30,6 +30,10 @@
             "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
             "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
             "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"",
+            "college-pic":""
         }
     }
 }

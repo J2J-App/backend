@@ -24,6 +24,10 @@
                 "Hostel Charges (per Annum)": "₹25,000 (Approx.)"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

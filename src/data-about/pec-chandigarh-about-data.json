@@ -25,6 +25,10 @@
                 "Mess Advance (per Month)": "₹3,500"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }
