@@ -1,5 +1,5 @@
 {
-    "nsut-delhI": {
+    "nsut-delhi": {
         "overview": {
             "Institute Name": "Netaji Subhas University of Technology, Delhi",
             "Also Known As": "NSUT Delhi",
@@ -19,9 +19,18 @@
                 "Total": "₹2,40,000"
             },
             "hostel_fee": {
-                "Hostel Charges (per Semester)": "₹36,000 (Boys 1-Seater Non-AC), ₹34,000 (Boys 2-Seater Non-AC), ₹33,000 (Girls 3-Seater Non-AC), ₹38,000 (Girls 4-Seater AC)",
+                "Boys 1-Seater Non-AC": "₹36,000 (per Semester)",
+                "Boys 2-Seater Non-AC": "₹34,000 (per Semester)",
+                "Girls 3-Seater Non-AC": "₹33,000 (per Semester)",
+                "Girls 4-Seater AC" : "₹38,000 (per Semester)",
                 "Mess Advance (per Semester)": "₹23,000"
             }
+        },
+        "eligibility": {
+            "general": "60% in PCM",
+            "obc_ncl": "55% in PCM",
+            "defence": "55% in PCM",
+            "sc_st_pwd": "50% in PCM"
         },
         "fee_waiver": {}
     }

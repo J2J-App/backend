@@ -17,6 +17,12 @@
             "Other Fees (per Year)": "₹65,150",
             "Total": "₹2,40,000 (B.Tech.),₹2,51,000 (B.Arch.)"
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "eligibility": {
+            "general": "60% in PCM",
+            "obc_ncl": "55% in PCM",
+            "defence": "55% in PCM",
+            "sc_st_pwd": "50% in PCM"
+        }
     }
 }

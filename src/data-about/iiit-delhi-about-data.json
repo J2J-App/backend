@@ -33,6 +33,12 @@
             "point 5": "For First Semester eligibility, the top 100 female students who score more than 95% aggregate marks in the XII Board Exam will be considered for the 50% Tuition Fee scholarship.",
             "point 6": "For eligibility from the Second Semester onwards, candidates must maintain a CGPA of 7.5 or higher.",
             "point 7": "Merit-cum-Means Scholarships: Awarded to meritorious students based on performance and financial need, depending on the number of applications and the available budget for that particular year."
+        },
+        "eligibility": {
+            "general": "70% aggregate, 70% in Mathematics",
+            "obc_ncl": "65% aggregate, 70% in Mathematics",
+            "defence_pwd": "65% aggregate, 70% in Mathematics",
+            "sc_st": "60% aggregate, 70% in Mathematics"
         }
     }
 }
