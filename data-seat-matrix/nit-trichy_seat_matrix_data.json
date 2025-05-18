@@ -1,0 +1,330 @@
+[
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"23",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"23",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tamil Nadu"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Arch. Course",
+    "no_of_seats":"1038",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

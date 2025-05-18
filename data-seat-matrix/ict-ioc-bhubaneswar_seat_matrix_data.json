@@ -1,0 +1,42 @@
+[
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"66",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"120",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Data Science and Analytics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"60",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Data Science and Analytics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"60",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"240",
+    "change_from_last_year":"60",
+    "change_direction":"increase"
+  }
+]

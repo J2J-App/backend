@@ -1,0 +1,170 @@
+[
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Puducherry (UT), Andaman & Nicobar Islands (UT)"
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"275",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"54",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Artificial Intelligence and Data Science - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Artificial Intelligence and Data Science - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in VLSI Design and Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in VLSI Design and Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"54",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Artificial Intelligence and Data Science - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Artificial Intelligence and Data Science - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in VLSI Design and Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in VLSI Design and Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Other than Telangana"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1049",
+    "change_from_last_year":"60",
+    "change_direction":"increase",
+    "state_quota":""
+  }
+]

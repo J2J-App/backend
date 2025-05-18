@@ -1,0 +1,331 @@
+[
+  {
+    "year":"2024",
+    "department":"Aerospace Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"57",
+    "change_from_last_year":"21",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Aerospace Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"5",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Agricultural and Food Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"75",
+    "change_from_last_year":"35",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Agricultural and Food Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"10",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Biotechnology and Biochemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"57",
+    "change_from_last_year":"27",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Biotechnology and Biochemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"7",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"93",
+    "change_from_last_year":"28",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"8",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"97",
+    "change_from_last_year":"25",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"7",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"112",
+    "change_from_last_year":"46",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"28",
+    "change_from_last_year":"14",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"91",
+    "change_from_last_year":"25",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"8",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Electrical Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"121",
+    "change_from_last_year":"47",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Electrical Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"13",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial and Systems Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"58",
+    "change_from_last_year":"23",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial and Systems Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"6",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"36",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Manufacturing Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"54",
+    "change_from_last_year":"18",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Manufacturing Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"4",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"139",
+    "change_from_last_year":"57",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"33",
+    "change_from_last_year":"16",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"75",
+    "change_from_last_year":"24",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"7",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"91",
+    "change_from_last_year":"43",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"11",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Ocean Engineering and Naval Architecture - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"65",
+    "change_from_last_year":"27",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Ocean Engineering and Naval Architecture - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"7",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Applied Geology - Gender Neutral 4-Year B.S. Course",
+    "no_of_seats":"41",
+    "change_from_last_year":"2",
+    "change_direction":"decrease"
+  },
+  {
+    "year":"2024",
+    "department":"Applied Geology - Female Only 4-Year B.S. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"2",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 4-Year B.S. Course",
+    "no_of_seats":"37",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 4-Year B.S. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Economics - Gender Neutral 4-Year B.S. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"2",
+    "change_direction":"decrease"
+  },
+  {
+    "year":"2024",
+    "department":"Economics - Female Only 4-Year B.S. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"2",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Exploration Geophysics - Gender Neutral 4-Year B.S. Course",
+    "no_of_seats":"37",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Exploration Geophysics - Female Only 4-Year B.S. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.S. Course",
+    "no_of_seats":"56",
+    "change_from_last_year":"1",
+    "change_direction":"decrease"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.S. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"1",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 4-Year B.S. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 4-Year B.S. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Arch. Course",
+    "no_of_seats":"1919",
+    "change_from_last_year":"50",
+    "change_direction":"increase"
+  }
+]

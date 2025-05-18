@@ -1,0 +1,458 @@
+[
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"34",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"63",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Data Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Data Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"35",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial and Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial and Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Textile Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Textile Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"34",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"63",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Data Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Data Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"34",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial and Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial and Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Instrumentation and Control Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Textile Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Textile Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Punjab"
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"1106",
+    "change_from_last_year":"6",
+    "change_direction":"decrease",
+    "state_quota":""
+  }
+]

@@ -1,0 +1,778 @@
+[
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Medical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Medical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Food Process Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Food Process Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Design - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"4",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Design - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"4",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"4",
+    "change_direction":"increase",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Medical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Medical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Food Process Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Food Process Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Design - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"4",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Design - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"4",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"4",
+    "change_direction":"increase",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering and M.Tech. in Industrial Ceramic - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering and M.Tech. in Industrial Ceramic - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering and M.Tech. in Industrial Ceramic - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Ceramic Engineering and M.Tech. in Industrial Ceramic - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Life Science - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Life Science - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Life Science - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Life Science - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Odisha"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1065",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":""
+  }
+]

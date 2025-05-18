@@ -1,0 +1,458 @@
+[
+  {
+    "year":"2024",
+    "department":"Biotechnology and Biochemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Biotechnology and Biochemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"59",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"49",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"29",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Biotechnology and Biochemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Biotechnology and Biochemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"58",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"50",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"51",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Instrumentation Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"50",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computational Mathematics - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computational Mathematics - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computational Mathematics - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Computational Mathematics - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics & Computing - Gender Neutral 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics & Computing - Female Only 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics & Computing - Gender Neutral 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics & Computing - Female Only 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Tripura"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.S. + M.S. (Dual Degree) Course",
+    "no_of_seats":"1084",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

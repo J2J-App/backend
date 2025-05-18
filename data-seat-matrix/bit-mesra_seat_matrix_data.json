@@ -1,0 +1,458 @@
+[
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"36",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"72",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"6",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"36",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"107",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"9",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"36",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"107",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"9",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Food Engineering and Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Food Engineering and Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"72",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"6",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"36",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"61",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"6",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"92",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"9",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"92",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"9",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Food Engineering and Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Food Engineering and Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"61",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"6",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"38",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Quantitative Economics and Data Science - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Quantitative Economics and Data Science - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"33",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"3",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Quantitative Economics and Data Science - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Quantitative Economics and Data Science - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"1284",
+    "change_from_last_year":"112",
+    "change_direction":"increase",
+    "state_quota":""
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"50",
+    "change_from_last_year":"10",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Engineering - Gender Neutral 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"60",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Engineering - Female Only 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"110",
+    "change_from_last_year":"70",
+    "change_direction":"increase",
+    "state_quota":""
+  }
+]

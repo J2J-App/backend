@@ -1,0 +1,65 @@
+[
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"120",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"90",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Data Science and Artificial Intelligence - Gender Neutral 4-Year B.Tech.\/ B.Tech. (Hons.) Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering with specialization in Data Science and Artificial Intelligence - Female Only 4-Year B.Tech.\/ B.Tech. (Hons.) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in Embedded Systems and Internet of Things - Gender Neutral 4-Year B.Tech.\/ B.Tech. (Hons.) Course",
+    "no_of_seats":"30",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in Embedded Systems and Internet of Things - Female Only 4-Year B.Tech.\/ B.Tech. (Hons.) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.Tech.\/ B.Tech. (Hons.) Course",
+    "no_of_seats":"270",
+    "change_from_last_year":"",
+    "change_direction":null
+  }
+]
