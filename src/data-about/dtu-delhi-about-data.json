@@ -22,6 +22,12 @@
                 "Mess Charges (per Annum)": "₹34,800"
             }
         },
+        "eligibility": {
+            "general": "60% in PCM",
+            "obc_ncl": "55% in PCM",
+            "defence": "55% in PCM",
+            "sc_st_pwd": "50% in PCM"
+        },
         "fee_waiver": {},
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747571701/download_pfduat.jpg",
