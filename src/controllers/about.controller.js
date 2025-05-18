@@ -7,7 +7,7 @@ import path from 'path';
 const about = asyncHandler(async (req, res) => {
     try {
     const { college } = req.body;
-    const filePath = path.join(process.cwd(), `src/josaa-data-about/${college}.json`);
+    const filePath = path.join(process.cwd(), `src/data-about/${college}-about-data.json`);
     const jsonData = await fs.readFile(filePath, 'utf8');
     const data = JSON.parse(jsonData);
 

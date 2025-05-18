@@ -3,6 +3,6 @@ import { about } from "../controllers/about.controller.js"
 
 const aboutRouter = Router();
 
-aboutRouter.route('/').get(about);
+aboutRouter.route('/').post(about);
 
 export default aboutRouter

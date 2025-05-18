@@ -1,0 +1,22 @@
+{
+    "nsut-delhi-west-campus": {
+        "overview": {
+            "Institute Name": "Netaji Subhas University of Technology (West Campus), Delhi",
+            "Also Known As": "NSUT Delhi (West Campus)",
+            "Institute Type": "Government",
+            "Established": "2007",
+            "Location": "New Delhi, Delhi",
+            "address": "Netaji Subhas University of Technology West Campus, Jaffarpur Kalan, Delhi - 110073"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and apply separately for the JAC Delhi Counselling process."
+        },
+        "fee_structure": {
+            "Tuition Fee (per Year)": "₹77,000 (B.Tech.),₹83,850 (B.Arch.)",
+            "University Fee (per Year)": "₹97,850 (B.Tech.),₹1,02,000 (B.Arch.)",
+            "Other Fees (per Year)": "₹65,150",
+            "Total": "₹2,40,000 (B.Tech.),₹2,51,000 (B.Arch.)"
+        },
+        "fee_waiver": {}
+    }
+}
