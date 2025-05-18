@@ -376,12 +376,11 @@ const predictor =asyncHandler(async (req, res) => {
 
         const allowed_genders = ["M","F"];
 
-        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","ut"];
+        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","dl"];
 
         if(counselling == "JOSAA") {
 
             // validation for Josaa
-            
             if(!college_type || !allowed_college_types.includes(college_type)) {
                 throw new ApiError(400, 'College type is required');
             }
@@ -775,11 +774,33 @@ const predictor =asyncHandler(async (req, res) => {
                     and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
             }
 
+            const query2 = `SELECT branch, rank, round
+            FROM all_iiitd
+            WHERE rank >= $1
+                and is_bonus = 'false'
+                and category = ANY($2)
+                and quota = $3
+                and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+
+            let result2 = await sql.query(query2, [
+                Number(rank),
+                categoryList,
+                domicile
+            ]);
+
+            result2 = result2.map(row => ({
+                ...row,
+                branch: coure_mapping_jossa[row.branch] || row.branch,
+                college: "iiit-delhi`"
+            }))
+
             let result = await sql.query(query, [
                 Number(rank),
                 categoryList,
                 domicile
             ]);
+
+            result = [...result, ...result2]
 
             result = result.map(row => ({
                 ...row,
@@ -1485,20 +1506,39 @@ const cutoff = asyncHandler(async (req, res) => {
 
             let query = ``
             
-            if(domicile !== "true"){
-                query = `
-                SELECT branch, rank, round, college, quota
-                FROM all_jac_${year}
-                WHERE college = $1
-                    and category = $2
-                    and quota = 'OD'`
+            if(college !== "iiit-delhi"){
+                if(domicile !== "true"){
+                    query = `
+                    SELECT branch, rank, round, college, quota
+                    FROM all_jac_${year}
+                    WHERE college = $1
+                        and category = $2
+                        and quota = 'OD'`
+                }else{
+                    query = `
+                    SELECT branch, rank, round, college
+                    FROM all_jac_${year}
+                    WHERE college = $1
+                        and category = $2
+                        and quota != 'OD'`
+                }
             }else{
-                query = `
-                SELECT branch, rank, round, college
-                FROM all_jac_${year}
-                WHERE college = $1
-                    and category = $2
-                    and quota != 'OD'`
+                college = "all_iiitd"
+                if(domicile !== "true"){
+                    query = `
+                    SELECT branch, rank, round , is_bonus
+                    FROM $1
+                    WHERE year = ${year}
+                        category = $2
+                        and quota = 'OD'`
+                }else{
+                    query = `
+                    SELECT branch, rank, round, college
+                    FROM $1
+                    WHERE year = ${year}
+                        and category = $2
+                        and quota != 'OD'`
+                }
             }
 
             let result = await sql.query(query, [
