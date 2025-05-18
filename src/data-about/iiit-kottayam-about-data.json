@@ -29,6 +29,8 @@
         },
         "fee_waiver": {},
         "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565049/iiit_kottayam_juytfc.png",
+            "college-pic":""
             "logo":"",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566748/iiit_kottayam_pic_sm6r6l.png"
         }
