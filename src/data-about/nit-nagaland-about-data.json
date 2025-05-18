@@ -36,6 +36,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570505/National_Institute_of_Technology__Nagaland_Logo_holfxm.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572198/download_omumyq.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

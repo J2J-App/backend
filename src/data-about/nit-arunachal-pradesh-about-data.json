@@ -27,6 +27,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570505/nit_arunachal_pradehs_mhdqlp.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566802/nit_arunchala_pradesh_pic_kx3iyk.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

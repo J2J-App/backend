@@ -35,6 +35,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570504/mnit_bhopal_s0j57a.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566982/nit_bhopal_pic_ttx0b8.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

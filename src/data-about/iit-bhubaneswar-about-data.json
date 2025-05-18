@@ -28,6 +28,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565083/Indian_Institute_of_Technology_Bhubaneswar_Logo.svg_zcnuit.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566787/iit_bhubneshwar_pic_ffu2dl.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

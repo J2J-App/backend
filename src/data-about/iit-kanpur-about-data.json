@@ -27,6 +27,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565076/IIT_Kanpur_Logo.svg_lmb7h7.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566763/iit_kanpur_pic_2_qhddiw.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

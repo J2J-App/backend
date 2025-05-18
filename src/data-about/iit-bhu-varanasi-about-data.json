@@ -28,6 +28,13 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565070/IIT-BHU_Logo.svg_fqhmyz.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566772/iit_bhu_pic_crayg8.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
+    
     }
 }

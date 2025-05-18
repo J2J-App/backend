@@ -29,6 +29,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565066/iit_jammu_bjn4k9.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566768/iit_jammu_pic_lyo5h4.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

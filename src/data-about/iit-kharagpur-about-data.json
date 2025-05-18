@@ -38,6 +38,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565079/iit_kgp_e7o7q5.jpg",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566765/iit_kgp_pic_w2ew5b.png"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

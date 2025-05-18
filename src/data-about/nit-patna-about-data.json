@@ -36,6 +36,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570512/nit_patna_fsoa8k.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566804/nit_patna_pic_rbawfz.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }
