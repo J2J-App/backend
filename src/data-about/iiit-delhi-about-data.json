@@ -39,6 +39,10 @@
             "obc_ncl": "65% aggregate, 70% in Mathematics",
             "defence_pwd": "65% aggregate, 70% in Mathematics",
             "sc_st": "60% aggregate, 70% in Mathematics"
+        },
+        "photos":{
+            "logo":"",
+            "college-pic":""
         }
     }
 }

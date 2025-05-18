@@ -22,6 +22,10 @@
                 "Mess Charges (per Annum)": "₹34,800"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

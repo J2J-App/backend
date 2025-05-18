@@ -26,6 +26,10 @@
                 "Total": "₹38,500 (Boys), ₹33,500 (Girls)"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }

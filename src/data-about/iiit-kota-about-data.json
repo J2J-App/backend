@@ -31,6 +31,10 @@
         },
         "fee_waiver": {
             "point 1": "20% Tuition Fee waiver for SC/ST/PwD students."
+        },
+        "photos":{
+            "logo":"",
+            "college-pic":""
         }
     }
 }

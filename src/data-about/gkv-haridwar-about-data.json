@@ -26,6 +26,10 @@
                 "Total": "₹70,000 (for GEN/OBC/EWS)₹65,000 (for SC/ST/PwD)"
             }
         },
-        "fee_waiver": {}
+        "fee_waiver": {},
+        "photos":{
+            "logo":"",
+            "college-pic":""
+        }
     }
 }
