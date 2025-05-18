@@ -762,7 +762,7 @@ const predictor =asyncHandler(async (req, res) => {
                 query = `SELECT branch, rank, round, college
                 FROM all_jac_${year}
                 WHERE rank >= $1
-                and college_type != 'igdtuw'
+                and college != 'igdtuw'
                     and category = ANY($2)
                     and quota = $3
                     and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
