@@ -39,6 +39,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565069/IIT_Guwahati_Logo.svg_hiukd5.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566771/iit_guwahti_pic_zh0rgo.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

@@ -29,6 +29,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565073/IIT__ISM__Dhanbad_Logo.svg_pl3bmh.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566773/iit_dhanbad_x4a9uv.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

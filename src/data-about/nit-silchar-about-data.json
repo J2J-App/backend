@@ -36,6 +36,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570515/nit_silchar_logo_ctxxdv.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566799/nit_silchar_pic_bumtfq.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
         
     }

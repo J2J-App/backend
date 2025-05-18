@@ -39,6 +39,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570508/nit_goa_logo_hpfus0.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566806/nit_goa_pic_vaitev.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

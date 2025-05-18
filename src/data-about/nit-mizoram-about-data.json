@@ -39,6 +39,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570511/nit_mizoram_vfw279.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566800/nit_mizoram_pic_rwryo9.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }

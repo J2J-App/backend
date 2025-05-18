@@ -35,6 +35,12 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565076/IIT_Madras_Logo.svg_kpkkwr.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566785/iit_madras_jujcyj.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
         }
     }
 }
