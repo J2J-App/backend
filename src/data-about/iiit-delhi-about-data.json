@@ -1,0 +1,48 @@
+{
+    "iiit-delhi": {
+        "overview": {
+            "Institute Name": "Indraprastha Institute of Information Technology, Delhi",
+            "Also Known As": "IIITD",
+            "Institute Type": "Government",
+            "Established": "2008",
+            "Location": "New Delhi, Delhi",
+            "address": "Indraprastha Institute of Information Technology, Okhla Industrial Estate, Phase III, Near Govind Puri Metro Station, New Delhi - 110020"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and apply separately for the JAC Delhi Counselling process."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹2,000",
+                "Tuition Fee (per Semester)": "₹2,25,000",
+                "Total": "₹2,37,000"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹10,000",
+                "Hostel Seat Rent (per Semester)": "₹34,000",
+                "Mess Advance (per Semester)": "₹10,000",
+                "Total": "₹54,000"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "Merit-based Scholarships: Awarded to meritorious students based on specific criteria.",
+            "point 2": "For First Semester eligibility, candidates must secure a JEE (Main) AIR rank below 1000 to qualify for the 100% Tuition Fee scholarship, or between 1000 and 2000 for the 50% Tuition Fee scholarship.",
+            "point 3": "For eligibility from the Second Semester onwards, candidates must maintain a CGPA of 7.5 or higher.",
+            "point 4": "Women Empowerment Scholarships: Awarded to meritorious female students based on specific criteria.",
+            "point 5": "For First Semester eligibility, the top 100 female students who score more than 95% aggregate marks in the XII Board Exam will be considered for the 50% Tuition Fee scholarship.",
+            "point 6": "For eligibility from the Second Semester onwards, candidates must maintain a CGPA of 7.5 or higher.",
+            "point 7": "Merit-cum-Means Scholarships: Awarded to meritorious students based on performance and financial need, depending on the number of applications and the available budget for that particular year."
+        },
+        "eligibility": {
+            "general": "70% aggregate, 70% in Mathematics",
+            "obc_ncl": "65% aggregate, 70% in Mathematics",
+            "defence_pwd": "65% aggregate, 70% in Mathematics",
+            "sc_st": "60% aggregate, 70% in Mathematics"
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747571825/download_agltr7.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570193/download_solq8h.jpg"
+        }
+    }
+}

@@ -1,0 +1,330 @@
+[
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"91",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"23",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"55",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Metallurgical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Metallurgical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"86",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"21",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"92",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"23",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"54",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Metallurgical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Metallurgical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"86",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"21",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Planning - Gender Neutral 4-Year B.Plan. Course",
+    "no_of_seats":"21",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Planning - Female Only 4-Year B.Plan. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Planning - Gender Neutral 4-Year B.Plan. Course",
+    "no_of_seats":"21",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Planning - Female Only 4-Year B.Plan. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Data Science - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Data Science - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Data Science - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Data Science - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Madhya Pradesh"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1203",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

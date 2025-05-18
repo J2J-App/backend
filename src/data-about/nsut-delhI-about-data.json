@@ -1,0 +1,41 @@
+{
+    "nsut-delhi": {
+        "overview": {
+            "Institute Name": "Netaji Subhas University of Technology, Delhi",
+            "Also Known As": "NSUT Delhi",
+            "Institute Type": "Government",
+            "Established": "1983",
+            "Location": "New Delhi, Delhi",
+            "address": "Netaji Subhas University of Technology, Azad Hind Fauj Marg, Sector 3, Dwarka, New Delhi – 110078"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and apply separately for the JAC Delhi Counselling process."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Tuition Fee (per Annum)": "₹77,000",
+                "University Fee (per Annum)": "₹97,850",
+                "Other Fees (per Annum)": "₹65,150",
+                "Total": "₹2,40,000"
+            },
+            "hostel_fee": {
+                "Boys 1-Seater Non-AC": "₹36,000 (per Semester)",
+                "Boys 2-Seater Non-AC": "₹34,000 (per Semester)",
+                "Girls 3-Seater Non-AC": "₹33,000 (per Semester)",
+                "Girls 4-Seater AC" : "₹38,000 (per Semester)",
+                "Mess Advance (per Semester)": "₹23,000"
+            }
+        },
+        "eligibility": {
+            "general": "60% in PCM",
+            "obc_ncl": "55% in PCM",
+            "defence": "55% in PCM",
+            "sc_st_pwd": "50% in PCM"
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747571733/download_hxlz8m.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747573291/1599038395phpImfPh0_n0dvnm.jpg"
+        }
+    }
+}

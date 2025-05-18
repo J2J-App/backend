@@ -1,0 +1,32 @@
+{
+    "jnu-delhi": {
+        "overview": {
+            "Institute Name": "School of Engineering, Jawaharlal Nehru University, Delhi",
+            "Also Known As": "SOE JNU Delhi",
+            "Institute Type": "Government",
+            "Established": "1969",
+            "Location": "New Delhi, Delhi",
+            "address": "School of Engineering, Jawaharlal Nehru University, New Mehrauli Road, New Delhi - 110067"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "Caution Money (One-Time, Refundable)": "₹5,000",
+            "One-Time Fees": "₹2,012",
+            "Tuition Fee (per Semester)": "₹62,500",
+            "Other Fees (per Semester)": "₹5,500",
+            "Annual Fees": "₹9",
+            "Total": "₹75,021"
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565043/jnu_delhi_imbiwk.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566739/jnu_delhi_pic_oefq3x.webp"
+        }
+    }
+}

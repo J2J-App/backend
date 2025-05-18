@@ -1,0 +1,362 @@
+[
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"72",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"70",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"83",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Bio Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"72",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"82",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"21",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"23",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Production Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"23",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Kerala"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Arch. Course",
+    "no_of_seats":"1240",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":""
+  }
+]

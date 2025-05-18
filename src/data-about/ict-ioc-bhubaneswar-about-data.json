@@ -1,0 +1,36 @@
+{
+    "ict-ioc-bhubaneswar": {
+        "overview": {
+            "Institute Name": "Institute of Chemical Technology - Indian Oil Odisha Campus, Bhubaneswar",
+            "Also Known As": "ICT-IOCB",
+            "Institute Type": "Government",
+            "Established": "2018",
+            "Location": "Bhubaneswar, Odisha",
+            "address": "Institute of Chemical Technology - Indian Oil Odisha Campus, IIT Kharagpur Extension Centre, Gajapati Nagar, Bhubaneswar, Odisha - 751013"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹2,250",
+                "Tuition Fees (per Annum)": "₹15,000",
+                "Other Fees (per Annum)": "₹79,983",
+                "Total": "₹1,02,233"
+            },
+            "hostel_fee": {
+                "Mess Caution Money (One-Time, Refundable)": "₹5,000",
+                "Hostel Charges (per Annum)": "₹20,000",
+                "Other Fees (per Annum)": "₹19,000",
+                "Mess Advance (per Semester)": "₹22,680",
+                "Total": "₹66,680"
+            }
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565041/ict_bhubaneshwar_ewyyif.jpg",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566737/ict_iot_bhubhnawswar_pic_bngelv.jpg"
+        }
+    }
+}

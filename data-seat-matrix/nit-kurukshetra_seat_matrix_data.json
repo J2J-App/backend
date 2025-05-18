@@ -1,0 +1,650 @@
+[
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"14",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Internet of Things - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Internet of Things - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"32",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"8",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"14",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Microelectronics and VLSI Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Microelectronics and VLSI Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"8",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Robotics and Automation - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Robotics and Automation - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Sustainable Energy Technologies - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Sustainable Energy Technologies - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Machine Learning - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"14",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Internet of Things - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Internet of Things - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"33",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"7",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"22",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Microelectronics and VLSI Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Microelectronics and VLSI Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"7",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Robotics and Automation - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Robotics and Automation - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Sustainable Energy Technologies - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Sustainable Energy Technologies - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture and Planning - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture and Planning - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture and Planning - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture and Planning - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Haryana"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"1147",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

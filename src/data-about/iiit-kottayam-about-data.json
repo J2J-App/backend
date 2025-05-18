@@ -1,0 +1,36 @@
+{
+    "iiit-kottayam": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Kottayam",
+            "Also Known As": "IIIT Kottayam",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2015",
+            "Location": "Kottayam, Kerala",
+            "address": "Indian Institute of Information Technology Kottayam, Valavoor P.O, Pala, Kottayam, Kerala - 686635"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹12,000",
+                "One-Time Fees": "₹1,000",
+                "Tuition Fee (per Semester)": "₹1,32,000",
+                "Annual Fees": "₹1,750",
+                "Total": "₹1,46,750"
+            },
+            "hostel_fee": {
+                "One-Time Fees": "₹1,000",
+                "Hostel Charges (per Semester)": "₹30,900",
+                "Mess Advance (per Semester)": "₹27,950",
+                "Annual Fees": "₹275",
+                "Total": "₹60,125"
+            }
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565049/iiit_kottayam_juytfc.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566748/iiit_kottayam_pic_sm6r6l.png"
+        }
+    }
+}

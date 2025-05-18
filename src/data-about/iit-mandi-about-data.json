@@ -1,0 +1,45 @@
+{
+    "iit-mandi": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Mandi",
+            "Also Known As": "IIT Mandi",
+            "Institute Type": "Government",
+            "Established": "2009",
+            "Location": "Mandi, Himachal Pradesh",
+            "address": "Indian Institute of Technology, VPO Kamand, Tehsil Sadar, Near Kataula, Parashar Road, Mandi, Himachal Pradesh - 175005"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹12,000",
+                "One-Time Fees": "₹10,000",
+                "Tuition Fee (per Semester)": "₹1,00,000",
+                "Other Fees (per Semester)": "₹6,200",
+                "Annual Fees": "₹750",
+                "Total": "₹1,28,950"
+            },
+            "hostel_fee": {
+                "Hostel Charges (per Semester)": "₹9,600",
+                "Mess Advance (per Semester)": "₹15,360",
+                "Total": "₹24,960"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565081/IIT_Mandi.svg_hbevie.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566786/iit_mandi_pic_lttqze.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

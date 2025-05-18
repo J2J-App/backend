@@ -1,0 +1,490 @@
+[
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"56",
+    "change_from_last_year":"24",
+    "change_direction":"decrease",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"6",
+    "change_direction":"decrease",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Chemistry - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Chemistry - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"104",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"26",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"52",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"56",
+    "change_from_last_year":"24",
+    "change_direction":"decrease",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"6",
+    "change_direction":"decrease",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"24",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and VLSI Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Chemistry - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Industrial Chemistry - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"104",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"26",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"12",
+    "change_direction":"decrease",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"12",
+    "change_direction":"decrease",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Chemistry - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"13",
+    "change_direction":"decrease",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Gender Neutral 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"12",
+    "change_direction":"decrease",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Physics - Female Only 5-Year Integrated M.Sc. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Gender Neutral 5-Year Integrated B.Tech and M.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Female Only 5-Year Integrated B.Tech and M.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Gender Neutral 5-Year Integrated B.Tech and M.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence - Female Only 5-Year Integrated B.Tech and M.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase",
+    "state_quota":"Other than Gujarat"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated B.Tech and M.Tech. Course",
+    "no_of_seats":"1370",
+    "change_from_last_year":"45",
+    "change_direction":"increase",
+    "state_quota":""
+  }
+]

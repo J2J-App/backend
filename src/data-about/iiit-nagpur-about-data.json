@@ -1,0 +1,40 @@
+{
+    "iiit-nagpur": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Nagpur",
+            "Also Known As": "IIITN",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2016",
+            "Location": "Nagpur, Maharashtra",
+            "address": "Indian Institute of Information Technology, Survey No. 140, 141/1, behind Br. Sheshrao Wankhade Shetkari Sahkari Soot Girni, Waranga, Butibori, Nagpur, Maharashtra - 441108"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable) (Applicable in first 2 semesters)": "₹5,000",
+                "One-Time Fees (Applicable in first 2 semesters)": "₹4,000",
+                "Tuition Fee (per Semester)": "₹99,000",
+                "Other Fees (per Semester)": "₹15,150",
+                "Annual Fees": "₹700",
+                "Total": "₹1,23,850"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹2,000",
+                "Mess Caution Money (One-Time, Refundable)": "₹2,000",
+                "One-Time Fees": "₹10,000",
+                "Hostel Seat Rent (per Semester)": "₹8,250 (4-Seater),₹16,500 (2-Seater)",
+                "Electricity & Water Charges (per Annum)": "₹17,000",
+                "Annual Fees": "₹22,000",
+                "Mess Advance (per Semester)": "₹20,000",
+                "Total": "₹81,250 (4-Seater),₹89,500 (2-Seater)"
+            }
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565053/Indian_Institute_of_Information_Technology__Nagpur_Logo.svg_fyb0rj.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566751/iiit_nagpur_krzzgt.jpg"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "nit-warangal": {
+        "overview": {
+            "Institute Name": "National Institute of Technology, Warangal",
+            "Also Known As": "NITW",
+            "Institute Type": "Government",
+            "Established": "1959",
+            "Location": "Warangal, Telangana",
+            "address": "National Institute of Technology, Hanumkonda, Warangal, Telangana - 506004"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "One-Time Fees": "₹30,000",
+                "Tuition Fee (per Semester)": "₹62,500",
+                "Annual Fees": "₹12,500",
+                "Total": "₹1,05,000"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹15,000",
+                "Hostel Seat Rent (per Semester)": "₹3,000 (Boys)₹2,000 (Girls)",
+                "Electricity & Water Charges (per Semester)": "₹5,500",
+                "Other Fees (per Semester)": "₹7,500",
+                "Mess Advance (per Semester)": "₹15,000",
+                "Total": "₹46,000 (Boys)₹45,000 (Girls)"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570505/National_Institute_of_Technology__Warangal_logo_hqxdw1.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566795/nit_warangal_1_qkqpqb.png"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

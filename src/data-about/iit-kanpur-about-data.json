@@ -1,0 +1,38 @@
+{
+    "iit-kanpur": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Kanpur",
+            "Also Known As": "IITK",
+            "Institute Type": "Government",
+            "Established": "1960",
+            "Location": "Kanpur, Uttar Pradesh",
+            "address": "Indian Institute of Technology, Kalyanpur, Kanpur, Uttar Pradesh - 208016"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "Caution Money (One-Time, Refundable)": "₹17,000",
+            "One-Time Fees": "₹2,950",
+            "Tuition Fee (per Semester)": "₹1,00,000",
+            "Hostel Charges (per Semester)": "₹14,425",
+            "Other Fees (per Semester)": "₹3,735",
+            "Total": "₹1,38,110"
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565076/IIT_Kanpur_Logo.svg_lmb7h7.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566763/iit_kanpur_pic_2_qhddiw.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

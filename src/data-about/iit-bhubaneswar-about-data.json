@@ -1,0 +1,39 @@
+{
+    "iit-bhubaneswar": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Bhubaneswar",
+            "Also Known As": "IIT BBS",
+            "Institute Type": "Government",
+            "Established": "2008",
+            "Location": "Bhubaneswar, Odisha",
+            "address": "Indian Institute of Technology, Argul Campus, Jatani, Khordha, Bhubaneswar, Odisha - 752050"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "Caution Money (One-Time, Refundable)": "₹12,000",
+            "One-Time Fees": "₹8,000",
+            "Tuition Fee (Per Semester)": "₹1,00,000",
+            "Other Fees (Per Semester)": "₹19,000",
+            "Annual Fees": "₹2,390",
+            "Mess Advance (Per Semester)": "₹18,000",
+            "Total": "₹1,59,390"
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565083/Indian_Institute_of_Technology_Bhubaneswar_Logo.svg_zcnuit.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566787/iit_bhubneshwar_pic_ffu2dl.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

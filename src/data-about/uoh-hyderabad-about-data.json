@@ -1,0 +1,38 @@
+{
+    "uoh-hyderabad": {
+        "overview": {
+            "Institute Name": "University of Hyderabad",
+            "Also Known As": "UoH Hyderabad",
+            "Institute Type": "Government",
+            "Established": "1974",
+            "Location": "Hyderabad, Telangana",
+            "address": "University of Hyderabad, Prof. CR Rao Road, Gachibowli, Hyderabad, Telangana - 500046"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹2,340",
+                "Tuition Fee (per Semester)": "₹19,735",
+                "Other Fees (per Semester)": "₹5,225",
+                "Annual Fees": "₹2,890",
+                "Total": "₹30,190"
+            },
+            "hostel_fee": {
+                "Mess Caution Money (One-Time, Refundable)": "₹2,500",
+                "One-Time Fees": "₹600",
+                "Hostel Seat Rent (per Semester)": "₹500",
+                "Annual Fees": "₹250",
+                "Total": "₹3,850"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Hostel Seat Rent waiver for SC/ST/PwD students."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565046/University_of_Hyderabad_Logo_tgcyqu.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566745/uoh_hyderabad_uyhqni.webp"
+        }
+    }
+}

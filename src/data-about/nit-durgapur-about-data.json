@@ -1,0 +1,45 @@
+{
+    "nit-durgapur": {
+        "overview": {
+            "Institute Name": "National Institute of Technology, Durgapur",
+            "Also Known As": "NITDGP",
+            "Institute Type": "Government",
+            "Established": "1960",
+            "Location": "Durgapur, West Bengal",
+            "address": "National Institute of Technology, Mahatma Gandhi Avenue, Durgapur, West Bengal - 713209"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹5,500",
+                "Tuition Fee (per Semester)": "₹62,500 (B.Tech/ B.Tech+M.Tech), ₹7,500 (Int. MSc)",
+                "Other Fees (per Semester)": "₹16,600",
+                "Total": "₹94,600 (B.Tech/ B.Tech+M.Tech), ₹39,600 (Int. MSc)"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹5,000",
+                "Hostel Seat Rent (per Semester)": "₹10,000",
+                "Other Fees (per Semester)": "₹1,500",
+                "Total": "₹16,500"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570506/nit_durgapur_logo_vcu5sa.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566806/nit_durgapur_pic_c6i0ua.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

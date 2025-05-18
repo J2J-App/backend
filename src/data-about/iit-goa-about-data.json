@@ -1,0 +1,48 @@
+{
+    "iit-goa": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Goa",
+            "Also Known As": "IIT Goa",
+            "Institute Type": "Government",
+            "Established": "2016",
+            "Location": "Ponda, Goa",
+            "address": "IIT Goa, Goa Engineering College Campus (Bhausaheb Bandodkar Technical Education Complex), Farmagudi, Ponda, Goa - 403401"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹2,000",
+                "One-Time Fees": "₹5,000",
+                "Tuition Fee (per Semester)": "₹1,00,000",
+                "Other Fees (per Semester)": "₹4,750",
+                "Annual Fees": "₹1,892",
+                "Total": "₹1,13,642"
+            },
+            "hostel_fee": {
+                "Mess Caution Money (One-Time, Refundable)": "₹3,000",
+                "Hostel Seat Rent (per Semester)": "₹500",
+                "Electricity & Water Charges (per Semester)": "₹3,500",
+                "Other Fees (per Semester)": "₹8,000",
+                "Mess Advance (per Semester)": "₹18,709",
+                "Total": "₹33,709"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565069/Indian_Institute_of_Technology_Goa_Logo.svg_rwru9s.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566769/iit_goa_pic_chkgrf.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

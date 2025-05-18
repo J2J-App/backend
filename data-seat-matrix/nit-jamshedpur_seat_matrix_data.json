@@ -1,0 +1,266 @@
+[
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering and Computational Mechanics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering and Computational Mechanics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"39",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"39",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering and Computational Mechanics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering and Computational Mechanics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"41",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Jharkhand"
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"751",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

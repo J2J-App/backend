@@ -1,0 +1,219 @@
+[
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"55",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"111",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"28",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"98",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"99",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Environmental Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"38",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Environmental Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"105",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"26",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mineral and Metallurgical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"36",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mineral and Metallurgical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"94",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"23",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mining Machinery Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mining Machinery Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Petroleum Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"72",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Petroleum Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Applied Geology - Gender Neutral 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Applied Geology - Female Only 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Applied Geophysics - Gender Neutral 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Applied Geophysics - Female Only 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated M.Tech. Course",
+    "no_of_seats":"1125",
+    "change_from_last_year":"",
+    "change_direction":null
+  }
+]

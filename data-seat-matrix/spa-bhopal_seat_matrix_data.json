@@ -1,0 +1,42 @@
+[
+  {
+    "year":"2024",
+    "department":"Planning - Gender Neutral 4-Year B.Plan. Course",
+    "no_of_seats":"38",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Planning - Female Only 4-Year B.Plan. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"94",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Arch. Course",
+    "no_of_seats":"132",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

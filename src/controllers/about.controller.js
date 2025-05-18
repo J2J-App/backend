@@ -7,7 +7,7 @@ import path from 'path';
 const about = asyncHandler(async (req, res) => {
     try {
     const { college } = req.body;
-    const filePath = path.join(process.cwd(), `src/josaa-data-about/${college}.json`);
+    const filePath = path.join(process.cwd(), `src/data-about/${college}-about-data.json`);
     const jsonData = await fs.readFile(filePath, 'utf8');
     const data = JSON.parse(jsonData);
 
@@ -20,4 +20,35 @@ const about = asyncHandler(async (req, res) => {
     }
 });
 
-export { about };
+const photo = asyncHandler(async (req, res) => {
+    try {
+    const filePath = path.join(process.cwd(), `src/data-about/collectedPhotos.json`);
+    const jsonData = await fs.readFile(filePath, 'utf8');
+    const data = JSON.parse(jsonData);
+
+    return res.status(200).json(
+        new ApiResponse(200, data, "College branches fetched successfully")
+    );
+
+    } catch (error) {
+        throw new ApiError(400, error.message);
+    }
+});
+
+const seat_matrix = asyncHandler(async (req, res) => {
+    try {
+    const { college } = req.body;
+    const filePath = path.join(process.cwd(), `src/data-seat/matrix/${college}_seat_matrix_data.json`);
+    const jsonData = await fs.readFile(filePath, 'utf8');
+    const data = JSON.parse(jsonData);
+
+    return res.status(200).json(
+        new ApiResponse(200, data, "College branches fetched successfully")
+    );
+
+    } catch (error) {
+        throw new ApiError(400, error.message);
+    }
+});
+
+export { about,photo,seat_matrix };

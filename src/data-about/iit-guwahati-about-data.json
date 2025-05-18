@@ -1,0 +1,50 @@
+{
+    "iit-guwahati": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Guwahati",
+            "Also Known As": "IITG",
+            "Institute Type": "Government",
+            "Established": "1994",
+            "Location": "Guwahati, Assam",
+            "address": "Indian Institute of Technology, Near Doul Gobinda Road, Amingaon, North Guwahati, Guwahati, Assam - 781039"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹2,000",
+                "One-Time Fees": "₹5,150",
+                "Tuition Fee (per Semester)": "₹1,00,000",
+                "Other Fees (per Semester)": "₹5,200",
+                "Annual Fees": "₹1,800",
+                "Total": "₹1,14,150"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹4,000",
+                "Mess Caution Money (One-Time, Refundable)": "₹6,000",
+                "One-Time Fees": "₹2,900",
+                "Hostel Seat Rent (per Semester)": "₹1,000",
+                "Electricity & Water Charges (per Semester)": "₹2,500",
+                "Other Fees (per Semester)": "₹3,600",
+                "Mess Advance (per Semester)": "₹20,000",
+                "Total": "₹40,000"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565069/IIT_Guwahati_Logo.svg_hiukd5.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566771/iit_guwahti_pic_zh0rgo.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "jkiapt-allahabad": {
+        "overview": {
+            "Institute Name": "J.K. Institute of Applied Physics and Technology, Allahabad",
+            "Also Known As": "JKIAPT Allahabad",
+            "Institute Type": "Government",
+            "Established": "1956",
+            "Location": "Allahabad, Uttar Pradesh",
+            "address": "J.K. Institute of Applied Physics and Technology, Science Faculty, University of Allahabad, Prayagraj (Allahabad), Uttar Pradesh - 211002"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Course Fees (per Annum)": "₹40,000 (ECE – GEN/OBC)₹24,000 (ECE – SC/ST/PwD)₹60,000 (CSE-AI – All candidates)",
+                "Annual Fees": "₹5,159"
+            },
+            "hostel_fee": {
+                "Hostel Charges (per Annum)": "₹15,000"
+            }
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565042/jkiapt_gl3nco.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566738/jkiapt_allabad_pic_rsyo8o.jpg"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "iiit-manipur": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology, Manipur",
+            "Also Known As": "IIIT Manipur",
+            "Institute Type": "Public–Private Partnership",
+            "Established": "2015",
+            "Location": "Imphal, Manipur",
+            "address": "Indian Institute of Information Technology, Transit Campus, Mantripukhri, Imphal, Manipur - 795002"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹5,000",
+                "Tuition Fee (per Semester)": "₹1,10,000",
+                "Other Fees (per Semester)": "₹4,400",
+                "Annual Fees": "₹2,500",
+                "Total": "₹1,31,900"
+            },
+            "hostel_fee": {
+                "Mess Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹1,000",
+                "Hostel Seat Rent (per Semester)": "₹8,000",
+                "Electricity & Water Charges (per Semester)": "₹2,000",
+                "Other Fees (per Semester)": "₹2,000",
+                "Mess Advance (per Semester)": "₹32,500",
+                "Total": "₹50,500"
+            }
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565056/iiit_manipur_oia1bp.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747569277/download_imthus.jpg"
+        }
+    }
+}

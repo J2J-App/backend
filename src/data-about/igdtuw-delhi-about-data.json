@@ -1,0 +1,40 @@
+{
+    "igdtuw-delhi": {
+        "overview": {
+            "Institute Name": "Indira Gandhi Delhi Technical University for Women",
+            "Also Known As": "IGDTUW Delhi",
+            "Institute Type": "Government",
+            "Established": "1998",
+            "Location": "New Delhi, Delhi",
+            "address": "Indira Gandhi Delhi Technical University for Women, Kashmere Gate, New Delhi - 110006"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and apply separately for the JAC Delhi Counselling process."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹2,000",
+                "Fees (per Annum)": "₹1,37,500 (B.Tech/ Dual degree)₹1,52,000 (B.Arch)",
+                "Total": "₹1,44,500 (B.Tech/ Dual degree)₹1,59,000 (B.Arch)"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹5,000",
+                "Hostel Charges (per Annum)": "₹97,000",
+                "Mess Charges (per Annum)": "₹44,500",
+                "Total": "₹1,46,500"
+            }
+        },
+        "fee_waiver": {},
+        "eligibility": {
+                "general": "60% in PCM",
+                "obc_ncl": "55% in PCM",
+                "defence": "55% in PCM",
+                "sc_st_pwd": "50% in PCM"
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747571747/download_zbychl.jpg",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572879/download_fhqje8.jpg"
+        }
+    }
+}

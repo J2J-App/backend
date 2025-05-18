@@ -1,0 +1,39 @@
+{
+    "iit-gandhinagar": {
+        "overview": {
+            "Institute Name": "Indian Institute of Technology, Gandhinagar",
+            "Also Known As": "IITGN",
+            "Institute Type": "Government",
+            "Established": "2008",
+            "Location": "Gandhinagar, Gujarat",
+            "address": "Indian Institute of Technology, Palaj, Simkheda, Gandhinagar, Gujarat - 382355"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must qualify the JEE (Main) exam and then appear for the JEE (Advanced) exam."
+        },
+        "fee_structure": {
+            "Caution Money (One-Time, Refundable)": "₹5,000",
+            "One-Time Fees": "₹7,750",
+            "Tuition Fee (per Semester)": "₹1,00,000",
+            "Other Fees (per Semester)": "₹8,338",
+            "Hostel Charges (per Semester)": "₹17,250",
+            "Mess and Laundry Advance (per Semester)": "₹21,000",
+            "Total": "₹1,59,338"
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students.",
+            "point 2": "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+            "point 3": "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565074/iit_gandhinagar_mmnivf.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570667/download_z3hxpc.jpg"
+        },
+        "eligibility": {
+            "general": "75% marks in Class 12 (or equivalent)",
+            "obc_ncl": "75% marks in Class 12 (or equivalent)",
+            "defence": "75% marks in Class 12 (or equivalent)",
+            "sc_st_pwd": "65% marks in Class 12 (or equivalent)"
+        }
+    }
+}

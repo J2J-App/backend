@@ -1,0 +1,37 @@
+{
+    "dtu-delhi": {
+        "overview": {
+            "Institute Name": "Delhi Technological University",
+            "Also Known As": "DTU Delhi",
+            "Institute Type": "Government",
+            "Established": "1941",
+            "Location": "New Delhi, Delhi",
+            "address": "Delhi Technological University, Shahbad Daulatpur, Main Bawana Road, Delhi - 110042"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and apply separately for the JAC Delhi Counselling process."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Tuition Fee (per Annum)": "₹1,55,000",
+                "Other Fees (per Annum)": "₹81,700",
+                "Total": "₹2,36,700"
+            },
+            "hostel_fee": {
+                "Hostel Charges (per Annum)": "₹52,000 (3-Seater Non-AC),₹56,000 (2-Seater Non-AC),₹60,000 (1-Seater Non-AC),₹72,000 (3-Seater AC)",
+                "Mess Charges (per Annum)": "₹34,800"
+            }
+        },
+        "eligibility": {
+            "general": "60% in PCM",
+            "obc_ncl": "55% in PCM",
+            "defence": "55% in PCM",
+            "sc_st_pwd": "50% in PCM"
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747571701/download_pfduat.jpg",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572849/download_kqgxgl.jpg"
+        }
+    }
+}

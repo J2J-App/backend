@@ -1,0 +1,36 @@
+{
+    "iiitdm-jabalpur": {
+        "overview": {
+            "Institute Name": "Indian Institute of Information Technology Design & Manufacturing, Jabalpur",
+            "Also Known As": "IIITDMJ",
+            "Institute Type": "Government",
+            "Established": "2005",
+            "Location": "Jabalpur, Madhya Pradesh",
+            "address": "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology Design & Manufacturing, Dumna Airport Road, Khamaria, Jabalpur, Madhya Pradesh - 482005"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹5,000",
+                "One-Time Fees": "₹10,500",
+                "Tuition Fee (per Semester)": "₹71,750",
+                "Other Fees (per Semester)": "₹7,500",
+                "Total": "₹94,750"
+            },
+            "hostel_fee": {
+                "Hostel Charges (per Semester)": "₹11,000",
+                "Mess Advance (per Semester)": "₹15,000",
+                "Total": "₹26,000"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST/PwD students."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565057/iiitdm_jabalpur_yv25yi.jpg",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566756/iiitdm_jabalpur_pic_pe4nzj.jpg"
+        }
+    }
+}

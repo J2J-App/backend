@@ -1,0 +1,39 @@
+{
+    "spa-bhopal": {
+        "overview": {
+            "Institute Name": "School of Planning and Architecture, Bhopal",
+            "Also Known As": "SPA Bhopal",
+            "Institute Type": "Government",
+            "Established": "2008",
+            "Location": "Bhopal, Madhya Pradesh",
+            "address": "School of Planning and Architecture, Neelbad Road, Bhauri, Bhopal, Madhya Pradesh - 462030"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in their respective Class XII board examination. For more details, refer to the JEE Main Performance Criteria in Class XII."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹10,000",
+                "One-Time Fees": "₹5,500",
+                "Tuition Fee (per Semester)": "₹25,000",
+                "Other Fees (per Semester)": "₹13,000",
+                "Annual Fees": "₹800",
+                "Total": "₹54,300"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹5,000",
+                "Hostel Seat Rent (per Semester)": "₹4,000",
+                "Electricity & Water Charges (per Semester)": "₹650",
+                "Other Fees (per Semester)": "₹4,500",
+                "Total": "₹14,150"
+            }
+        },
+        "fee_waiver": {
+            "point 1": "100% Tuition Fee waiver for SC/ST students."
+        },
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565046/School_of_Planning_and_Architecture__Bhopal_logo_dsppmn.png",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566743/spa_bhopal_pic_o9ap1g.jpg"
+        }
+    }
+}

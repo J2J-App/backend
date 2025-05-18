@@ -1,0 +1,35 @@
+{
+    "gkv-haridwar": {
+        "overview": {
+            "Institute Name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+            "Also Known As": "GKV Haridwar",
+            "Institute Type": "Government",
+            "Established": "1902",
+            "Location": "Haridwar, Uttarakhand",
+            "address": "Gurukula Kangri Vishwavidayalaya, Jagjeetpur, Haridwar, Uttarakhand - 249404"
+        },
+        "mode_of_admission": {
+            "mode_of_admission": "Candidates must appear for the JEE (Main) exam and should have passed Class XII with Physics and Mathematics as mandatory subjects."
+        },
+        "fee_structure": {
+            "institute_fee": {
+                "Caution Money (One-Time, Refundable)": "₹2,500",
+                "One-Time Fees": "₹100",
+                "Course Fees (per Annum)": "₹1,26,350",
+                "Total": "₹1,28,950"
+            },
+            "hostel_fee": {
+                "Hostel Caution Money (One-Time, Refundable)": "₹3,000",
+                "Hostel Charges (per Annum)": "₹35,000 (for GEN/OBC/EWS)₹30,000 (for SC/ST/PwD)",
+                "Annual Fees": "₹7,000",
+                "Mess Advance (per Annum)": "₹25,000",
+                "Total": "₹70,000 (for GEN/OBC/EWS)₹65,000 (for SC/ST/PwD)"
+            }
+        },
+        "fee_waiver": {},
+        "photos":{
+            "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565041/gkv_haridwar_wiyf86.jpg",
+            "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566737/gkv_haridwar_pic_ll4nxh.jpg"
+        }
+    }
+}
