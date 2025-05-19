@@ -2,11 +2,16 @@ import { ApiError } from '../utils/ApiError.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
 import sql from '../db/db01.js';
+import fs from 'fs/promises';
+import path from 'path';
+import { console } from 'inspector';
 
 const predictor =asyncHandler(async (req, res) => {
     try {
         let { counselling, rank, domicile, category, subcategory, year, college_type, adv_rank, gender } = req.body;
-
+        const filePath = path.join(process.cwd(), `src/data-about/collectedPhotos.json`);
+        const jsonData = await fs.readFile(filePath, 'utf8');
+        const data = JSON.parse(jsonData);
         if(!counselling) {
             throw new ApiError(400, 'Counselling is required');
         }
@@ -437,7 +442,8 @@ const predictor =asyncHandler(async (req, res) => {
                 FROM all_iit_${year}
                 WHERE closing >= $1
                     and category = $2
-                    and sub_category = $3`
+                    and sub_category = $3
+                    and round In ('1','2','3','4','5')`
 
                 let result = await sql.query(query, [
                     Number(adv_rank),
@@ -448,6 +454,11 @@ const predictor =asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
+                }))
+
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
                 }))
 
                 const branchMap = {};
@@ -539,6 +550,11 @@ const predictor =asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -612,6 +628,11 @@ const predictor =asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
+                }))
+
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
                 }))
 
                 const branchMap = {};
@@ -697,6 +718,11 @@ const predictor =asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -768,14 +794,14 @@ const predictor =asyncHandler(async (req, res) => {
                 and college != 'igdtuw'
                     and category = ANY($2)
                     and quota = $3
-                    and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+                    and round IN ('1', '2', '3', '4', '5', '6')`
             }else{
                 query = `SELECT branch, rank, round, college
                 FROM all_jac_${year}
                 WHERE rank >= $1
                     and category = ANY($2)
                     and quota = $3
-                    and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+                    and round IN ('1', '2', '3', '4', '5', '6')`
             }
 
             const query2 = `SELECT branch, rank, round
@@ -784,7 +810,7 @@ const predictor =asyncHandler(async (req, res) => {
                 and is_bonus = 'false'
                 and category = ANY($2)
                 and quota = $3
-                and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+                and round IN ('1', '2', '3', '4', '5', '6')`
 
             let result2 = await sql.query(query2, [
                 Number(rank),
@@ -809,6 +835,11 @@ const predictor =asyncHandler(async (req, res) => {
             result = result.map(row => ({
                 ...row,
                 branch: coure_mapping_jac[row.branch] || row.branch,
+            }))
+
+            result = result.map(row => ({
+                ...row,
+                icon : data[row.college].logo,
             }))
 
             const branchMap = {};
@@ -837,7 +868,9 @@ const predictor =asyncHandler(async (req, res) => {
 const cutoff = asyncHandler(async (req, res) => {
     try {
         let { counselling, domicile, category, subcategory, year, college_type, gender , college} = req.body;
-
+        const filePath = path.join(process.cwd(), `src/data-about/collectedPhotos.json`);
+        const jsonData = await fs.readFile(filePath, 'utf8');
+        const data = JSON.parse(jsonData);
         if(!counselling) {
             throw new ApiError(400, 'Counselling is required');
         }
@@ -1271,6 +1304,11 @@ const cutoff = asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -1347,6 +1385,11 @@ const cutoff = asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -1397,6 +1440,11 @@ const cutoff = asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
+                }))
+
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
                 }))
 
                 const branchMap = {};
@@ -1469,6 +1517,11 @@ const cutoff = asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
+                }))
+
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
                 }))
 
                 const branchMap = {};
@@ -1553,6 +1606,11 @@ const cutoff = asyncHandler(async (req, res) => {
             result = result.map(row => ({
                 ...row,
                 branch: coure_mapping_jac[row.branch] || row.branch,
+            }))
+
+            result = result.map(row => ({
+                ...row,
+                icon: data[row.college].logo,
             }))
 
             const branchMap = {};
