@@ -809,21 +809,21 @@ const placementBranches = asyncHandler(async (req, res) => {
         let data_2022 = result["2022"]
 
         if(data_2022) {
-            data_2022 = data_2022.map((item) => coure_mapping_jossa[item]);
+            data_2022 = data_2022.map((item) => coure_mapping_jossa[item] || item);
             final_data["2022"] = data_2022;
         }
 
         let data_2023 = result["2023"]
 
         if(data_2023) {
-            data_2023 = data_2023.map((item) => coure_mapping_jossa[item]);
+            data_2023 = data_2023.map((item) => coure_mapping_jossa[item] || item);
             final_data["2023"] = data_2023;
         }
 
         let data_2024 = result["2024"]
 
         if(data_2024) {
-            data_2024 = data_2024.map((item) => coure_mapping_jossa[item])
+            data_2024 = data_2024.map((item) => coure_mapping_jossa[item] || item);
             final_data["2024"] = data_2024;
         }
         
