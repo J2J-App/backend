@@ -1855,7 +1855,7 @@
           "ECE"
         ],
         "2022": [
-                  "CSAM",
+        "CSAM",
           "CSB",
           "CSD",
           "CSE",
@@ -1932,6 +1932,34 @@
           "ECE",
           "IT",
           "MAE"
+        ]
+    },
+        "iiit-hyderabad": {
+        "2024": [
+            "Yj1m0",
+            "4o8iJ"
+        ],
+        "2023": [
+            "Yj1m0",
+            "4o8iJ"
+        ],
+        "2022": [
+            "Yj1m0",
+            "4o8iJ"
+        ]
+    },
+        "iiit-banglore": {
+        "2024": [
+            "I-CSE-DD",
+            "ECE-DD"
+        ],
+        "2023": [
+            "I-CSE-DD",
+            "ECE-DD"
+        ],
+        "2022": [
+            "I-CSE-DD",
+            "ECE-DD"
         ]
     }
 }
