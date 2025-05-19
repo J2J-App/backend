@@ -1810,78 +1810,128 @@
     },
     "nsut-delhi": {
         "2024": [
-            "Yj1m0",
-            "4o8iJ",
-            "3H5Ay",
-            "pX89z",
-            "E8gk7",
-            "J5u1h",
-            "As89o"
+          "CSAI",
+          "CSE",
+          "ECE",
+          "EE",
+          "ICE",
+          "IT",
+          "MAC"
         ],
         "2023": [
-            "1h",
-            "Yj1m0",
-            "4o8iJ",
-            "3H5Ay",
-            "pX89z",
-            "E8gk7"
+          "BT",
+          "CSE",
+          "ECE",
+          "ICE",
+          "IT",
+          "ME"
         ],
         "2022": [
-            "1h",
-            "Yj1m0",
-            "4o8iJ",
-            "3H5Ay",
-            "pX89z",
-            "E8gk7"
+          "BT",
+          "CSE",
+          "ECE",
+          "ICE",
+          "IT",
+          "ME"
         ]
     },
     "iiit-delhi": {
         "2024": [
-            "Yj1m0",
-            "4o8iJ"
+          "CSAI",
+          "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
         ],
         "2023": [
-            "Yj1m0",
-            "4o8iJ"
+           "CSAI",
+          "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
         ],
         "2022": [
-            "Yj1m0",
-            "4o8iJ"
+                  "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
         ]
     },
     "dtu-delhi": {
         "2024": [
-            "Yj1m0",
-            "4o8iJ"
+         "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
         ],
         "2023": [
-            "Yj1m0",
-            "4o8iJ"
+          "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
         ],
         "2022": [
-            "Yj1m0",
-            "4o8iJ"
+          "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
         ]
     },
     "igdtuw-delhi": {
         "2024": [
-            "Yj1m0",
-            "4o8iJ",
-            "2i",
-            "pX89z",
-            "J5u1h"
+          "CSAI",
+          "CSE",
+          "ECE",
+          "IT",
+          "MAE"
         ],
         "2023": [
-            "Yj1m0",
-            "4o8iJ",
-            "2i",
-            "pX89z"
+          "CSE",
+          "ECE",
+          "IT",
+          "MAE"
         ],
         "2022": [
-            "Yj1m0",
-            "4o8iJ",
-            "2i",
-            "pX89z"
+       "CSE",
+          "ECE",
+          "IT",
+          "MAE"
         ]
     }
 }
