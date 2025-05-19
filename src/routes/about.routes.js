@@ -7,7 +7,7 @@ aboutRouter.route('/').post(about);
 aboutRouter.route('/photo').get(photo);
 aboutRouter.route('/seat-matrix').post(seat_matrix);
 aboutRouter.route('/branches').post(branches);
-aboutRouter.route('/placement-braches').post(placementBranches);
+aboutRouter.route('/placement-branches').post(placementBranches);
 
 
 export default aboutRouter

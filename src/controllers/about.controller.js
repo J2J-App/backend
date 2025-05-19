@@ -39,7 +39,7 @@ const photo = asyncHandler(async (req, res) => {
 const seat_matrix = asyncHandler(async (req, res) => {
     try {
     const { college } = req.body;
-    const filePath = path.join(process.cwd(), `src/data-seat/matrix/${college}_seat_matrix_data.json`);
+    const filePath = path.join(process.cwd(), `src/data-seat-matrix/${college}_seat_matrix_data.json`);
     const jsonData = await fs.readFile(filePath, 'utf8');
     const data = JSON.parse(jsonData);
 
