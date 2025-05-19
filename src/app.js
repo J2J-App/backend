@@ -36,7 +36,7 @@ app.use("/api/v1/postRank", postRankRouter)
 app.use("/api/v1/getCollegeBranches", getCollegeBranchesRouter)
 app.use("/api/v1/getSeatMatrix", getSeatMatrixRouter)
 app.use("/api/v1/getCollegeData", getCollegeDataRouter)
-app.use("/api/v1/cutoff", cutoffRouter)
+app.use("/api/v2/cutoff", cutoffRouter)
 app.use("/api/v2/about", aboutRouter)
 app.use("/api/v2/placement", placementRouter)
 
