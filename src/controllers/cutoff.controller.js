@@ -1633,9 +1633,9 @@ const cutoff = asyncHandler(async (req, res) => {
 
             
             const map = {
-                "dtu" : "dtu-delhi",
-                "nsut" : "nsut-delhi",
-                "igdtuw" : "igdtuw-delhi",
+                "dtu-delhi" : "dtu-delhi",
+                "nsut-delhi" : "nsut-delhi",
+                "igdtuw-delhi" : "igdtuw-delhi",
                 "nsut-east" : "nsut-delhi",
                 "nsut-west" : "nsut-delhi",
                 "all_iiitd" : "iiit-delhi",
