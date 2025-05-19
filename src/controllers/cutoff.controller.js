@@ -381,7 +381,7 @@ const predictor =asyncHandler(async (req, res) => {
 
         const allowed_genders = ["M","F"];
 
-        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","dl"];
+        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","dl","gj"];
 
         if(counselling == "JOSAA") {
 

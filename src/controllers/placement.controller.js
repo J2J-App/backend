@@ -379,7 +379,8 @@ const getPlacement = asyncHandler(async (req, res) => {
             "2d": "Dual Degree - Biotechnology",
             "2e": "Dual Degree - Chemical Engineering",
             "2f": "Integrated MSc - Chemistry",
-            "2h": "Material Sc. and Engineering"
+            "2h": "Material Sc. and Engineering",
+            "2i": "Mechanical and Automation Engineering"
         };
 
         const query = `SELECT * FROM "${college}" WHERE year = $1`;

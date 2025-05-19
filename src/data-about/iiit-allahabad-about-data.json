@@ -34,6 +34,11 @@
         "photos":{
             "logo":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565059/Indian_Institute_of_Information_Technology__Allahabad_Logo_swpvw8.png",
             "college-pic":"https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566757/iiit_allahabd_qxrpt6.jpg"
+        },
+        "eligibility": {
+            "general": "75% in PCM",
+            "obc_ncl": "75% in PCM",
+            "sc_st_pwd": "65% in PCM"
         }
     }
 }
