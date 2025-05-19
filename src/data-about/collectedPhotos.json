@@ -29,11 +29,11 @@
     },
     "nit-durgapur": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570506/nit_durgapur_logo_vcu5sa.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566806/nit_durgapur_pic_c6i0ua.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747668863/NIT-Durgapur_o7tuqr.webp"
     },
     "nit-goa": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570508/nit_goa_logo_hpfus0.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566806/nit_goa_pic_vaitev.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747668784/NIT-GOA_ty7i1g.webp"
     },
     "nit-hamirpur": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570508/nit_hamirpur_logo_ur18qs.png",
@@ -69,11 +69,11 @@
     },
     "nit-jamshedpur": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570509/nit_jamshedpur_srtglo.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747566801/nit_jamshedpur_puc_mxwamk.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747668582/NIT-Jamshedpur_mwofqk.webp"
     },
     "nit-kurukshetra": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570509/nit_kurukshetra_ms8ova.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572138/download_der4go.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747668697/NIT-Kurukshetra_cfawyh.webp"
     },
     "nit-mizoram": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570511/nit_mizoram_vfw279.png",
@@ -89,15 +89,15 @@
     },
     "nit-srinagar": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570516/nit_sringar_logo_qh1r5l.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572273/download_z9wyyt.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747668057/NIT-SRINAGAR_cicrqz.jpg"
     },
     "nit-trichy": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570519/nit_trichy_logo_imu0jr.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572367/download_lrktuj.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747668418/NIT-Trichy_vvorbt.webp"
     },
     "nit-uttarakhand": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570519/NIT_Uttarakhand_Logo_s13dhx.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572405/download_uhcyyz.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747668198/NIT-UTTARAKHAND_pptsar.webp"
     },
     "nit-warangal": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570505/National_Institute_of_Technology__Warangal_logo_hqxdw1.png",
@@ -113,7 +113,7 @@
     },
     "nit-nagaland": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570505/National_Institute_of_Technology__Nagaland_Logo_holfxm.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572198/download_omumyq.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747667753/NIT-Nagaland_eecmnv.webp"
     },
     "nit-manipur": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570505/National_Institute_of_Technology__Manipur_logo_dqjbbl.png",
@@ -161,7 +161,7 @@
     },
     "iit-gandhinagar": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565074/iit_gandhinagar_mmnivf.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570667/download_z3hxpc.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747666773/IIT-GN_g2bgi9.webp"
     },
     "iit-patna": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565074/iit_patna_ycnbcy.png",
@@ -257,7 +257,7 @@
     },
     "iiit-manipur": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565056/iiit_manipur_oia1bp.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747569277/download_imthus.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747667348/IIIT-Manipur-Transit-Campus_ncn2tm.webp"
     },
     "iiit-trichy": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747565055/Indian_Institute_of_Information_Technology_Tiruchirappalli_logo_h05vxb.png",
@@ -385,10 +385,10 @@
     },
     "igdtuw-delhi": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747571747/download_zbychl.jpg",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747572879/download_fhqje8.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747667603/IGDTUW_n1somv.webp"
     },
     "iiit-delhi": {
         "logo": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747571825/download_agltr7.png",
-        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747570193/download_solq8h.jpg"
+        "college-pic": "https://res.cloudinary.com/dwaxs1dkx/image/upload/v1747667462/IIIT-Delhi_mdubes.webp"
     }
 }
