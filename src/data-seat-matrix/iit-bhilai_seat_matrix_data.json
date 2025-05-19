@@ -1,0 +1,107 @@
+[
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"44",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Data Science and Artificial Intelligence - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Data Science and Artificial Intelligence - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Metallurgical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Materials Science and Metallurgical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"43",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechatronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"16",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechatronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"283",
+    "change_from_last_year":"40",
+    "change_direction":"increase"
+  }
+]

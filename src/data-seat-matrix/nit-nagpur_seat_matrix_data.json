@@ -1,0 +1,298 @@
+[
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"45",
+    "change_from_last_year":"2",
+    "change_direction":"decrease",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"46",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"47",
+    "change_from_last_year":"2",
+    "change_direction":"increase",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"11",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"31",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than Maharashtra"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Arch. Course",
+    "no_of_seats":"933",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]

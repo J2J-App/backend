@@ -2,11 +2,16 @@ import { ApiError } from '../utils/ApiError.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
 import sql from '../db/db01.js';
+import fs from 'fs/promises';
+import path from 'path';
+import { console } from 'inspector';
 
 const predictor =asyncHandler(async (req, res) => {
     try {
         let { counselling, rank, domicile, category, subcategory, year, college_type, adv_rank, gender } = req.body;
-
+        const filePath = path.join(process.cwd(), `src/data-about/collectedPhotos.json`);
+        const jsonData = await fs.readFile(filePath, 'utf8');
+        const data = JSON.parse(jsonData);
         if(!counselling) {
             throw new ApiError(400, 'Counselling is required');
         }
@@ -26,11 +31,13 @@ const predictor =asyncHandler(async (req, res) => {
             "2iD2K": "Chemical Engineering",
             "z0p7W": "Mathematics 4-Year B.S. Course",
             "tX84d": "Economics 4-Year B.S. Course",
+            "t73pk": "Chemistry 4-Year B.S. Course",
+            "8lNy9": "Physics 4-Year B.S. Course",
             "60Kdh": "Electrical Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "0wrA1": "Environmental Science and Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "6jm7j": "Mechanical Engineering and M.Tech in Computer Integrated Manufacturing 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "8KsI1": "Aerospace Engineering",
-            "9A6ZB": "Metallurgical Engineering and Materials Science",
+            "9A6ZB": "Metallurgical and Materials Engineering",
             "A11vZ": "Metallurgical and Materials Engineering",
             "1SG5j": "Engineering Physics 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "5Gx8M": "Civil Engineering and M.Tech in Environmental Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
@@ -44,7 +51,6 @@ const predictor =asyncHandler(async (req, res) => {
             "8GxL4": "Civil Engineering and M.Tech in Transportation Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "OoB68": "Mechanical Engineering and M.Tech in Thermal Science & Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "HvS04": "Energy Engineering",
-            "t73pk": "Chemistry 4-Year B.S. Course",
             "e4A5e": "Chemical Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "As89o": "Mathematics and Computing",
             "1moH2": "Materials Engineering",
@@ -61,7 +67,6 @@ const predictor =asyncHandler(async (req, res) => {
             "d8Po6": "Manufacturing Science and Engineering",
             "24yXP": "Mining Engineering",
             "0cI2y": "Ocean Engineering and Naval Architecture",
-            "8lNy9": "Physics 4-Year B.S. Course",
             "56fXh": "Applied Geology 4-Year B.S. Course",
             "hA9F6": "Applied Geology",
             "36cPA": "Mathematics and Computing 4-Year B.S. Course",
@@ -267,7 +272,7 @@ const predictor =asyncHandler(async (req, res) => {
             "k36By": "Computer Science Engineering (Data Science and Analytics)",
             "F13dw": "Computer Science Engineering (Human Computer lnteraction and Gaming Technology)",
             "xd7k4": "Electronics and Communication Engineering (Internet of Things)",
-            "X0FP8": "5-Year B.Arch. Course Architecture",
+            "X0FP8": "Architecture 5-Year B.Arch. Course",
             "f00oW": "5-Year Integrated M.Sc. Course Food Technology",
             "6qC2v": "5-Year Integrated M.Sc. Course Mathematics and Computing",
             "z04pL": "5-Year Integrated M.Sc. Course Physics",
@@ -372,16 +377,15 @@ const predictor =asyncHandler(async (req, res) => {
 
         const allowed_college_types = ["IIT","NIT","IIIT","GFTI"];
 
-        const allowed_years = ["2024","2023","2022"];
+        const allowed_years = [2024,2023,2022];
 
         const allowed_genders = ["M","F"];
 
-        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","ut"];
+        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","dl"];
 
         if(counselling == "JOSAA") {
 
             // validation for Josaa
-            
             if(!college_type || !allowed_college_types.includes(college_type)) {
                 throw new ApiError(400, 'College type is required');
             }
@@ -438,7 +442,8 @@ const predictor =asyncHandler(async (req, res) => {
                 FROM all_iit_${year}
                 WHERE closing >= $1
                     and category = $2
-                    and sub_category = $3`
+                    and sub_category = $3
+                    and round In ('1','2','3','4','5')`
 
                 let result = await sql.query(query, [
                     Number(adv_rank),
@@ -449,6 +454,11 @@ const predictor =asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
+                }))
+
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
                 }))
 
                 const branchMap = {};
@@ -540,6 +550,11 @@ const predictor =asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -613,6 +628,11 @@ const predictor =asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
+                }))
+
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
                 }))
 
                 const branchMap = {};
@@ -698,6 +718,11 @@ const predictor =asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon : data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -718,92 +743,151 @@ const predictor =asyncHandler(async (req, res) => {
             }
         }else if(counselling == "JAC") {
             // validation for JAC
-            if (!rank) {
-                throw new ApiError(400, 'Rank is required');
-            }
-
-            if (!domicile) {
-                throw new ApiError(400, 'Domicile is required');
-            }
-
-            if (!category) {
-                throw new ApiError(400, 'Category is required');
-            }
-
-            if (isNaN(Number(rank)) || rank < 0) {
-                throw new ApiError(400, 'Rank should be a number');
-            }
-
-            if(!gender){
-                throw new ApiError(400,"Gender is required")
-            }
-
-            let categoryList = []
-
-            if (subcategory === "SNG") {
-                categoryList = ["SNG", `${category}-GC`,category]
-            }else if (subcategory === "GC") {
-                categoryList = [`${category}-GC`,category]
-            }else if (subcategory === "NONE") {
-                categoryList = [category]
-            }else{
-                categoryList = [`${category}-${subcategory}`]
-            }
-
-            if(domicile === "dl"){
-                domicile = "D"
-            }else{
-                domicile = "OD"
-            }
-
-            let query = ``
-
-            if(gender === "M"){
-                query = `SELECT branch, rank, round, college
-                FROM all_jac_${year}
+            try {
+                if (!rank) {
+                    throw new ApiError(400, 'Rank is required');
+                }
+    
+                if (!domicile) {
+                    throw new ApiError(400, 'Domicile is required');
+                }
+    
+                if (!category) {
+                    throw new ApiError(400, 'Category is required');
+                }
+    
+                if (isNaN(Number(rank)) || rank < 0) {
+                    throw new ApiError(400, 'Rank should be a number');
+                }
+    
+                if(!gender){
+                    throw new ApiError(400,"Gender is required")
+                }
+    
+                if (!year || !allowed_years.includes(year)) {
+                    throw new ApiError(400, 'Year is required');
+                }
+    
+                console.log(year)
+                console.log(category)
+                console.log(subcategory)
+    
+                let categoryList = []
+    
+                if (subcategory === "SNG") {
+                    categoryList = ["SNG", `${category}-GC`,category]
+                }else if (subcategory === "GC") {
+                    categoryList = [`${category}-GC`,category]
+                }else if (subcategory === "NONE") {
+                    categoryList = [category]
+                }else{
+                    categoryList = [`${category}-${subcategory}`]
+                }
+    
+                if(domicile === "dl"){
+                    domicile = "D"
+                }else{
+                    domicile = "OD"
+                }
+    
+                console.log(categoryList)
+    
+                let query = ``
+    
+                if(gender === "M"){
+                    query = `SELECT branch, rank, round, college
+                    FROM all_jac_${year}
+                    WHERE rank >= $1
+                    and college != 'igdtuw'
+                        and category = ANY($2)
+                        and quota = $3
+                        and round IN ('1', '2', '3', '4', '5', '6')`
+                }else{
+                    query = `SELECT branch, rank, round, college
+                    FROM all_jac_${year}
+                    WHERE rank >= $1
+                        and category = ANY($2)
+                        and quota = $3
+                        and round IN ('1', '2', '3', '4', '5', '6')`
+                }
+    
+                const query2 = `SELECT branch, rank, round
+                FROM all_iiitd
                 WHERE rank >= $1
-                and college_type != 'igdtuw'
+                    and is_bonus = 'false'
                     and category = ANY($2)
                     and quota = $3
-                    and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
-            }else{
-                query = `SELECT branch, rank, round, college
-                FROM all_jac_${year}
-                WHERE rank >= $1
-                    and category = ANY($2)
-                    and quota = $3
-                    and round != 'U1' and round != 'U2' and round != 'S' and round != 'S-2' and round != 'S-1'`
+                    and round IN ('1', '2', '3', '4', '5', '6')`
+    
+                let result2 = await sql.query(query2, [
+                    Number(rank),
+                    categoryList,
+                    domicile
+                ]);
+    
+                let result = await sql.query(query, [
+                    Number(rank),
+                    categoryList,
+                    domicile
+                ]);
+    
+                result2 = result2.map(row => ({
+                    ...row,
+                    branch: coure_mapping_jossa[row.branch] || row.branch,
+                    college: "iiit-delhi"
+                }))
+    
+    
+                result2 = result2.map(row => ({
+                    ...row,
+                    branch: coure_mapping_jac[row.branch] || row.branch,
+                    icon : data["iiit-delhi"].logo,
+                }))
+
+                const map = {
+                    "dtu" : "dtu-delhi",
+                    "nsut" : "nsut-delhi",
+                    "igdtuw" : "igdtuw-delhi",
+                    "nsut-east" : "nsut-delhi",
+                    "nsut-west" : "nsut-delhi",
+                }
+                
+                
+                result = result.map(row => ({
+                    ...row,
+                    branch: coure_mapping_jac[row.branch] || row.branch,
+                    icon : data[map[row.college]].logo,
+                }))
+                
+                result = [...result, ...result2]
+                const branchMap = {};
+    
+                result.forEach(item => {
+                    const key = `${item.college}_${item.branch}_${item.year}_${item.round}`;
+                    branchMap[key] = item;
+                });
+    
+                const uniqueResults = Object.values(branchMap);
+    
+    
+                const sortedResults = uniqueResults.sort((a, b) => a.rank - b.rank);
+    
+                return res.status(200).json(
+                    new ApiResponse(200, sortedResults, 'Branches fetched successfully')
+                );
+            } catch (error) {
+                console.error(error);
+                console.log(error.message);
+                console.log(error.stack);
+                console.log(error);
+                throw new ApiError(500, 'Error fetching branches', error.message);
             }
-
-            let result = await sql.query(query, [
-                Number(rank),
-                categoryList,
-                domicile
-            ]);
-
-            result = result.map(row => ({
-                ...row,
-                branch: coure_mapping_jac[row.branch] || row.branch,
-            }))
-
-            const branchMap = {};
-
-            result.forEach(item => {
-                const key = `${item.college}_${item.branch}_${item.year}_${item.round}`;
-                branchMap[key] = item;
-            });
-
-            const uniqueResults = Object.values(branchMap);
-
-
-            const sortedResults = uniqueResults.sort((a, b) => a.rank - b.rank);
-
-            return res.status(200).json(
-                new ApiResponse(200, sortedResults, 'Branches fetched successfully')
-            );
         }
     } catch (error) {
         console.error(error);
+        console.log(error.message);
+        console.log(error.stack);
+        console.log(error);
         throw new ApiError(500, 'Error fetching branches', error.message);
         
     }
@@ -812,7 +896,9 @@ const predictor =asyncHandler(async (req, res) => {
 const cutoff = asyncHandler(async (req, res) => {
     try {
         let { counselling, domicile, category, subcategory, year, college_type, gender , college} = req.body;
-
+        const filePath = path.join(process.cwd(), `src/data-about/collectedPhotos.json`);
+        const jsonData = await fs.readFile(filePath, 'utf8');
+        const data = JSON.parse(jsonData);
         if(!counselling) {
             throw new ApiError(400, 'Counselling is required');
         }
@@ -1246,6 +1332,11 @@ const cutoff = asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -1322,6 +1413,11 @@ const cutoff = asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -1372,6 +1468,11 @@ const cutoff = asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
+                }))
+
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
                 }))
 
                 const branchMap = {};
@@ -1446,6 +1547,11 @@ const cutoff = asyncHandler(async (req, res) => {
                     branch: coure_mapping_jossa[row.branch] || row.branch,
                 }))
 
+                result = result.map(row => ({
+                    ...row,
+                    icon: data[row.college].logo,
+                }))
+
                 const branchMap = {};
 
                 result.forEach(item => {
@@ -1485,20 +1591,39 @@ const cutoff = asyncHandler(async (req, res) => {
 
             let query = ``
             
-            if(domicile !== "true"){
-                query = `
-                SELECT branch, rank, round, college, quota
-                FROM all_jac_${year}
-                WHERE college = $1
-                    and category = $2
-                    and quota = 'OD'`
+            if(college !== "iiit-delhi"){
+                if(domicile !== "true"){
+                    query = `
+                    SELECT branch, rank, round, college, quota
+                    FROM all_jac_${year}
+                    WHERE college = $1
+                        and category = $2
+                        and quota = 'OD'`
+                }else{
+                    query = `
+                    SELECT branch, rank, round, college
+                    FROM all_jac_${year}
+                    WHERE college = $1
+                        and category = $2
+                        and quota != 'OD'`
+                }
             }else{
-                query = `
-                SELECT branch, rank, round, college
-                FROM all_jac_${year}
-                WHERE college = $1
-                    and category = $2
-                    and quota != 'OD'`
+                college = "all_iiitd"
+                if(domicile !== "true"){
+                    query = `
+                    SELECT branch, rank, round , is_bonus
+                    FROM $1
+                    WHERE year = ${year}
+                        category = $2
+                        and quota = 'OD'`
+                }else{
+                    query = `
+                    SELECT branch, rank, round, college
+                    FROM $1
+                    WHERE year = ${year}
+                        and category = $2
+                        and quota != 'OD'`
+                }
             }
 
             let result = await sql.query(query, [
@@ -1506,9 +1631,24 @@ const cutoff = asyncHandler(async (req, res) => {
                 category,
             ]);
 
+            
+            const map = {
+                "dtu" : "dtu-delhi",
+                "nsut" : "nsut-delhi",
+                "igdtuw" : "igdtuw-delhi",
+                "nsut-east" : "nsut-delhi",
+                "nsut-west" : "nsut-delhi",
+                "all_iiitd" : "iiit-delhi",
+            }
+
             result = result.map(row => ({
                 ...row,
                 branch: coure_mapping_jac[row.branch] || row.branch,
+            }))
+
+            result = result.map(row => ({
+                ...row,
+                icon: data[map[row.college]].logo,
             }))
 
             const branchMap = {};

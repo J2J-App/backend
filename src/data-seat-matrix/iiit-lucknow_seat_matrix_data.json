@@ -1,0 +1,65 @@
+[
+  {
+    "year":"2024",
+    "department":"Computer Science - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Artificial Intelligence - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Artificial Intelligence - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Business - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Business - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"240",
+    "change_from_last_year":"",
+    "change_direction":null
+  }
+]

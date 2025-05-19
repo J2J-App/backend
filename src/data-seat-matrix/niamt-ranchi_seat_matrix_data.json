@@ -1,0 +1,74 @@
+[
+  {
+    "year":"2024",
+    "department":"Computer Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"51",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"13",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"61",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgy and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"61",
+    "change_from_last_year":"1",
+    "change_direction":"increase",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgy and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"48",
+    "change_from_last_year":"3",
+    "change_direction":"decrease",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Production and Industrial Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"1",
+    "change_direction":"decrease",
+    "state_quota":"All India"
+  },
+  {
+    "year":"2024",
+    "department":"Total 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"276",
+    "change_from_last_year":"5",
+    "change_direction":"decrease",
+    "state_quota":""
+  }
+]

@@ -24,6 +24,7 @@ import getSeatMatrixRouter from "./routes/getSeatMatrix.routes.js"
 import getCollegeDataRouter from "./routes/getCollegeData.routes.js"
 import cutoffRouter from "./routes/cutoff.routes.js"
 import aboutRouter from "./routes/about.routes.js"
+import placementRouter from "./routes/placement.routes.js"
 
 // Routes declaration
 app.use("/api/v1/healthcheck", healthcheckRouter)
@@ -37,5 +38,6 @@ app.use("/api/v1/getSeatMatrix", getSeatMatrixRouter)
 app.use("/api/v1/getCollegeData", getCollegeDataRouter)
 app.use("/api/v2/cutoff", cutoffRouter)
 app.use("/api/v2/about", aboutRouter)
+app.use("/api/v2/placement", placementRouter)
 
 export {app}

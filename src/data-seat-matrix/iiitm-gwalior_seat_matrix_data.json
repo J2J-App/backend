@@ -1,0 +1,79 @@
+[
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"63",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"33",
+    "change_from_last_year":"1",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"1",
+    "change_direction":"decrease"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Scientific Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"25",
+    "change_from_last_year":"1",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Scientific Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"1",
+    "change_direction":"decrease"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 5-Year Integrated B.Tech and M.Tech. Course",
+    "no_of_seats":"75",
+    "change_from_last_year":"3",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 5-Year Integrated B.Tech and M.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"3",
+    "change_direction":"decrease"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 5-Year Integrated B.Tech and MBA Course",
+    "no_of_seats":"50",
+    "change_from_last_year":"2",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 5-Year Integrated B.Tech and MBA Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"2",
+    "change_direction":"decrease"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year Integrated B.Tech and MBA Course",
+    "no_of_seats":"295",
+    "change_from_last_year":"",
+    "change_direction":null
+  }
+]

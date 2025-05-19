@@ -1,0 +1,107 @@
+[
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"60",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"9",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"70",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"9",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in Design and Manufacturing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"60",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering with specialization in Design and Manufacturing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"5",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering with specialization in Design and Manufacturing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"50",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering with specialization in Design and Manufacturing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"4",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"20",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"0",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"327",
+    "change_from_last_year":"27",
+    "change_direction":"increase"
+  }
+]

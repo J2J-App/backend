@@ -1,0 +1,457 @@
+[
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"56",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Science and Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Science and Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"56",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"32",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"40",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"69",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"17",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"37",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Economics - Gender Neutral 4-Year B.S. Course",
+    "no_of_seats":"18",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Economics - Female Only 4-Year B.S. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering and M.Tech. in Communication Systems - Gender Neutral 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering and M.Tech. in Communication Systems - Female Only 5-Year B.Tech + M.Tech. (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science and MBA in Digital Business Management (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Artificial Intelligence and Data Science and MBA in Digital Business Management (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering and MBA in Hospital and Health Care Management (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Engineering and MBA in Hospital and Health Care Management (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Science and Technology and MBA in Hospital and Health Care Management (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Chemical Science and Technology and MBA in Hospital and Health Care Management (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering and MBA (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering and MBA (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering and MBA in Digital Business Management (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering and MBA in Digital Business Management (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering and MBA (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering and MBA (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering and MBA in Hospital and Healthcare Management (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering and MBA in Hospital and Healthcare Management (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics and MBA (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Engineering Physics and MBA (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing and MBA in Digital Business Management (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"4",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing and MBA in Digital Business Management (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering and MBA (IIM Mumbai) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"12",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering and MBA (IIM Mumbai) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering and MBA (IIM Bodh Gaya) - Gender Neutral 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgical and Materials Engineering and MBA (IIM Bodh Gaya) - Female Only 5-Year B.Tech + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering and M.Tech. in Geotechnical Engineering - Gender Neutral 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering and M.Tech. in Geotechnical Engineering - Female Only 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering and M.Tech. in Structural Engineering - Gender Neutral 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering and M.Tech. in Structural Engineering - Female Only 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering and M.Tech. in Power and Control - Gender Neutral 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electrical and Electronics Engineering and M.Tech. in Power and Control - Female Only 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering and M.Tech. in VLSI - Gender Neutral 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Communication Engineering and M.Tech. in VLSI - Female Only 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Gender Neutral 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mathematics and Computing - Female Only 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering and M.Tech. in Mechatronics - Gender Neutral 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"8",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering and M.Tech. in Mechatronics - Female Only 5-Year B.Tech + M.Tech.\/MS (Dual Degree) Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null
+  },
+  {
+    "year":"2024",
+    "department":"Economics and MBA (IIM Bodh Gaya) - Gender Neutral 5-Year B.S. + MBA (Dual Degree) Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Economics and MBA (IIM Bodh Gaya) - Female Only 5-Year B.S. + MBA (Dual Degree) Course",
+    "no_of_seats":"1",
+    "change_from_last_year":"",
+    "change_direction":"increase"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.S. + MBA (Dual Degree) Course",
+    "no_of_seats":"817",
+    "change_from_last_year":"84",
+    "change_direction":"increase"
+  }
+]

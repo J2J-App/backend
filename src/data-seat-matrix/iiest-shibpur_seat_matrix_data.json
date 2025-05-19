@@ -1,0 +1,330 @@
+[
+  {
+    "year":"2024",
+    "department":"Aerospace Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Aerospace Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"59",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"14",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"38",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"39",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Telecommunication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"27",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Telecommunication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"6",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"38",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"38",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgy and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgy and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Aerospace Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Aerospace Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"58",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Civil Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"15",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"39",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Computer Science and Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"38",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electrical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Telecommunication Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"26",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Electronics and Telecommunication Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"7",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"39",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Information Technology - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"39",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mechanical Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgy and Materials Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Metallurgy and Materials Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Gender Neutral 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"19",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Mining Engineering - Female Only 4-Year B.E.\/B.Tech. Course",
+    "no_of_seats":"5",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"9",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"3",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Gender Neutral 5-Year B.Arch. Course",
+    "no_of_seats":"10",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Architecture - Female Only 5-Year B.Arch. Course",
+    "no_of_seats":"2",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":"Other than West Bengal"
+  },
+  {
+    "year":"2024",
+    "department":"Total 5-Year B.Arch. Course",
+    "no_of_seats":"764",
+    "change_from_last_year":"",
+    "change_direction":null,
+    "state_quota":""
+  }
+]
