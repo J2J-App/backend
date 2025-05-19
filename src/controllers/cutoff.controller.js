@@ -381,7 +381,7 @@ const predictor =asyncHandler(async (req, res) => {
 
         const allowed_genders = ["M","F"];
 
-        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","dl"];
+        const allowed_domicile = ["tr","ap","ar","as","br","ch","ct","dn","dd","go","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","or","pb","rj","sk","tn","tg","up","dl","gj","wb","ga","py","cg","od","uk"];
 
         if(counselling == "JOSAA") {
 
@@ -583,7 +583,7 @@ const predictor =asyncHandler(async (req, res) => {
                     throw new ApiError(400, 'Subcategory is required');
                 }
 
-                if (isNaN(Number(rank)) || rank < 0) {
+                if (!rank) {
                     throw new ApiError(400, 'Rank should be a number');
                 }
 
@@ -591,10 +591,11 @@ const predictor =asyncHandler(async (req, res) => {
                     throw new ApiError(400, 'Year is required')
                 }
 
-                let genderToPass = ["GN"]
-
-                if (gender === "F") {
-                    genderToPass = ["F","GN"]
+                let genderToPass = "GN"
+                if(gender === "M"){
+                    genderToPass = "GN"
+                }else{
+                    genderToPass = "F"
                 }
 
                 if (category === "GEN") {
@@ -616,8 +617,8 @@ const predictor =asyncHandler(async (req, res) => {
                 FROM all_iiit_${year}
                 WHERE closing >= $1
                     and category = $2
-                    and sub_category = ANY($3)
-                    and round != 'S-1' and round != 'S-2'`
+                    and sub_category = $3
+                    and round IN ('1', '2', '3', '4', '5','6')`
 
                 let result = await sql.query(query, [
                     Number(rank),
@@ -628,10 +629,6 @@ const predictor =asyncHandler(async (req, res) => {
                 result = result.map(row => ({
                     ...row,
                     branch: coure_mapping_jossa[row.branch] || row.branch,
-                }))
-
-                result = result.map(row => ({
-                    ...row,
                     icon : data[row.college].logo,
                 }))
 

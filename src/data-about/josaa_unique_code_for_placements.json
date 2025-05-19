@@ -1810,43 +1810,132 @@
     },
     "nsut-delhi": {
         "2024": [
-            "Yj1m0",
-            "1q6jm",
-            "E8gk7",
-            "4o8iJ",
-            "pX89z"
+          "CSAI",
+          "CSE",
+          "ECE",
+          "EE",
+          "ICE",
+          "IT",
+          "MAC"
         ],
         "2023": [
-            "Yj1m0",
-            "1q6jm",
-            "E8gk7",
-            "4o8iJ",
-            "pX89z"
+          "BT",
+          "CSE",
+          "ECE",
+          "ICE",
+          "IT",
+          "ME"
         ],
         "2022": [
-            "Yj1m0",
-            "1q6jm",
-            "E8gk7",
-            "4o8iJ",
-            "pX89z"
+          "BT",
+          "CSE",
+          "ECE",
+          "ICE",
+          "IT",
+          "ME"
         ]
     },
     "iiit-delhi": {
         "2024": [
-            "Yj1m0",
-            "4o8iJ"
+          "CSAI",
+          "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
         ],
         "2023": [
-            "Yj1m0",
-            "4o8iJ"
+           "CSAI",
+          "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
         ],
         "2022": [
-            "Yj1m0",
-            "4o8iJ"
+        "CSAM",
+          "CSB",
+          "CSD",
+          "CSE",
+          "CSSS",
+          "ECE"
         ]
     },
     "dtu-delhi": {
         "2024": [
+         "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
+        ],
+        "2023": [
+          "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
+        ],
+        "2022": [
+          "AE",
+          "BT",
+          "CE",
+          "CH",
+          "CSE",
+          "ECE",
+          "EE",
+          "ENE",
+          "EP",
+          "IT",
+          "MAC",
+          "ME",
+          "PE",
+          "SE"
+        ]
+    },
+    "igdtuw-delhi": {
+        "2024": [
+          "CSAI",
+          "CSE",
+          "ECE",
+          "IT",
+          "MAE"
+        ],
+        "2023": [
+          "CSE",
+          "ECE",
+          "IT",
+          "MAE"
+        ],
+        "2022": [
+       "CSE",
+          "ECE",
+          "IT",
+          "MAE"
+        ]
+    },
+        "iiit-hyderabad": {
+        "2024": [
             "Yj1m0",
             "4o8iJ"
         ],
@@ -1859,18 +1948,18 @@
             "4o8iJ"
         ]
     },
-    "igdtuw-delhi": {
+        "iiit-bangalore": {
         "2024": [
-            "Yj1m0",
-            "4o8iJ"
+            "I-CSE-DD",
+            "ECE-DD"
         ],
         "2023": [
-            "Yj1m0",
-            "4o8iJ"
+            "I-CSE-DD",
+            "ECE-DD"
         ],
         "2022": [
-            "Yj1m0",
-            "4o8iJ"
+            "I-CSE-DD",
+            "ECE-DD"
         ]
     }
 }
