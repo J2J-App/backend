@@ -26,11 +26,13 @@ const predictor =asyncHandler(async (req, res) => {
             "2iD2K": "Chemical Engineering",
             "z0p7W": "Mathematics 4-Year B.S. Course",
             "tX84d": "Economics 4-Year B.S. Course",
+            "t73pk": "Chemistry 4-Year B.S. Course",
+            "8lNy9": "Physics 4-Year B.S. Course",
             "60Kdh": "Electrical Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "0wrA1": "Environmental Science and Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "6jm7j": "Mechanical Engineering and M.Tech in Computer Integrated Manufacturing 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "8KsI1": "Aerospace Engineering",
-            "9A6ZB": "Metallurgical Engineering and Materials Science",
+            "9A6ZB": "Metallurgical and Materials Engineering",
             "A11vZ": "Metallurgical and Materials Engineering",
             "1SG5j": "Engineering Physics 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "5Gx8M": "Civil Engineering and M.Tech in Environmental Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
@@ -44,7 +46,6 @@ const predictor =asyncHandler(async (req, res) => {
             "8GxL4": "Civil Engineering and M.Tech in Transportation Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "OoB68": "Mechanical Engineering and M.Tech in Thermal Science & Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "HvS04": "Energy Engineering",
-            "t73pk": "Chemistry 4-Year B.S. Course",
             "e4A5e": "Chemical Engineering 5-Year B.Tech + M.Tech. (Dual Degree) Course",
             "As89o": "Mathematics and Computing",
             "1moH2": "Materials Engineering",
@@ -61,7 +62,6 @@ const predictor =asyncHandler(async (req, res) => {
             "d8Po6": "Manufacturing Science and Engineering",
             "24yXP": "Mining Engineering",
             "0cI2y": "Ocean Engineering and Naval Architecture",
-            "8lNy9": "Physics 4-Year B.S. Course",
             "56fXh": "Applied Geology 4-Year B.S. Course",
             "hA9F6": "Applied Geology",
             "36cPA": "Mathematics and Computing 4-Year B.S. Course",
@@ -267,7 +267,7 @@ const predictor =asyncHandler(async (req, res) => {
             "k36By": "Computer Science Engineering (Data Science and Analytics)",
             "F13dw": "Computer Science Engineering (Human Computer lnteraction and Gaming Technology)",
             "xd7k4": "Electronics and Communication Engineering (Internet of Things)",
-            "X0FP8": "5-Year B.Arch. Course Architecture",
+            "X0FP8": "Architecture 5-Year B.Arch. Course",
             "f00oW": "5-Year Integrated M.Sc. Course Food Technology",
             "6qC2v": "5-Year Integrated M.Sc. Course Mathematics and Computing",
             "z04pL": "5-Year Integrated M.Sc. Course Physics",
@@ -372,7 +372,7 @@ const predictor =asyncHandler(async (req, res) => {
 
         const allowed_college_types = ["IIT","NIT","IIIT","GFTI"];
 
-        const allowed_years = ["2024","2023","2022"];
+        const allowed_years = [2024,2023,2022];
 
         const allowed_genders = ["M","F"];
 
@@ -735,6 +735,10 @@ const predictor =asyncHandler(async (req, res) => {
 
             if(!gender){
                 throw new ApiError(400,"Gender is required")
+            }
+
+            if (!year || !allowed_years.includes(year)) {
+                throw new ApiError(400, 'Year is required');
             }
 
             let categoryList = []
