@@ -1650,13 +1650,13 @@ const cutoff =asyncHandler(async (req, res) => {
 
                 if(college_name === "iiit-delhi") {
                     if(domicile) {
-                        query = `SELECT branch, rank , round , is_bonus
+                        query = `SELECT branch, rank , round , is_bonus , year
                         FROM all_iiitd
                         WHERE category = $1
                             and year = $2
                             and quota = 'D'`
                     }else{
-                        query = `SELECT branch, rank, round, is_bonus
+                        query = `SELECT branch, rank, round, is_bonus , year
                         FROM all_iiitd
                         WHERE category = $1
                             and year = $2
