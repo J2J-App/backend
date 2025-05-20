@@ -482,7 +482,7 @@ const predictor =asyncHandler(async (req, res) => {
                     throw new ApiError(400, 'Rank is required');
                 }
 
-                if (!domicile || !allowed_domicile.includes(domicile)) {
+                if (domicile || !!allowed_domicile.includes(domicile)) {
                     throw new ApiError(400, 'Domicile is either not valid or given');
                 }
 
@@ -1355,7 +1355,7 @@ const cutoff =asyncHandler(async (req, res) => {
                 );
 
             }else if(college_type === "NIT") {
-                if (!domicile || !allowed_domicile.includes(domicile)) {
+                if (!allowed_domicile.includes(domicile)) {
                     throw new ApiError(400, 'Domicile is either not valid or given');
                 }
 
@@ -1519,7 +1519,7 @@ const cutoff =asyncHandler(async (req, res) => {
                 );
 
             }else if(college_type === "GFTI") {
-                if (!domicile) {
+                if (!allowed_domicile.includes(domicile)) {
                     throw new ApiError(400, 'Domicile is required');
                 }
 
@@ -1606,7 +1606,7 @@ const cutoff =asyncHandler(async (req, res) => {
         }else if(counselling == "JAC") {
             // validation for JAC
             try {
-                if (!domicile) {
+                if (!allowed_domicile.includes(domicile)) {
                     throw new ApiError(400, 'Domicile is required');
                 }
     
