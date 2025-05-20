@@ -807,7 +807,7 @@ const predictor =asyncHandler(async (req, res) => {
                         and round IN ('1', '2', '3', '4', '5', '6')`
                 }
     
-                const query2 = `SELECT branch, rank, round , is_bonus , year
+                const query2 = `SELECT branch, rank, round , year
                 FROM all_iiitd
                 WHERE rank >= $1
                     and is_bonus = 'false'
@@ -1619,7 +1619,7 @@ const cutoff =asyncHandler(async (req, res) => {
                             and year = $2
                             and quota = 'D'`
                     }else{
-                        query = `SELECT branch, rank, round, year
+                        query = `SELECT branch, rank, round, year , is_bonus
                         FROM all_iiitd
                         WHERE category = $1
                             and year = $2
