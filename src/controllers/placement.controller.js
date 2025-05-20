@@ -834,7 +834,7 @@ const getPlacementCompare = asyncHandler(async (req, res) => {
         result = result.map((item) => {
             return {
                 ...item,
-                branch: branch_mapping[item.branch],
+                branch: branch_mapping[item.branch] || item.branch,
             };
         });
 

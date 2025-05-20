@@ -4,7 +4,6 @@ import { asyncHandler } from '../utils/asyncHandler.js';
 import sql from '../db/db01.js';
 import fs from 'fs/promises';
 import path from 'path';
-import { Console } from 'console';
 
 const predictor =asyncHandler(async (req, res) => {
     try {
@@ -808,18 +807,20 @@ const predictor =asyncHandler(async (req, res) => {
                         and round IN ('1', '2', '3', '4', '5', '6')`
                 }
     
-                const query2 = `SELECT branch, rank, round
+                const query2 = `SELECT branch, rank, round , is_bonus , year
                 FROM all_iiitd
                 WHERE rank >= $1
                     and is_bonus = 'false'
                     and category = ANY($2)
                     and quota = $3
+                    and year = $4
                     and round IN ('1', '2', '3', '4', '5', '6')`
     
                 let result2 = await sql.query(query2, [
                     Number(rank),
                     categoryList,
-                    domicile
+                    domicile,
+                    year
                 ]);
     
                 let result = await sql.query(query, [
@@ -1652,11 +1653,13 @@ const cutoff =asyncHandler(async (req, res) => {
                         query = `SELECT branch, rank , round , is_bonus
                         FROM all_iiitd
                         WHERE category = $1
+                            and year = $2
                             and quota = 'D'`
                     }else{
                         query = `SELECT branch, rank, round, is_bonus
                         FROM all_iiitd
                         WHERE category = $1
+                            and year = $2
                             and quota != 'D'`
                     }
                 }else{
@@ -1681,7 +1684,8 @@ const cutoff =asyncHandler(async (req, res) => {
                 
                 if(college_name === "iiit-delhi") {
                     result = await sql.query(query, [
-                        categoryToPass
+                        categoryToPass,
+                        year
                     ]);
 
                     result = result.map(row => ({
