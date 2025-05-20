@@ -1640,20 +1640,21 @@ const cutoff =asyncHandler(async (req, res) => {
                     "igdtuw-delhi" : "igdtuw",
                     "nsut-delhi-east-campus" : "nsut-east",
                     "nsut-delhi-west-campus" : "nsut-west",
+                    "iiit-delhi" : "iiit-delhi",
                 }
 
-                college_name = college_name_map[college_name] || college_name
+                college_name = college_name_map[college_name]
 
                 let query = ``
 
                 if(college_name === "iiit-delhi") {
                     if(domicile) {
-                        query = `SELECT branch, rank , round, college , is_bonus
+                        query = `SELECT branch, rank , round , is_bonus
                         FROM all_iiitd
                         WHERE category = $1
                             and quota = 'D'`
                     }else{
-                        query = `SELECT branch, rank, round, college , is_bonus
+                        query = `SELECT branch, rank, round, is_bonus
                         FROM all_iiitd
                         WHERE category = $1
                             and quota != 'D'`
@@ -1682,6 +1683,11 @@ const cutoff =asyncHandler(async (req, res) => {
                     result = await sql.query(query, [
                         categoryToPass
                     ]);
+
+                    result = result.map(row => ({
+                        ...row,
+                        college: "iiit-delhi",
+                    }))
                 }else{
                     result = await sql.query(query, [
                         college_name,
@@ -1695,6 +1701,7 @@ const cutoff =asyncHandler(async (req, res) => {
                     "igdtuw" : "igdtuw-delhi",
                     "nsut-east" : "nsut-delhi",
                     "nsut-west" : "nsut-delhi",
+                    "iiit-delhi" : "iiit-delhi",
                 }
                 
                 
