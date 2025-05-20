@@ -481,7 +481,7 @@ const predictor =asyncHandler(async (req, res) => {
                     throw new ApiError(400, 'Rank is required');
                 }
 
-                if (domicile || !!allowed_domicile.includes(domicile)) {
+                if (!domicile || !allowed_domicile.includes(domicile)) {
                     throw new ApiError(400, 'Domicile is either not valid or given');
                 }
 
