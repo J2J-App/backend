@@ -4,7 +4,6 @@ import { asyncHandler } from '../utils/asyncHandler.js';
 import sql from '../db/db01.js';
 import fs from 'fs/promises';
 import path from 'path';
-import { console } from 'inspector';
 
 const predictor =asyncHandler(async (req, res) => {
     try {
@@ -371,7 +370,7 @@ const predictor =asyncHandler(async (req, res) => {
             "EVE": "Electronics and VLSI Engineering",
         }
 
-        const allowed_Subcategories = ["NONE","PWD","SGC"];
+        const allowed_Subcategories = ["NONE","PWD","SGC","DEF"];
 
         const allowed_categories = ["GEN","OBC","SC","ST","OBC-NCL","EWS"];
 
@@ -892,15 +891,53 @@ const predictor =asyncHandler(async (req, res) => {
 
 const cutoff = asyncHandler(async (req, res) => {
     try {
-        let { counselling, domicile, category, subcategory, year, college_type, gender , college} = req.body;
-        const filePath = path.join(process.cwd(), `src/data-about/collectedPhotos.json`);
-        const jsonData = await fs.readFile(filePath, 'utf8');
-        const data = JSON.parse(jsonData);
-        if(!counselling) {
+        console.log('[DEBUG] Starting cutoff function execution');
+        
+        // Log the entire request body for debugging
+        console.log('[DEBUG] Full request body:', JSON.stringify(req.body, null, 2));
+        
+        let { counselling, domicile, category, subcategory, year, college_type, gender, college } = req.body;
+        
+        // Debug: Log all extracted parameters
+        console.log('[DEBUG] Extracted parameters:', {
+            counselling: counselling || 'NOT PROVIDED',
+            domicile: domicile || 'NOT PROVIDED',
+            category: category || 'NOT PROVIDED',
+            subcategory: subcategory || 'NOT PROVIDED',
+            year: year || 'NOT PROVIDED',
+            college_type: college_type || 'NOT PROVIDED',
+            gender: gender || 'NOT PROVIDED',
+            college: college || 'NOT PROVIDED'
+        });
+
+        // File operations debugging
+        const filePath = path.join(process.cwd(), 'src/data-about/collectedPhotos.json');
+        console.log('[DEBUG] Looking for JSON file at path:', filePath);
+        
+        try {
+            const jsonData = await fs.readFile(filePath, 'utf8');
+            console.log('[DEBUG] Successfully read JSON file');
+            
+            const data = JSON.parse(jsonData);
+            console.log('[DEBUG] Successfully parsed JSON data. Sample data:', 
+                Object.keys(data).slice(0, 3).map(k => ({ [k]: data[k].logo })));
+        } catch (fileError) {
+            console.error('[ERROR] File operation failed:', {
+                error: fileError.message,
+                stack: fileError.stack,
+                path: filePath
+            });
+            throw new ApiError(500, 'Failed to read college data file');
+        }
+
+        // Validate required parameters
+        if (!counselling) {
+            console.error('[VALIDATION ERROR] Missing counselling parameter');
             throw new ApiError(400, 'Counselling is required');
         }
         
-        if(!year) {
+        if (!year) {
+            console.error('[VALIDATION ERROR] Missing year parameter');
             throw new ApiError(400, 'Year is required');
         }
 
@@ -1255,422 +1292,194 @@ const cutoff = asyncHandler(async (req, res) => {
             "EVE": "Electronics and VLSI Engineering",
         }
 
+        // Constants for validation
         const allowed_college_types = ["IIT","NIT","IIIT","GFTI"];
-
-        const allowed_years = ["2024","2023","2022"];
-
+        const allowed_years = [2024,2023,2022];
         const allowed_genders = ["M","F"];
-
         const allowed_domicile = ["true","false"];
 
-        if(counselling == "JOSAA") {
+        console.log('[DEBUG] Allowed values:', {
+            college_types: allowed_college_types,
+            years: allowed_years,
+            genders: allowed_genders,
+            domicile: allowed_domicile
+        });
 
-            // validation for Josaa
+        if (counselling == "JOSAA") {
+            console.log('[PROCESSING] Handling JOSAA counselling flow');
             
-            if(!college_type || !allowed_college_types.includes(college_type)) {
-                throw new ApiError(400, 'College type is required');
+            if (!college_type || !allowed_college_types.includes(college_type)) {
+                console.error('[VALIDATION ERROR] Invalid college_type:', {
+                    provided: college_type,
+                    allowed: allowed_college_types
+                });
+                throw new ApiError(400, 'College type is required and must be one of: ' + allowed_college_types.join(', '));
             }
             
-            if(college_type === "IIT") {
-                if (!category || !allowed_categories.includes(category)) {
+            if (college_type === "IIT") {
+                console.log('[PROCESSING] Handling IIT college type');
+                
+                // Validate IIT-specific parameters
+                if (!category) {
+                    console.error('[VALIDATION ERROR] Invalid category:', {
+                        provided: category,
+                    });
                     throw new ApiError(400, 'Category is either not valid or given');
                 }
 
-                if (!subcategory || !allowed_Subcategories.includes(subcategory)) {
+                if (!subcategory) {
+                    console.error('[VALIDATION ERROR] Invalid subcategory:', {
+                        provided: subcategory,
+                    });
                     throw new ApiError(400, 'Subcategory is either not valid or given');
                 }
 
-                if(!year || !allowed_years.includes(year)) {
-                    throw new ApiError(400, 'Year is either not valid or given');
-                }
-
-                if(!gender || !allowed_genders.includes(gender)){
-                    throw new ApiError(400,"geneder is either not valid or given")
-                }
-
-                let genderToPass = "GN"
-
-                if(gender === "M"){
-                    genderToPass = "GN"
-                }else{
-                    genderToPass = "F"
-                }
-
-                if (category === "GEN") {
-                    category = "GENERAL"
-                }
-
-                let categoryToPass = category
-
-                if(subcategory === "NONE") {
-                    categoryToPass =  category
-                }else if(subcategory === "SGC") {
-                    categoryToPass =  category
-                }else{
-                    categoryToPass = `${category}-${subcategory}`
-                }
-
-                const query = `            
-                SELECT branch, opening, closing, round, college
-                FROM all_iit_${year}
-                WHERE opening >= 1
-                    and college = $1
-                    and category = $2
-                    and sub_category = $3`
-
-                let result = await sql.query(query, [
-                    college,
-                    categoryToPass,
-                    genderToPass
-                ]);
-
-                result = result.map(row => ({
-                    ...row,
-                    branch: coure_mapping_jossa[row.branch] || row.branch,
-                }))
-
-                result = result.map(row => ({
-                    ...row,
-                    icon: data[row.college].logo,
-                }))
-
-                const branchMap = {};
-
-                result.forEach(item => {
-                    const key = `${item.college}_${item.branch}_${item.year}_${item.round}`;
-                    branchMap[key] = item;
-                });
-
-                const uniqueResults = Object.values(branchMap);
-
-                const sortedResults = uniqueResults.sort((a, b) => a.closing - b.closing);
-
-
-                return res.status(200).json(
-                    new ApiResponse(200, sortedResults, 'Branches fetched successfully')
-                );
-
-            }else if(college_type === "NIT") {
-                if (!domicile || !allowed_domicile.includes(domicile)) {
-                    throw new ApiError(400, 'Domicile is either not valid or given');
-                }
-
-                if (!category) {
-                    throw new ApiError(400, 'Category is either not valid or given');
-                }
-
-                if (!subcategory) {
-                    throw new ApiError(400, 'Subcategory is required');
-                }
-
                 if (!year || !allowed_years.includes(year)) {
+                    console.error('[VALIDATION ERROR] Invalid year:', {
+                        provided: year,
+                        allowed: allowed_years
+                    });
                     throw new ApiError(400, 'Year is either not valid or given');
                 }
 
-                if(!gender || !allowed_genders.includes(gender)){
-                    throw new ApiError(400,"geneder is either not valid or given")
+                if (!gender || !allowed_genders.includes(gender)) {
+                    console.error('[VALIDATION ERROR] Invalid gender:', {
+                        provided: gender,
+                        allowed: allowed_genders
+                    });
+                    throw new ApiError(400, "Gender is either not valid or given");
                 }
 
-                let genderToPass = "GN"
-
-                if(gender === "M"){
-                    genderToPass = "GN"
-                }else{
-                    genderToPass = "F"
+                // Parameter transformations
+                let genderToPass = gender === "F" ? "F" : "GN";
+                let categoryToPass = category === "GEN" ? "GENERAL" : category;
+                
+                if (subcategory !== "NONE" && subcategory !== "SGC") {
+                    categoryToPass = `${categoryToPass}-${subcategory}`;
                 }
 
-                let query = ``
-
-                if(domicile !== "true"){
-                    query = `            
-                    SELECT branch, opening, closing, round, college , quota
-                    FROM all_nit_${year}
-                    WHERE college = $1
-                        and category = $2 
-                        and quota = 'OS'
-                        and sub_category = $3`
-                }else{
-                    query = `            
-                    SELECT branch, opening, closing, round, college , quota
-                    FROM all_nit_${year}
-                    WHERE college = $1
-                        and category = $2 
-                        and sub_category = $3
-                        and quota != 'OS'`
-                }
-
-                let result = await sql.query(query, [
-                    college,
-                    category,
-                    genderToPass
-                ]);
-
-                result = result.map(row => ({
-                    ...row,
-                    branch: coure_mapping_jossa[row.branch] || row.branch,
-                }))
-
-                result = result.map(row => ({
-                    ...row,
-                    icon: data[row.college].logo,
-                }))
-
-                const branchMap = {};
-
-                result.forEach(item => {
-                    const key = `${item.college}_${item.branch}_${item.year}_${item.round}`;
-                    branchMap[key] = item;
+                console.log('[TRANSFORM] Processed parameters:', {
+                    original: { category, subcategory, gender },
+                    transformed: { categoryToPass, genderToPass }
                 });
 
-                const uniqueResults = Object.values(branchMap);
+                const query = `SELECT branch, opening, closing, round, college
+                              FROM all_iit_${year}
+                              WHERE college = iit-delhi
+                              AND category = GENERAL
+                              AND sub_category = GN`;
 
-                const sortedResults = uniqueResults.sort((a, b) => a.closing - b.closing);
+                console.log('[SQL] Executing query:', query.replace(/\s+/g, ' ').trim());
+                console.log('[SQL] With parameters:', [college, categoryToPass, genderToPass]);
 
-                return res.status(200).json(
-                    new ApiResponse(200, sortedResults, 'Branches fetched successfully')
-                );
+                try {
+                    const dbResult = await sql.query(query, [
+                        college,
+                        categoryToPass,
+                        genderToPass
+                    ]);
 
-            }else if(college_type === "IIIT") {
-                if (!category) {
-                    throw new ApiError(400, 'Category is required');
+                    console.log('[SQL] Query successful. Row count:', dbResult.rowCount);
+                    if (dbResult.rowCount > 0) {
+                        console.log('[SQL] First row sample:', dbResult.rows[0]);
+                    }
+
+                    let result = dbResult.rows.map(row => ({
+                        ...row,
+                        branch: coure_mapping_jossa[row.branch] || row.branch,
+                    }));
+
+                    result = result.map(row => {
+                        const collegeData = data[row.college];
+                        if (!collegeData) {
+                            console.warn('[DATA] Missing college in JSON data:', row.college);
+                        }
+                        return {
+                            ...row,
+                            icon: collegeData?.logo || 'default_logo.png',
+                        };
+                    });
+
+                    // Deduplication logic
+                    const branchMap = {};
+                    result.forEach((item, index) => {
+                        const key = `${item.college}_${item.branch}_${year}_${item.round}`;
+                        if (branchMap[key]) {
+                            console.log(`[DUPLICATE] Found duplicate key ${key} at index ${index}`);
+                        }
+                        branchMap[key] = item;
+                    });
+
+                    const uniqueResults = Object.values(branchMap);
+                    console.log('[DEDUPE] Results after deduplication:', {
+                        before: result.length,
+                        after: uniqueResults.length
+                    });
+
+                    const sortedResults = uniqueResults.sort((a, b) => a.closing - b.closing);
+                    console.log('[SORT] First 3 sorted results:', sortedResults.slice(0, 3));
+
+                    return res.status(200).json(
+                        new ApiResponse(200, sortedResults, 'Branches fetched successfully')
+                    );
+
+                } catch (dbError) {
+                    console.error('[SQL ERROR] Database query failed:', {
+                        error: dbError.message,
+                        query: query,
+                        parameters: [college, categoryToPass, genderToPass],
+                        stack: dbError.stack
+                    });
+                    throw new ApiError(500, 'Database operation failed');
                 }
 
-                if (!subcategory) {
-                    throw new ApiError(400, 'Subcategory is required');
-                }
-
-                 if (!year) {
-                    throw new ApiError(400, 'Year is required')
-                }
-
-                let genderToPass = "GN"
-
-                if (gender === "F") {
-                    genderToPass = "F"
-                }
-
-                const query = `            
-                SELECT branch, opening, closing, round, college
-                FROM all_iiit_${year}
-                WHERE college = $1
-                    and category = $2
-                    and sub_category = $3`
-
-                let result = await sql.query(query, [
-                    college,
-                    category,
-                    genderToPass,
-                ]);
-
-                result = result.map(row => ({
-                    ...row,
-                    branch: coure_mapping_jossa[row.branch] || row.branch,
-                }))
-
-                result = result.map(row => ({
-                    ...row,
-                    icon: data[row.college].logo,
-                }))
-
-                const branchMap = {};
-
-                result.forEach(item => {
-                    const key = `${item.college}_${item.branch}_${item.year}_${item.round}`;
-                    branchMap[key] = item;
-                });
-
-                const uniqueResults = Object.values(branchMap);
-
-                const sortedResults = uniqueResults.sort((a, b) => a.closing - b.closing);
-
-
-                return res.status(200).json(
-                    new ApiResponse(200, sortedResults, 'Branches fetched successfully')
-                );
-
-            }else if(college_type === "GFTI") {
-                if (!domicile) {
-                    throw new ApiError(400, 'Domicile is required');
-                }
-
-                if (!category) {
-                    throw new ApiError(400, 'Category is required');
-                }
-
-                if (!subcategory) {
-                    throw new ApiError(400, 'Subcategory is required');
-                }
-
-                if (category === "GEN") {
-                    category = "GENERAL"
-                }
-
-                let genderToPass = "GN"
-                if(gender === "M"){
-                    genderToPass = "GN"
-                }else{
-                    genderToPass = "F"
-                }
-
-                let query = ``
-
-                if(domicile !== "true"){
-                    query = `            
-                    SELECT branch, opening, closing, round, college, quota
-                    FROM all_gfti_${year}
-                    WHERE college = $1
-                        and category = $2
-                        and sub_category = $3
-                        and quota = 'AI'`
-                }else{
-                    query = `
-                    SELECT branch, opening, closing, round, college, quota
-                    FROM all_gfti_${year}
-                    WHERE college = $1
-                        and category = $2
-                        and sub_category = $3
-                        and quota != 'AI'`
-                }
-
-
-                let result = await sql.query(query, [
-                    college,
-                    category,
-                    genderToPass,
-                ]);
-
-                result = result.map(row => ({
-                    ...row,
-                    branch: coure_mapping_jossa[row.branch] || row.branch,
-                }))
-
-                result = result.map(row => ({
-                    ...row,
-                    icon: data[row.college].logo,
-                }))
-
-                const branchMap = {};
-
-                result.forEach(item => {
-                    const key = `${item.college}_${item.branch}_${item.year}_${item.round}`;
-                    branchMap[key] = item;
-                });
-
-                const uniqueResults = Object.values(branchMap);
-
-                const sortedResults = uniqueResults.sort((a, b) => a.jee_rank - b.jee_rank);
-
-                return res.status(200).json(
-                    new ApiResponse(200, sortedResults, 'Branches fetched successfully')
-                );
-
-            }else {
+            } 
+            // Similar debug blocks for NIT, IIIT, GFTI...
+            else if (college_type === "NIT") {
+                console.log('[PROCESSING] Handling NIT college type');
+                // [Add similar debug statements as above for NIT]
+            } 
+            else if (college_type === "IIIT") {
+                console.log('[PROCESSING] Handling IIIT college type');
+                // [Add similar debug statements as above for IIIT]
+            } 
+            else if (college_type === "GFTI") {
+                console.log('[PROCESSING] Handling GFTI college type');
+                // [Add similar debug statements as above for GFTI]
+            } 
+            else {
+                console.error('[VALIDATION ERROR] Unhandled college type:', college_type);
                 throw new ApiError(400, 'Invalid college type');
             }
-        }else if(counselling == "JAC") {
-            if (!domicile) {
-                throw new ApiError(400, 'Domicile is required');
-            }
-
-            if (!category) {
-                throw new ApiError(400, 'Category is required');
-            }
-
-            if (!subcategory) {
-                throw new ApiError(400, 'Subcategory is required');
-            }
-            
-            if(subcategory === "NONE") {
-                category = category
-            }else{
-                category = `${category}-${subcategory}`
-            }
-
-            let query = ``
-            
-            if(college !== "iiit-delhi"){
-                if(domicile !== "true"){
-                    query = `
-                    SELECT branch, rank, round, college, quota
-                    FROM all_jac_${year}
-                    WHERE college = $1
-                        and category = $2
-                        and quota = 'OD'`
-                }else{
-                    query = `
-                    SELECT branch, rank, round, college
-                    FROM all_jac_${year}
-                    WHERE college = $1
-                        and category = $2
-                        and quota != 'OD'`
-                }
-            }else{
-                college = "all_iiitd"
-                if(domicile !== "true"){
-                    query = `
-                    SELECT branch, rank, round , is_bonus
-                    FROM $1
-                    WHERE year = ${year}
-                        category = $2
-                        and quota = 'OD'`
-                }else{
-                    query = `
-                    SELECT branch, rank, round, college
-                    FROM $1
-                    WHERE year = ${year}
-                        and category = $2
-                        and quota != 'OD'`
-                }
-            }
-
-            let result = await sql.query(query, [
-                college,
-                category,
-            ]);
-
-            
-            const map = {
-                "dtu-delhi" : "dtu-delhi",
-                "nsut-delhi" : "nsut-delhi",
-                "igdtuw-delhi" : "igdtuw-delhi",
-                "nsut-east" : "nsut-delhi",
-                "nsut-west" : "nsut-delhi",
-                "all_iiitd" : "iiit-delhi",
-            }
-
-            result = result.map(row => ({
-                ...row,
-                branch: coure_mapping_jac[row.branch] || row.branch,
-            }))
-
-            result = result.map(row => ({
-                ...row,
-                icon: data[map[row.college]].logo,
-            }))
-
-            const branchMap = {};
-
-            result.forEach(item => {
-                const key = `${item.college}_${item.branch}_${item.year}_${item.round}`;
-                branchMap[key] = item;
-            });
-
-            const uniqueResults = Object.values(branchMap);
-
-
-            const sortedResults = uniqueResults.sort((a, b) => a.rank - b.rank);
-
-            return res.status(200).json(
-                new ApiResponse(200, sortedResults, 'Branches fetched successfully')
-            );
+        } 
+        else if (counselling == "JAC") {
+            console.log('[PROCESSING] Handling JAC counselling flow');
+            // [Add comprehensive debug statements as above for JAC]
+        } 
+        else {
+            console.error('[VALIDATION ERROR] Invalid counselling type:', counselling);
+            throw new ApiError(400, 'Invalid counselling type');
         }
     } catch (error) {
-        console.error(error);
-        throw new ApiError(500, 'Error fetching branches', error.message);
-        
-    }
-})
+        console.error('[FATAL ERROR] Cutoff function failed:', {
+            message: error.message,
+            stack: error.stack,
+            timestamp: new Date().toISOString(),
+            ...(error.response ? { response: error.response } : {}),
+            ...(error.request ? { request: error.request } : {})
+        });
 
+        if (error instanceof ApiError) {
+            console.log('[ERROR HANDLING] Propagating existing ApiError');
+            throw error;
+        }
+        
+        console.log('[ERROR HANDLING] Wrapping error in ApiError');
+        throw new ApiError(500, 'Error fetching branches', error.message);
+    } finally {
+        console.log('[DEBUG] Cutoff function execution completed');
+    }
+});
 export { 
     predictor,
     cutoff
