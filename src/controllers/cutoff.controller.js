@@ -866,8 +866,7 @@ const predictor =asyncHandler(async (req, res) => {
                 });
     
                 const uniqueResults = Object.values(branchMap);
-    
-    
+
                 const sortedResults = uniqueResults.sort((a, b) => a.rank - b.rank);
     
                 return res.status(200).json(
@@ -1559,7 +1558,7 @@ const cutoff =asyncHandler(async (req, res) => {
                     icon : data[row.college].logo,
                 }))
 
-                const sortedResults = uniqueResults.sort((a, b) => a.closing - b.closing);
+                const sortedResults = result.sort((a, b) => a.closing - b.closing);
 
                 return res.status(200).json(
                     new ApiResponse(200, sortedResults, 'Branches fetched successfully')
@@ -1614,7 +1613,7 @@ const cutoff =asyncHandler(async (req, res) => {
 
                 if(college_name === "iiit-delhi") {
                     if(domicile) {
-                        query = `SELECT branch, rank , round , year
+                        query = `SELECT branch, rank , round , is_bonus , year
                         FROM all_iiitd
                         WHERE category = $1
                             and year = $2
@@ -1679,7 +1678,7 @@ const cutoff =asyncHandler(async (req, res) => {
                     icon : data[map[row.college]].logo,
                 }))
     
-                const sortedResults = uniqueResults.sort((a, b) => a.rank - b.rank);
+                const sortedResults = result.sort((a, b) => a.rank - b.rank);
     
                 return res.status(200).json(
                     new ApiResponse(200, sortedResults, 'Branches fetched successfully')
