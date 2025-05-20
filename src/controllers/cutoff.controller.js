@@ -1536,7 +1536,7 @@ const cutoff =asyncHandler(async (req, res) => {
                 }else{
                     query = `SELECT branch, opening, closing, round, college, quota
                     FROM all_gfti_${year}
-                    WHERE closing = $1
+                    WHERE college = $1
                         and category = $2
                         and sub_category = $3
                         and quota = 'AI'`
