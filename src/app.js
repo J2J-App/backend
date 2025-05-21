@@ -4,8 +4,7 @@ import cors from "cors"
 const app = express()
 
 app.use(cors({
-    origin: 'https://www.jeeped.in',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    origin: '*',
     credentials: true
 }))
 
