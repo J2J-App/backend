@@ -442,7 +442,7 @@ const predictor =asyncHandler(async (req, res) => {
                 WHERE closing >= $1
                     and category = $2
                     and sub_category = $3
-                    and round In ('1','2','3','4','5')`
+                    and round In ('1','2','3','4','5','6')`
 
                 let result = await sql.query(query, [
                     Number(adv_rank),
@@ -535,7 +535,7 @@ const predictor =asyncHandler(async (req, res) => {
                     and category = $2 
                     and quota = ANY($3)
                     and sub_category = $4
-                    and round != 'S-1' and round != 'S-2'`
+                    and round In ('1','2','3','4','5','6')`
 
                 let result = await sql.query(query, [
                     Number(rank),
@@ -700,7 +700,7 @@ const predictor =asyncHandler(async (req, res) => {
                     and category = $2
                     and sub_category = $3
                     and quota = ANY($4)
-                    AND round != 'S-1' and round != 'S-2'`
+                    and round In ('1','2','3','4','5','6')`
 
                 let result = await sql.query(query, [
                     Number(rank),
@@ -1396,7 +1396,8 @@ const cutoff =asyncHandler(async (req, res) => {
                     WHERE college = $1
                         and category = $2 
                         and sub_category = $3
-                        and quota != 'OS'`
+                        and quota != 'OS'
+                        and round In ('1','2','3','4','5','6')`
                 }else{
                     query = `            
                     SELECT branch, opening, closing, round, college , quota
@@ -1404,7 +1405,8 @@ const cutoff =asyncHandler(async (req, res) => {
                     WHERE college = $1
                         and category = $2 
                         and sub_category = $3
-                        and quota = 'OS'`
+                        and quota = 'OS'
+                        and round In ('1','2','3','4','5','6')`
                 }
 
                 let result = await sql.query(query, [
@@ -1468,7 +1470,8 @@ const cutoff =asyncHandler(async (req, res) => {
                 FROM all_iiit_${year}
                 WHERE college = $1
                     and category = $2
-                    and sub_category = $3`
+                    and sub_category = $3
+                    and round In ('1','2','3','4','5','6')`
 
                 console.log("query",query)
 
@@ -1532,14 +1535,16 @@ const cutoff =asyncHandler(async (req, res) => {
                     WHERE college = $1
                         and category = $2
                         and sub_category = $3
-                        and quota != 'AI'`
+                        and quota != 'AI'
+                        and round In ('1','2','3','4','5','6')`
                 }else{
                     query = `SELECT branch, opening, closing, round, college, quota
                     FROM all_gfti_${year}
                     WHERE college = $1
                         and category = $2
                         and sub_category = $3
-                        and quota = 'AI'`
+                        and quota = 'AI'
+                        and round In ('1','2','3','4','5','6')`
                 }
 
                 let result = await sql.query(query, [
@@ -1617,13 +1622,15 @@ const cutoff =asyncHandler(async (req, res) => {
                         FROM all_iiitd
                         WHERE category = $1
                             and year = $2
-                            and quota = 'D'`
+                            and quota = 'D'
+                            and round In ('1','2','3','4','5','6')`
                     }else{
                         query = `SELECT branch, rank, round, year , is_bonus
                         FROM all_iiitd
                         WHERE category = $1
                             and year = $2
-                            and quota != 'D'`
+                            and quota != 'D'
+                            and round In ('1','2','3','4','5','6')`
                     }
                 }else{
                     if(domicile) {
@@ -1631,13 +1638,15 @@ const cutoff =asyncHandler(async (req, res) => {
                         FROM all_jac_${year}
                         WHERE college = $1
                             and category = $2
-                            and quota = 'D'`
+                            and quota = 'D'
+                            and round In ('1','2','3','4','5','6')`
                     }else{
                         query = `SELECT branch, rank, round, college
                         FROM all_jac_${year}
                         WHERE college = $1
                             and category = $2
-                            and quota != 'D'`
+                            and quota != 'D'
+                            and round In ('1','2','3','4','5','6')`
                     }
                 }
                     
