@@ -764,10 +764,6 @@ const predictor =asyncHandler(async (req, res) => {
                     throw new ApiError(400, 'Year is required');
                 }
     
-                console.log(year)
-                console.log(category)
-                console.log(subcategory)
-    
                 let categoryList = []
     
                 if (subcategory === "SNG") {
@@ -776,6 +772,10 @@ const predictor =asyncHandler(async (req, res) => {
                     categoryList = [`${category}-GC`,category]
                 }else if (subcategory === "NONE") {
                     categoryList = [category]
+                }else if (subcategory === "DEF") {
+                    categoryList = [`${category}-DEF`, category]
+                }else if (subcategory === "PWD") {
+                    categoryList = [`${category}-PWD`, category]
                 }else{
                     categoryList = [`${category}-${subcategory}`]
                 }
@@ -785,8 +785,12 @@ const predictor =asyncHandler(async (req, res) => {
                 }else{
                     domicile = "OD"
                 }
-    
-                console.log(categoryList)
+
+                if(gender === "F"){
+                    if(categoryList.includes(`${category}-GC`)){
+                        categoryList.push(`${category}-GC`)
+                    }
+                }
     
                 let query = ``
     
