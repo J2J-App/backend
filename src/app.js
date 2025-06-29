@@ -1,7 +1,22 @@
 import express from "express"
 import cors from "cors"
+import rateLimit from "express-rate-limit"
 
 const app = express()
+
+const limiter = rateLimit({
+    windowMs: 1000,
+    max: 40,
+    message: {
+        error: "Too many requests from this IP, please try again later.",
+        limit: 60,
+        windowMs: 60000
+    },
+    standardHeaders: true,
+    legacyHeaders: false,
+})
+
+app.use(limiter)
 
 app.use(cors({
     origin: '*',
