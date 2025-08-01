@@ -32,6 +32,16 @@ This backend powers the college predictor, filters, placements, seat matrix, and
 
 ---
 
+## ✨ Our Amazing Contributors
+
+A huge thank you to all the wonderful people who have contributed to jeepedia
+
+<a href="https://github.com/J2J-App/backend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=J2J-App/backend" />
+</a>
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Runtime**: Node.js  
