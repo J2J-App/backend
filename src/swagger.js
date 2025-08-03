@@ -586,28 +586,6 @@ _No authentication required for public routes._
         }
       }
     },
-    components: {
-      schemas: {
-        ApiResponse: {
-          type: 'object',
-          properties: {
-            statusCode: { type: 'number' },
-            data: { type: 'object' },
-            message: { type: 'string' },
-            success: { type: 'boolean' }
-          }
-        },
-        ApiError: {
-          type: 'object',
-          properties: {
-            statusCode: { type: 'number' },
-            message: { type: 'string' },
-            success: { type: 'boolean', example: false },
-            errors: { type: 'array', items: { type: 'string' } }
-          }
-        }
-      }
-    }
   },
   apis: ['./src/routes/*.js'], // Path to the API docs
 };
@@ -621,7 +599,7 @@ function swaggerDocs(app) {
     res.send(swaggerSpec);
   });
 
-  // For production (Vercel), serve a simple HTML page with CDN links
+  // For production (Vercel), serve a custom HTML page with dark theme CSS
   if (process.env.NODE_ENV === 'production') {
     app.get('/docs', (req, res) => {
       const html = `
@@ -633,10 +611,30 @@ function swaggerDocs(app) {
   <title>Jeepedia API Documentation</title>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@4.15.5/swagger-ui.css" />
   <style>
-    html { box-sizing: border-box; overflow: -moz-scrollbars-vertical; overflow-y: scroll; }
+    html { box-sizing: border-box; overflow: -moz-scrollbars-vertical; overflow-y: scroll; background: #121212 !important; }
     *, *:before, *:after { box-sizing: inherit; }
-    body { margin:0; background: #fafafa; }
+    body { margin:0; background: #121212 !important; color: #f8fafc !important; }
+    #swagger-ui { background: #121212 !important; }
     .swagger-ui .topbar { display: none; }
+    .swagger-ui { background: #121212 !important; color: #f8fafc !important; }
+    .swagger-ui .wrapper { background: #121212 !important; color: #f8fafc !important; }
+    .swagger-ui .info { background: #121212 !important; color: #f8fafc !important; padding: 20px !important; margin-bottom: 20px !important; }
+    .swagger-ui .information-container { background: #121212 !important; color: #f8fafc !important; }
+    .swagger-ui .info .title { background: #121212 !important; color: #f8fafc !important; }
+    body > div.swagger-ui { background: #121212 !important; }
+    * { background-color: inherit !important; color: #f8fafc !important; }
+    .swagger-ui .servers { background: #23272b !important; color: #f8fafc !important; }
+    .swagger-ui .scheme-container { background: #23272b !important; color: #f8fafc !important; }
+    .swagger-ui .opblock { background: #23272b !important; border: 1px solid #334155 !important; }
+    .swagger-ui .opblock.opblock-post { border-left: 4px solid #10b981 !important; }
+    .swagger-ui .opblock.opblock-get { border-left: 4px solid #3b82f6 !important; }
+    .swagger-ui .btn.execute { background: linear-gradient(135deg, #3b82f6, #6366f1) !important; border: none !important; box-shadow: 0 4px 12px rgba(59,130,246,0.4) !important; color: #fff !important; }
+    .swagger-ui .opblock-tag { background: linear-gradient(135deg, #23272b, #121212) !important; color: #f8fafc !important; border: 1px solid #334155 !important; }
+    .swagger-ui table { background: #23272b !important; border: 1px solid #334155 !important; }
+    .swagger-ui table thead tr { background: #121212 !important; }
+    .swagger-ui table thead tr th, .swagger-ui table tbody tr td { color: #f8fafc !important; border-color: #334155 !important; }
+    .swagger-ui .highlight-code { background: #121212 !important; color: #f8fafc !important; }
+    .swagger-ui input, .swagger-ui textarea, .swagger-ui select { background: #23272b !important; border: 1px solid #334155 !important; color: #f8fafc !important; }
   </style>
 </head>
 <body>
@@ -665,11 +663,36 @@ function swaggerDocs(app) {
       res.send(html);
     });
   } else {
-    // For development, use the normal swagger-ui-express
+    // For development, use the normal swagger-ui-express with custom dark CSS
+    const customCss = `
+      html { background: #121212 !important; }
+      body { background: #121212 !important; color: #f8fafc !important; }
+      #swagger-ui { background: #121212 !important; }
+      .swagger-ui .topbar { display: none !important; }
+      .swagger-ui { background: #121212 !important; color: #f8fafc !important; }
+      .swagger-ui .wrapper { background: #121212 !important; color: #f8fafc !important; }
+      .swagger-ui .info { background: #121212 !important; color: #f8fafc !important; padding: 20px !important; margin-bottom: 20px !important; }
+      .swagger-ui .information-container { background: #121212 !important; color: #f8fafc !important; }
+      .swagger-ui .info .title { background: #121212 !important; color: #f8fafc !important; }
+      body > div.swagger-ui { background: #121212 !important; }
+      * { background-color: inherit !important; color: #f8fafc !important; }
+      .swagger-ui .servers { background: #23272b !important; color: #f8fafc !important; }
+      .swagger-ui .scheme-container { background: #121212 !important; color: #f8fafc !important; }
+      .swagger-ui .opblock { background: #23272b !important; border: 1px solid #334155 !important; }
+      .swagger-ui .opblock.opblock-post { border-left: 4px solid #10b981 !important; }
+      .swagger-ui .opblock.opblock-get { border-left: 4px solid #3b82f6 !important; }
+      .swagger-ui .btn.execute { background: linear-gradient(135deg, #3b82f6, #6366f1) !important; border: none !important; box-shadow: 0 4px 12px rgba(59,130,246,0.4) !important; color: #fff !important; }
+      .swagger-ui .opblock-tag { background: linear-gradient(135deg, #23272b, #121212) !important; color: #f8fafc !important; border: 1px solid #334155 !important; }
+      .swagger-ui table { background: #23272b !important; border: 1px solid #334155 !important; }
+      .swagger-ui table thead tr { background: #121212 !important; }
+      .swagger-ui table thead tr th, .swagger-ui table tbody tr td { color: #f8fafc !important; border-color: #334155 !important; }
+      .swagger-ui .highlight-code { background: #121212 !important; color: #f8fafc !important; }
+      .swagger-ui input, .swagger-ui textarea, .swagger-ui select { background: #23272b !important; border: 1px solid #334155 !important; color: #f8fafc !important; }
+    `;
     app.use('/docs', swaggerUi.serve);
     app.get('/docs', swaggerUi.setup(swaggerSpec, {
-      customCss: '.swagger-ui .topbar { display: none }',
-      customSiteTitle: "Jeepedia API Documentation"
+      customCss,
+      customSiteTitle: "Jeepedia API Documentation - Dark Edition"
     }));
   }
   
