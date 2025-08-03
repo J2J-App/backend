@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import rateLimit from "express-rate-limit"
+import swaggerDocs from "./swagger.js"
 
 const app = express()
 
@@ -40,6 +41,9 @@ import getCollegeDataRouter from "./routes/getCollegeData.routes.js"
 import cutoffRouter from "./routes/cutoff.routes.js"
 import aboutRouter from "./routes/about.routes.js"
 import placementRouter from "./routes/placement.routes.js"
+
+// Initialize Swagger documentation
+swaggerDocs(app);
 
 // Routes declaration
 app.use("/api/v1/healthcheck", healthcheckRouter)
